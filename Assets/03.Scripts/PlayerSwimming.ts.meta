@@ -1,0 +1,82 @@
+fileFormatVersion: 2
+guid: 68c7de3e3d4899b42ac5ae05dce9db78
+importerOverride: ZEPETO.Script.Compiler:ZEPETO.Script:TypescriptAssetImporter
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: -1123457745, guid: 54cf806323ffe4418a4ce4cc63fe6b9d, type: 3}
+  isAssemblyDeclarations: 0
+  assembly: 
+  generateAllTypes: 1
+  types: []
+  generateWrapper: 0
+  overrideWrapperTypes: 0
+  wrapperTypes: []
+  WrapperFilters: []
+  wrapperOutputDirectory: Generated
+  compiledResult: "{\"source\":\"\\\"use strict\\\";\\r\\nObject.defineProperty(exports,
+    \\\"__esModule\\\", { value: true });\\r\\nconst ZEPETO_Script_1 = require(\\\"ZEPETO.Script\\\");\\r\\nconst
+    UnityEngine_1 = require(\\\"UnityEngine\\\");\\r\\nconst PlatePool_1 = require(\\\"./PlatePool\\\");\\r\\nconst
+    ZEPETO_Character_Controller_1 = require(\\\"ZEPETO.Character.Controller\\\");\\r\\nclass
+    PlayerSwimming extends ZEPETO_Script_1.ZepetoScriptBehaviour {\\r\\n    constructor()
+    {\\r\\n        super(...arguments);\\r\\n        this.isWater = false;\\r\\n       
+    this.isSwimming = false;\\r\\n        this.cc = null;\\r\\n        this.myAnim
+    = null;\\r\\n        this.swimmingRatio = 0.0;\\r\\n        this.animRotate =
+    null;\\r\\n        this.swimUpRotation = UnityEngine_1.Quaternion.Euler(-100,
+    0, 0);\\r\\n        this.remainTime = 0.0001;\\r\\n        this.remainSec = new
+    UnityEngine_1.WaitForSeconds(this.remainTime);\\r\\n        this.fixedSec = new
+    UnityEngine_1.WaitForFixedUpdate();\\r\\n        this.swimCoroutine = null;\\r\\n       
+    this.defaultGravity = 50;\\r\\n        this.waterGravity = 3;\\r\\n        this.waterJumpower
+    = -10;\\r\\n    }\\r\\n    get SwimmingRatio() {\\r\\n        return this.swimmingRatio;\\r\\n   
+    }\\r\\n    set SwimmingRatio(value) {\\r\\n        this.swimmingRatio = value;\\r\\n   
+    }\\r\\n    GetWater() {\\r\\n        return this.isWater;\\r\\n    }\\r\\n   
+    SetWater(water) {\\r\\n        this.isWater = water;\\r\\n    }\\r\\n    Awake()
+    {\\r\\n        PlayerSwimming.InstanceMap.set(this.gameObject, this);\\r\\n   
+    }\\r\\n    Start() {\\r\\n        this.cc = this.gameObject.GetComponent($typeof(UnityEngine_1.CharacterController));\\r\\n       
+    this.isSwimming = false;\\r\\n        this.myAnim = ZEPETO_Character_Controller_1.ZepetoPlayers.instance.GetPlayer(this.name).character.ZepetoAnimator;\\r\\n       
+    this.animRotate = this.gameObject.GetComponentsInChildren($typeof(UnityEngine_1.Transform))[1];\\r\\n   
+    }\\r\\n    FixedUpdate() {\\r\\n        // outside of swimming pool\\r\\n       
+    if (this.isWater == false && this.isSwimming == true) {\\r\\n            this.isSwimming
+    = false;\\r\\n            this.SetSwimmingAnim();\\r\\n        }\\r\\n       
+    // inside of swimming pool\\r\\n        else if (this.isWater == true && this.isSwimming
+    == false) {\\r\\n            this.isSwimming = true;\\r\\n            this.SetSwimmingAnim();\\r\\n           
+    if (this.swimCoroutine != null) {\\r\\n                this.StopCoroutine(this.swimCoroutine);\\r\\n           
+    }\\r\\n            this.swimCoroutine = this.StartCoroutine(this.InvisiblePlate());\\r\\n       
+    }\\r\\n        if (this.isSwimming == true) {\\r\\n            this.PlaySwimmingAnim();\\r\\n       
+    }\\r\\n    }\\r\\n    PlaySwimmingAnim() {\\r\\n        // \uC704 \uC6C0\uC9C1\uC784
+    \uC784\uACC4\uCE58 \uC124\uC815\\r\\n        if (this.cc.velocity.y > 2.5) {\\r\\n           
+    this.animRotate.localRotation = UnityEngine_1.Quaternion.Lerp(UnityEngine_1.Quaternion.identity,
+    this.swimUpRotation, UnityEngine_1.Time.fixedDeltaTime * 30);\\r\\n        }\\r\\n       
+    else {\\r\\n            this.animRotate.localRotation = UnityEngine_1.Quaternion.Lerp(this.animRotate.localRotation,
+    UnityEngine_1.Quaternion.identity, UnityEngine_1.Time.fixedDeltaTime * 2);\\r\\n       
+    }\\r\\n        // \uC55E\uB4A4\uC88C\uC6B0 \uC6C0\uC9C1\uC784 \uC784\uACC4\uCE58
+    \uC124\uC815\\r\\n        if (this.cc.velocity.magnitude > 2) {\\r\\n           
+    this.swimmingRatio = UnityEngine_1.Mathf.Lerp(this.swimmingRatio, 1, 10 * UnityEngine_1.Time.fixedDeltaTime);\\r\\n       
+    }\\r\\n        else {\\r\\n            this.swimmingRatio = UnityEngine_1.Mathf.Lerp(this.swimmingRatio,
+    0, 10 * UnityEngine_1.Time.fixedDeltaTime);\\r\\n        }\\r\\n        this.myAnim.SetFloat(\\\"swimmingRatio\\\",
+    this.swimmingRatio);\\r\\n    }\\r\\n    SetSwimmingAnim() {\\r\\n        if
+    (this.isSwimming) {\\r\\n            this.myAnim.SetLayerWeight(1, 1);\\r\\n       
+    }\\r\\n        else {\\r\\n            this.myAnim.SetLayerWeight(1, 0);\\r\\n           
+    this.animRotate.localRotation = UnityEngine_1.Quaternion.identity;\\r\\n       
+    }\\r\\n    }\\r\\n    *InvisiblePlate() {\\r\\n        while (this.isSwimming)
+    {\\r\\n            if (this.cc.velocity.y < 0) {\\r\\n                let go
+    = PlatePool_1.default.Instance.GetPlate();\\r\\n                go.transform.position
+    = this.transform.position;\\r\\n                yield this.remainSec;\\r\\n               
+    PlatePool_1.default.Instance.ReturnPlate(go);\\r\\n            }\\r\\n           
+    yield this.fixedSec;\\r\\n        }\\r\\n    }\\r\\n    OnTriggerStay(other)
+    {\\r\\n        if (this.isWater == true)\\r\\n            return;\\r\\n       
+    if (other.tag == \\\"SwimmingArea\\\") {\\r\\n            this.isWater = true;\\r\\n           
+    let player = ZEPETO_Character_Controller_1.ZepetoPlayers.instance.GetPlayer(this.name);\\r\\n           
+    player.character.additionalJumpPower = this.waterJumpower;\\r\\n            player.character.MotionV2.Gravity
+    = this.waterGravity;\\r\\n        }\\r\\n    }\\r\\n    OnTriggerExit(other)
+    {\\r\\n        if (this.isWater == false)\\r\\n            return;\\r\\n       
+    if (other.tag == \\\"SwimmingArea\\\") {\\r\\n            this.isWater = false;\\r\\n           
+    let player = ZEPETO_Character_Controller_1.ZepetoPlayers.instance.GetPlayer(this.name);\\r\\n           
+    player.character.additionalJumpPower = 0;\\r\\n            player.character.MotionV2.Gravity
+    = this.defaultGravity;\\r\\n        }\\r\\n    }\\r\\n}\\r\\nexports.default
+    = PlayerSwimming;\\r\\nPlayerSwimming.InstanceMap = new Map();\\r\\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiUGxheWVyU3dpbW1pbmcuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJQbGF5ZXJTd2ltbWluZy50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOztBQUFBLGlEQUFxRDtBQUNyRCw2Q0FBcUs7QUFDckssMkNBQW9DO0FBQ3BDLDZFQUEwRTtBQUUxRSxNQUFxQixjQUFlLFNBQVEscUNBQXFCO0lBQWpFOztRQUdZLFlBQU8sR0FBWSxLQUFLLENBQUM7UUFDekIsZUFBVSxHQUFZLEtBQUssQ0FBQztRQUU1QixPQUFFLEdBQXdCLElBQUksQ0FBQztRQUUvQixXQUFNLEdBQWEsSUFBSSxDQUFDO1FBQ3hCLGtCQUFhLEdBQVUsR0FBRyxDQUFDO1FBVTNCLGVBQVUsR0FBYyxJQUFJLENBQUM7UUFDN0IsbUJBQWMsR0FBZSx3QkFBVSxDQUFDLEtBQUssQ0FBQyxDQUFDLEdBQUcsRUFBRSxDQUFDLEVBQUUsQ0FBQyxDQUFDLENBQUM7UUFFMUQsZUFBVSxHQUFVLE1BQU0sQ0FBQztRQUMzQixjQUFTLEdBQW1CLElBQUksNEJBQWMsQ0FBQyxJQUFJLENBQUMsVUFBVSxDQUFDLENBQUM7UUFDaEUsYUFBUSxHQUF1QixJQUFJLGdDQUFrQixFQUFFLENBQUM7UUFFeEQsa0JBQWEsR0FBYyxJQUFJLENBQUM7UUEwRmhDLG1CQUFjLEdBQVcsRUFBRSxDQUFDO1FBQzVCLGlCQUFZLEdBQVcsQ0FBQyxDQUFDO1FBQ3pCLGtCQUFhLEdBQVcsQ0FBQyxFQUFFLENBQUM7SUEyQnhDLENBQUM7SUF0SUcsSUFBVyxhQUFhO1FBQ3BCLE9BQU8sSUFBSSxDQUFDLGFBQWEsQ0FBQztJQUM5QixDQUFDO0lBRUQsSUFBVyxhQUFhLENBQUMsS0FBWTtRQUNqQyxJQUFJLENBQUMsYUFBYSxHQUFHLEtBQUssQ0FBQztJQUMvQixDQUFDO0lBV00sUUFBUTtRQUNYLE9BQU8sSUFBSSxDQUFDLE9BQU8sQ0FBQztJQUN4QixDQUFDO0lBRU0sUUFBUSxDQUFDLEtBQWM7UUFDMUIsSUFBSSxDQUFD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\",\"assetPath\":\"Assets/03.Scripts/PlayerSwimming.ts\",\"manifest\":{\"properties\":[],\"name\":\"PlayerSwimming\",\"description\":\"\"},\"isCompiled\":true}"
+  typescriptHash: edc216b28367130937f3ed499478a4a8

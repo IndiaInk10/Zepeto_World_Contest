@@ -1,0 +1,38 @@
+fileFormatVersion: 2
+guid: 6ceaba7019a78504da9a2652c6e535a3
+importerOverride: ZEPETO.Script.Compiler:ZEPETO.Script:TypescriptAssetImporter
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: -1123457745, guid: 54cf806323ffe4418a4ce4cc63fe6b9d, type: 3}
+  isAssemblyDeclarations: 0
+  assembly: 
+  generateAllTypes: 1
+  types: []
+  generateWrapper: 0
+  overrideWrapperTypes: 0
+  wrapperTypes: []
+  WrapperFilters: []
+  wrapperOutputDirectory: Generated
+  compiledResult: '{"source":"\"use strict\";\r\nObject.defineProperty(exports, \"__esModule\",
+    { value: true });\r\nconst ZEPETO_Script_1 = require(\"ZEPETO.Script\");\r\nconst
+    UnityEngine_1 = require(\"UnityEngine\");\r\nclass MoveWallpaper extends ZEPETO_Script_1.ZepetoScriptBehaviour
+    {\r\n    constructor() {\r\n        super(...arguments);\r\n        this.sec
+    = 0.3;\r\n        this.wallpaper = null;\r\n        this.offsetX = 0;\r\n       
+    this.offsetY = 0;\r\n        this.currentX = 0;\r\n        this.currentY = 0;\r\n   
+    }\r\n    Start() {\r\n        this.wallpaper = this.gameObject.GetComponent($typeof(UnityEngine_1.MeshRenderer));\r\n       
+    this.offsetX = this.wallpaper.material.mainTextureScale.x;\r\n        this.offsetY
+    = this.wallpaper.material.mainTextureScale.y;\r\n        this.StartCoroutine(this.ChangingWallpaper());\r\n   
+    }\r\n    Update() {\r\n        this.offsetY = this.wallpaper.material.mainTextureScale.y;\r\n   
+    }\r\n    *ChangingWallpaper() {\r\n        while (true) {\r\n            this.currentY
+    += this.offsetY;\r\n            if (this.currentY >= 1) {\r\n               
+    this.currentY = 0;\r\n                this.currentX += this.offsetX;\r\n               
+    if (this.currentX >= 1)\r\n                    this.currentX = 0;\r\n           
+    }\r\n            this.wallpaper.material.mainTextureOffset = new UnityEngine_1.Vector2(this.currentX,
+    this.currentY);\r\n            yield new UnityEngine_1.WaitForSeconds(this.sec);\r\n       
+    }\r\n    }\r\n}\r\nexports.default = MoveWallpaper;\r\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiTW92ZVdhbGxwYXBlci5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIk1vdmVXYWxscGFwZXIudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7QUFBQSxpREFBcUQ7QUFDckQsNkNBQW1FO0FBRW5FLE1BQXFCLGFBQWMsU0FBUSxxQ0FBcUI7SUFBaEU7O1FBQ1csUUFBRyxHQUFVLEdBQUcsQ0FBQztRQUVoQixjQUFTLEdBQWlCLElBQUksQ0FBQztRQUMvQixZQUFPLEdBQVMsQ0FBQyxDQUFDO1FBQ2xCLFlBQU8sR0FBUyxDQUFDLENBQUM7UUFDbEIsYUFBUSxHQUFVLENBQUMsQ0FBQztRQUNwQixhQUFRLEdBQVUsQ0FBQyxDQUFDO0lBMkJoQyxDQUFDO0lBMUJXLEtBQUs7UUFDVCxJQUFJLENBQUMsU0FBUyxHQUFHLElBQUksQ0FBQyxVQUFVLENBQUMsWUFBWSxTQUFDLDBCQUFZLEVBQUcsQ0FBQztRQUM5RCxJQUFJLENBQUMsT0FBTyxHQUFHLElBQUksQ0FBQyxTQUFTLENBQUMsUUFBUSxDQUFDLGdCQUFnQixDQUFDLENBQUMsQ0FBQztRQUMxRCxJQUFJLENBQUMsT0FBTyxHQUFHLElBQUksQ0FBQyxTQUFTLENBQUMsUUFBUSxDQUFDLGdCQUFnQixDQUFDLENBQUMsQ0FBQztRQUUxRCxJQUFJLENBQUMsY0FBYyxDQUFDLElBQUksQ0FBQyxpQkFBaUIsRUFBRSxDQUFDLENBQUM7SUFDbEQsQ0FBQztJQUNPLE1BQU07UUFDVixJQUFJLENBQUMsT0FBTyxHQUFHLElBQUksQ0FBQyxTQUFTLENBQUMsUUFBUSxDQUFDLGdCQUFnQixDQUFDLENBQUMsQ0FBQztJQUM5RCxDQUFDO0lBRUQsQ0FBQyxpQkFBaUI7UUFDZCxPQUFPLElBQUksRUFBRTtZQUNULElBQUksQ0FBQyxRQUFRLElBQUksSUFBSSxDQUFDLE9BQU8sQ0FBQztZQUU5QixJQUFJLElBQUksQ0FBQyxRQUFRLElBQUksQ0FBQyxFQUFFO2dCQUNwQixJQUFJLENBQUMsUUFBUSxHQUFHLENBQUMsQ0FBQztnQkFDbEIsSUFBSSxDQUFDLFFBQVEsSUFBSSxJQUFJLENBQUMsT0FBTyxDQUFDO2dCQUM5QixJQUFJLElBQUksQ0FBQyxRQUFRLElBQUksQ0FBQztvQkFDbEIsSUFBSSxDQUFDLFFBQVEsR0FBRyxDQUFDLENBQUM7YUFDekI7WUFFRCxJQUFJLENBQUMsU0FBUyxDQUFDLFFBQVEsQ0FBQyxpQkFBaUIsR0FBRyxJQUFJLHFCQUFPLENBQUMsSUFBSSxDQUFDLFFBQVEsRUFBRSxJQUFJLENBQUMsUUFBUSxDQUFDLENBQUE7WUFDckYsTUFBTSxJQUFJLDRCQUFjLENBQUMsSUFBSSxDQUFDLEdBQUcsQ0FBQyxDQUFDO1NBQ3RDO0lBQ0wsQ0FBQztDQUNKO0FBbENELGdDQWtDQyJ9","assetPath":"Assets/03.Scripts/MoveWallpaper.ts","manifest":{"properties":[{"assembly":"mscorlib","name":"sec","type":"System.Single","isArray":false,"initValue":["0.3"],"enumKeys":[],"enumValues":[],"attributes":[]}],"name":"MoveWallpaper","description":""},"isCompiled":true}'
+  typescriptHash: 2734f943cf13e6e109e9993a9f76da93

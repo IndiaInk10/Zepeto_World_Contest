@@ -1,0 +1,42 @@
+fileFormatVersion: 2
+guid: f4682daf27e294d498a7928269a262e3
+importerOverride: ZEPETO.Script.Compiler:ZEPETO.Script:TypescriptAssetImporter
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: -1123457745, guid: 54cf806323ffe4418a4ce4cc63fe6b9d, type: 3}
+  isAssemblyDeclarations: 0
+  assembly: 
+  generateAllTypes: 1
+  types: []
+  generateWrapper: 0
+  overrideWrapperTypes: 0
+  wrapperTypes: []
+  WrapperFilters: []
+  wrapperOutputDirectory: Generated
+  compiledResult: '{"source":"\"use strict\";\r\nObject.defineProperty(exports, \"__esModule\",
+    { value: true });\r\nconst ZEPETO_Script_1 = require(\"ZEPETO.Script\");\r\nconst
+    UnityEngine_1 = require(\"UnityEngine\");\r\nclass PlatePool extends ZEPETO_Script_1.ZepetoScriptBehaviour
+    {\r\n    constructor() {\r\n        super(...arguments);\r\n        this.platePool
+    = [];\r\n        this.plateNum = 16;\r\n    }\r\n    static get Instance() {\r\n       
+    if (this.instance == null) {\r\n            this.instance = UnityEngine_1.GameObject.FindObjectOfType($typeof(PlatePool));\r\n       
+    }\r\n        return this.instance;\r\n    }\r\n    Awake() {\r\n        this.Initialize(this.plateNum);\r\n   
+    }\r\n    Initialize(initCount) {\r\n        for (let i = 0; i < initCount; i++)
+    {\r\n            this.platePool.push(this.CreateNewPlate());\r\n        }\r\n   
+    }\r\n    CreateNewPlate() {\r\n        let go = UnityEngine_1.Object.Instantiate(this.platePrefab);\r\n       
+    go.SetActive(false);\r\n        go.transform.position = UnityEngine_1.Vector3.zero;\r\n       
+    go.transform.parent = this.transform;\r\n        return go;\r\n    }\r\n    GetPlate()
+    {\r\n        if (this.platePool.length > 0) {\r\n            let go = this.platePool[0];\r\n           
+    go.SetActive(true);\r\n            go.transform.parent = null;\r\n           
+    this.platePool.shift();\r\n            return go;\r\n        }\r\n        else
+    {\r\n            let go = this.CreateNewPlate();\r\n            go.SetActive(true);\r\n           
+    go.transform.parent = null;\r\n            return go;\r\n        }\r\n    }\r\n   
+    ReturnPlate(go) {\r\n        if (go == null)\r\n            return;\r\n       
+    go.SetActive(false);\r\n        go.transform.position = UnityEngine_1.Vector3.zero;\r\n       
+    go.transform.parent = this.transform;\r\n        this.platePool.push(go);\r\n   
+    }\r\n}\r\nexports.default = PlatePool;\r\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiUGxhdGVQb29sLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiUGxhdGVQb29sLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7O0FBQUEsaURBQXFEO0FBQ3JELDZDQUF5RDtBQUV6RCxNQUFxQixTQUFVLFNBQVEscUNBQXFCO0lBQTVEOztRQWFZLGNBQVMsR0FBaUIsRUFBRSxDQUFDO1FBQzdCLGFBQVEsR0FBUSxFQUFFLENBQUM7SUFxRC9CLENBQUM7SUEvRFUsTUFBTSxLQUFLLFFBQVE7UUFDdEIsSUFBSSxJQUFJLENBQUMsUUFBUSxJQUFJLElBQUksRUFBRTtZQUN2QixJQUFJLENBQUMsUUFBUSxHQUFHLHdCQUFVLENBQUMsZ0JBQWdCLFNBQUMsU0FBUyxFQUFHLENBQUM7U0FDNUQ7UUFFRCxPQUFPLElBQUksQ0FBQyxRQUFRLENBQUM7SUFDekIsQ0FBQztJQU1PLEtBQUs7UUFDVCxJQUFJLENBQUMsVUFBVSxDQUFDLElBQUksQ0FBQyxRQUFRLENBQUMsQ0FBQztJQUNuQyxDQUFDO0lBRU8sVUFBVSxDQUFDLFNBQWM7UUFDN0IsS0FBSyxJQUFJLENBQUMsR0FBRyxDQUFDLEVBQUUsQ0FBQyxHQUFHLFNBQVMsRUFBRSxDQUFDLEVBQUUsRUFBQztZQUMvQixJQUFJLENBQUMsU0FBUyxDQUFDLElBQUksQ0FBQyxJQUFJLENBQUMsY0FBYyxFQUFFLENBQUMsQ0FBQztTQUM5QztJQUNMLENBQUM7SUFFTyxjQUFjO1FBQ2xCLElBQUksRUFBRSxHQUFlLG9CQUFNLENBQUMsV0FBVyxDQUFDLElBQUksQ0FBQyxXQUFXLENBQWUsQ0FBQztRQUN4RSxFQUFFLENBQUMsU0FBUyxDQUFDLEtBQUssQ0FBQyxDQUFDO1FBRXBCLEVBQUUsQ0FBQyxTQUFTLENBQUMsUUFBUSxHQUFHLHFCQUFPLENBQUMsSUFBSSxDQUFDO1FBQ3JDLEVBQUUsQ0FBQyxTQUFTLENBQUMsTUFBTSxHQUFHLElBQUksQ0FBQyxTQUFTLENBQUM7UUFFckMsT0FBTyxFQUFFLENBQUM7SUFDZCxDQUFDO0lBRU0sUUFBUTtRQUNYLElBQUksSUFBSSxDQUFDLFNBQVMsQ0FBQyxNQUFNLEdBQUcsQ0FBQyxFQUFFO1lBQzNCLElBQUksRUFBRSxHQUFlLElBQUksQ0FBQyxTQUFTLENBQUMsQ0FBQyxDQUFDLENBQUM7WUFFdkMsRUFBRSxDQUFDLFNBQVMsQ0FBQyxJQUFJLENBQUMsQ0FBQztZQUNuQixFQUFFLENBQUMsU0FBUyxDQUFDLE1BQU0sR0FBRyxJQUFJLENBQUM7WUFFM0IsSUFBSSxDQUFDLFNBQVMsQ0FBQyxLQUFLLEVBQUUsQ0FBQztZQUV2QixPQUFPLEVBQUUsQ0FBQztTQUNiO2FBQ0k7WUFDRCxJQUFJLEVBQUUsR0FBZSxJQUFJLENBQUMsY0FBYyxFQUFFLENBQUM7WUFFM0MsRUFBRSxDQUFDLFNBQVMsQ0FBQyxJQUFJLENBQUMsQ0FBQztZQUNuQixFQUFFLENBQUMsU0FBUyxDQUFDLE1BQU0sR0FBRyxJQUFJLENBQUM7WUFFM0IsT0FBTyxFQUFFLENBQUM7U0FDYjtJQUNMLENBQUM7SUFFTSxXQUFXLENBQUMsRUFBYztRQUM3QixJQUFJLEVBQUUsSUFBSSxJQUFJO1lBQ1YsT0FBTztRQUVYLEVBQUUsQ0FBQyxTQUFTLENBQUMsS0FBSyxDQUFDLENBQUM7UUFDcEIsRUFBRSxDQUFDLFNBQVMsQ0FBQyxRQUFRLEdBQUcscUJBQU8sQ0FBQyxJQUFJLENBQUM7UUFDckMsRUFBRSxDQUFDLFNBQVMsQ0FBQyxNQUFNLEdBQUcsSUFBSSxDQUFDLFNBQVMsQ0FBQztRQUVyQyxJQUFJLENBQUMsU0FBUyxDQUFDLElBQUksQ0FBQyxFQUFFLENBQUMsQ0FBQztJQUM1QixDQUFDO0NBQ0o7QUFuRUQsNEJBbUVDIn0=","assetPath":"Assets/03.Scripts/PlatePool.ts","manifest":{"properties":[{"assembly":"UnityEngine.CoreModule","name":"platePrefab","type":"UnityEngine.GameObject","isArray":false,"initValue":[],"enumKeys":[],"enumValues":[],"attributes":[]}],"name":"PlatePool","description":""},"isCompiled":true}'
+  typescriptHash: 8e04b7fdaa233592559777c8c8f33edb

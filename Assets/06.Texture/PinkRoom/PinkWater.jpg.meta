@@ -1,0 +1,2532 @@
+fileFormatVersion: 2
+guid: 7d233a5061029c04687cd8ca6dcd0c76
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1950214154157345269
+    second: PinkWater_0
+  - first:
+      213: 1772614758801967556
+    second: PinkWater_1
+  - first:
+      213: 5379810545469467924
+    second: PinkWater_2
+  - first:
+      213: 519642286581429686
+    second: PinkWater_3
+  - first:
+      213: -5141156800505509209
+    second: PinkWater_4
+  - first:
+      213: 2950724931776366058
+    second: PinkWater_5
+  - first:
+      213: 5999771144065656582
+    second: PinkWater_6
+  - first:
+      213: 2195158058605719060
+    second: PinkWater_7
+  - first:
+      213: 740526931710269487
+    second: PinkWater_8
+  - first:
+      213: 5600577459402396498
+    second: PinkWater_9
+  - first:
+      213: 3279489535419377143
+    second: PinkWater_10
+  - first:
+      213: -4931872757556720313
+    second: PinkWater_11
+  - first:
+      213: -4067106715493106007
+    second: PinkWater_12
+  - first:
+      213: -2292825170777358115
+    second: PinkWater_13
+  - first:
+      213: 1733800060241577480
+    second: PinkWater_14
+  - first:
+      213: 3626865466220676312
+    second: PinkWater_15
+  - first:
+      213: -5767713821909130151
+    second: PinkWater_16
+  - first:
+      213: -1181417644254130086
+    second: PinkWater_17
+  - first:
+      213: -2851661150284682621
+    second: PinkWater_18
+  - first:
+      213: 241487186190109600
+    second: PinkWater_19
+  - first:
+      213: 764249949131350670
+    second: PinkWater_20
+  - first:
+      213: -1694696096621303457
+    second: PinkWater_21
+  - first:
+      213: -9057925465474205306
+    second: PinkWater_22
+  - first:
+      213: 4588731324701720988
+    second: PinkWater_23
+  - first:
+      213: -3309863515555594847
+    second: PinkWater_24
+  - first:
+      213: 8655787203428255492
+    second: PinkWater_25
+  - first:
+      213: -7709614781887784156
+    second: PinkWater_26
+  - first:
+      213: -3248675784147838827
+    second: PinkWater_27
+  - first:
+      213: 6014118987015502686
+    second: PinkWater_28
+  - first:
+      213: -8477101685895638712
+    second: PinkWater_29
+  - first:
+      213: -1746116701428368114
+    second: PinkWater_30
+  - first:
+      213: -187761782019408114
+    second: PinkWater_31
+  - first:
+      213: -8495164161006916723
+    second: PinkWater_32
+  - first:
+      213: 7854268515746648684
+    second: PinkWater_33
+  - first:
+      213: -2535665250740176102
+    second: PinkWater_34
+  - first:
+      213: 9036495409429867562
+    second: PinkWater_35
+  - first:
+      213: 4983113275122894924
+    second: PinkWater_36
+  - first:
+      213: -8211993725438199700
+    second: PinkWater_37
+  - first:
+      213: -8245979476588190947
+    second: PinkWater_38
+  - first:
+      213: -1030583303463430326
+    second: PinkWater_39
+  - first:
+      213: -858881279428854820
+    second: PinkWater_40
+  - first:
+      213: 8772377037369483415
+    second: PinkWater_41
+  - first:
+      213: -1809827886895648599
+    second: PinkWater_42
+  - first:
+      213: 1486753958382884437
+    second: PinkWater_43
+  - first:
+      213: 341598754093091439
+    second: PinkWater_44
+  - first:
+      213: 4822990409705692557
+    second: PinkWater_45
+  - first:
+      213: -6866859011392148804
+    second: PinkWater_46
+  - first:
+      213: -9070388466803805905
+    second: PinkWater_47
+  - first:
+      213: -6503605775849001307
+    second: PinkWater_48
+  - first:
+      213: 76668367104203405
+    second: PinkWater_49
+  - first:
+      213: -2944511069201842982
+    second: PinkWater_50
+  - first:
+      213: 8952233952309286927
+    second: PinkWater_51
+  - first:
+      213: 1538375885421781748
+    second: PinkWater_52
+  - first:
+      213: 4732454398991563723
+    second: PinkWater_53
+  - first:
+      213: 6315465646222666805
+    second: PinkWater_54
+  - first:
+      213: 2521168476136442346
+    second: PinkWater_55
+  - first:
+      213: -5285503532348307824
+    second: PinkWater_56
+  - first:
+      213: 5505364019272258934
+    second: PinkWater_57
+  - first:
+      213: -737312710794556299
+    second: PinkWater_58
+  - first:
+      213: -3036049993223355307
+    second: PinkWater_59
+  - first:
+      213: 589001408937323753
+    second: PinkWater_60
+  - first:
+      213: 6664508360376062779
+    second: PinkWater_61
+  - first:
+      213: -2534523187679397729
+    second: PinkWater_62
+  - first:
+      213: 5224852492666860664
+    second: PinkWater_63
+  - first:
+      213: -955560220366192087
+    second: PinkWater_64
+  - first:
+      213: 398380223765004666
+    second: PinkWater_65
+  - first:
+      213: -3713911305037325900
+    second: PinkWater_66
+  - first:
+      213: -6683189206198733914
+    second: PinkWater_67
+  - first:
+      213: 5503168664922825490
+    second: PinkWater_68
+  - first:
+      213: -526738136120338240
+    second: PinkWater_69
+  - first:
+      213: 8714492060951159041
+    second: PinkWater_70
+  - first:
+      213: 1198506885149310885
+    second: PinkWater_71
+  - first:
+      213: 3330431944322939390
+    second: PinkWater_72
+  - first:
+      213: -3639217846626206473
+    second: PinkWater_73
+  - first:
+      213: 56902931830426140
+    second: PinkWater_74
+  - first:
+      213: -1273012877757003626
+    second: PinkWater_75
+  - first:
+      213: 8122254689627176422
+    second: PinkWater_76
+  - first:
+      213: -8947160876321570781
+    second: PinkWater_77
+  - first:
+      213: 1103752174337427560
+    second: PinkWater_78
+  - first:
+      213: 4977731684225361497
+    second: PinkWater_79
+  - first:
+      213: 3681677973462365152
+    second: PinkWater_80
+  - first:
+      213: -5934436443042756235
+    second: PinkWater_81
+  - first:
+      213: 5454571252561284235
+    second: PinkWater_82
+  - first:
+      213: 959272460336267541
+    second: PinkWater_83
+  - first:
+      213: -8334669061626534006
+    second: PinkWater_84
+  - first:
+      213: -733905785760804349
+    second: PinkWater_85
+  - first:
+      213: 7019711551717897697
+    second: PinkWater_86
+  - first:
+      213: -3036009846541602400
+    second: PinkWater_87
+  - first:
+      213: -8347266918371654218
+    second: PinkWater_88
+  - first:
+      213: -227568735779385491
+    second: PinkWater_89
+  - first:
+      213: 5166751983040544819
+    second: PinkWater_90
+  - first:
+      213: -6835861195169421680
+    second: PinkWater_91
+  - first:
+      213: -579506310392180309
+    second: PinkWater_92
+  - first:
+      213: 3771705151141728404
+    second: PinkWater_93
+  - first:
+      213: 704630346637378619
+    second: PinkWater_94
+  - first:
+      213: -112747510082647767
+    second: PinkWater_95
+  - first:
+      213: 6239576136227925718
+    second: PinkWater_96
+  - first:
+      213: -5913522303294297509
+    second: PinkWater_97
+  - first:
+      213: -2535055744274970189
+    second: PinkWater_98
+  - first:
+      213: -1808364495371655970
+    second: PinkWater_99
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 10
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 32
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 34
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PinkWater_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 921.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f9cc76c07d801b10800000000000000
+      internalID: 1950214154157345269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_1
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 921.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c9810e3bb7999810800000000000000
+      internalID: 1772614758801967556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_2
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 921.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41dab99003de8aa40800000000000000
+      internalID: 5379810545469467924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_3
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 921.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b535fd08e3263700800000000000000
+      internalID: 519642286581429686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_4
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 921.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aa09430121f6a8b0800000000000000
+      internalID: -5141156800505509209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_5
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 921.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae54b6c11b413f820800000000000000
+      internalID: 2950724931776366058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_6
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 921.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6072caf3118734350800000000000000
+      internalID: 5999771144065656582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_7
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 921.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41ea705bf94c67e10800000000000000
+      internalID: 2195158058605719060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_8
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 921.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2853372251e64a00800000000000000
+      internalID: 740526931710269487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_9
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 921.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2535db4b68f39bd40800000000000000
+      internalID: 5600577459402396498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 819.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f568436b56138d20800000000000000
+      internalID: 3279489535419377143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_11
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 819.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74dc7607bd77e8bb0800000000000000
+      internalID: -4931872757556720313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_12
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 819.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ae7d6f9dfbbe87c0800000000000000
+      internalID: -4067106715493106007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_13
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 819.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd0cdb3b7af3e20e0800000000000000
+      internalID: -2292825170777358115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_14
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 819.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 806004ef7f1bf0810800000000000000
+      internalID: 1733800060241577480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_15
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 819.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d40732fce6355230800000000000000
+      internalID: 3626865466220676312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_16
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 819.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 954eefe66d6f4ffa0800000000000000
+      internalID: -5767713821909130151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_17
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 819.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a509ad679e2ca9fe0800000000000000
+      internalID: -1181417644254130086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_18
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 819.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38aef75ea4ddc68d0800000000000000
+      internalID: -2851661150284682621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_19
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 819.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ab8baef05fe95300800000000000000
+      internalID: 241487186190109600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 717.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e82a59197492b9a00800000000000000
+      internalID: 764249949131350670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_21
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 717.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5965a601ea3b78e0800000000000000
+      internalID: -1694696096621303457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_22
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 717.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 689f174b7c8cb4280800000000000000
+      internalID: -9057925465474205306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_23
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 717.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c91cd82e3d27eaf30800000000000000
+      internalID: 4588731324701720988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_24
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 717.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ad78444ba00112d0800000000000000
+      internalID: -3309863515555594847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_25
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 717.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40786b7e9988f1870800000000000000
+      internalID: 8655787203428255492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_26
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 717.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42b5a720432f10590800000000000000
+      internalID: -7709614781887784156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_27
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 717.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 598547726926ae2d0800000000000000
+      internalID: -3248675784147838827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_28
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 717.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5bbdf1ca51767350800000000000000
+      internalID: 6014118987015502686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_29
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 717.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84153572ee84b5a80800000000000000
+      internalID: -8477101685895638712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 615.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0d3cf28c1c84c7e0800000000000000
+      internalID: -1746116701428368114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_31
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 615.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0fb65077afe46df0800000000000000
+      internalID: -187761782019408114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_32
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 615.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8bad82743d1b1a80800000000000000
+      internalID: -8495164161006916723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_33
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 615.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c621d93f997fffc60800000000000000
+      internalID: 7854268515746648684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_34
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 615.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1b745493e18fccd0800000000000000
+      internalID: -2535665250740176102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_35
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 615.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2ce38d82b4186d70800000000000000
+      internalID: 9036495409429867562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_36
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 615.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c48cb3f3f13972540800000000000000
+      internalID: 4983113275122894924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_37
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 615.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c68f4893733290e80800000000000000
+      internalID: -8211993725438199700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_38
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 615.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d13acc8ea55609d80800000000000000
+      internalID: -8245979476588190947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_39
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 615.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a471d9d12f1a2b1f0800000000000000
+      internalID: -1030583303463430326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 513.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdbf863e604a414f0800000000000000
+      internalID: -858881279428854820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_41
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 513.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 790a33cff6ebdb970800000000000000
+      internalID: 8772377037369483415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_42
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 513.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a03df0302332e6e0800000000000000
+      internalID: -1809827886895648599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_43
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 513.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55651d519d202a410800000000000000
+      internalID: 1486753958382884437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_44
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 513.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6a4f69c14a9db400800000000000000
+      internalID: 341598754093091439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_45
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 513.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8d9f9d6934bee240800000000000000
+      internalID: 4822990409705692557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_46
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 513.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbae74f7c1404b0a0800000000000000
+      internalID: -6866859011392148804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_47
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 513.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f21fb551fb18f1280800000000000000
+      internalID: -9070388466803805905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_48
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 513.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ae6753210d8eb5a0800000000000000
+      internalID: -6503605775849001307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_49
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 513.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8a51c24971601100800000000000000
+      internalID: 76668367104203405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 411.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adcb40388cef227d0800000000000000
+      internalID: -2944511069201842982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_51
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 411.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0816914959bc3c70800000000000000
+      internalID: 8952233952309286927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_52
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 411.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f2a79597b8695510800000000000000
+      internalID: 1538375885421781748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_53
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 411.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcb70a7c33e0da140800000000000000
+      internalID: 4732454398991563723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_54
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 411.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53ce8426b8a05a750800000000000000
+      internalID: 6315465646222666805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_55
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 411.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae9860f0f5dfcf220800000000000000
+      internalID: 2521168476136442346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_56
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 411.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0968e478a8e16a6b0800000000000000
+      internalID: -5285503532348307824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_57
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 411.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67590f7286bf66c40800000000000000
+      internalID: 5505364019272258934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_58
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 411.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57cc5b8fef984c5f0800000000000000
+      internalID: -737312710794556299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_59
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 411.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5544899ed98cdd5d0800000000000000
+      internalID: -3036049993223355307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 309.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ece9e729ad8c2800800000000000000
+      internalID: 589001408937323753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_61
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 309.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3316de2b071d7c50800000000000000
+      internalID: 6664508360376062779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_62
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 309.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f98f06bd69093dcd0800000000000000
+      internalID: -2534523187679397729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_63
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 309.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 874f83dd8a7628840800000000000000
+      internalID: 5224852492666860664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_64
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 309.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9224497da0b2db2f0800000000000000
+      internalID: -955560220366192087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_65
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 309.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a71cd0be3b4578500800000000000000
+      internalID: 398380223765004666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_66
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 309.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b951ff5859857cc0800000000000000
+      internalID: -3713911305037325900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_67
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 309.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a3bcc573da8043a0800000000000000
+      internalID: -6683189206198733914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_68
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 309.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21329c36ebe2f5c40800000000000000
+      internalID: 5503168664922825490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_69
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 309.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c855eab476a0b8f0800000000000000
+      internalID: -526738136120338240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 207.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 101a4faab5810f870800000000000000
+      internalID: 8714492060951159041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_71
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 207.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5af3f2e79a3f1a010800000000000000
+      internalID: 1198506885149310885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_72
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 207.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef97bfd3532183e20800000000000000
+      internalID: 3330431944322939390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_73
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 207.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fc359f56a6ee7dc0800000000000000
+      internalID: -3639217846626206473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_74
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 207.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1a4e6e3ae82ac000800000000000000
+      internalID: 56902931830426140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_75
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 207.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 698cbca4889555ee0800000000000000
+      internalID: -1273012877757003626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_76
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 207.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ed7a7e4b9b08b070800000000000000
+      internalID: 8122254689627176422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_77
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 207.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 320849a469c45d380800000000000000
+      internalID: -8947160876321570781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_78
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 207.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 868827f21c0515f00800000000000000
+      internalID: 1103752174337427560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_79
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 207.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 956a579f794741540800000000000000
+      internalID: 4977731684225361497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 105.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e3ba994c92f71330800000000000000
+      internalID: 3681677973462365152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_81
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 105.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 579cd4e3f75a4ada0800000000000000
+      internalID: -5934436443042756235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_82
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 105.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8c09f697a782bb40800000000000000
+      internalID: 5454571252561284235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_83
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 105.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51188216835005d00800000000000000
+      internalID: 959272460336267541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_84
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 105.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a87ef4db5ae455c80800000000000000
+      internalID: -8334669061626534006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_85
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 105.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3029f158394a0d5f0800000000000000
+      internalID: -733905785760804349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_86
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 105.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e5f9d9d6760b6160800000000000000
+      internalID: 7019711551717897697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_87
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 105.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a1bc4a412dedd5d0800000000000000
+      internalID: -3036009846541602400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_88
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 105.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b58615a6fc882c80800000000000000
+      internalID: -8347266918371654218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_89
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 105.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6f82e5c07387dcf0800000000000000
+      internalID: -227568735779385491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3.5999985
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3304dafcd8df3b740800000000000000
+      internalID: 5166751983040544819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_91
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 3.5999985
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 096ac0006742221a0800000000000000
+      internalID: -6835861195169421680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_92
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 3.5999985
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba11affb41e25f7f0800000000000000
+      internalID: -579506310392180309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_93
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 3.5999985
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49050530ad9c75430800000000000000
+      internalID: 3771705151141728404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_94
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 3.5999985
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b340845219957c900800000000000000
+      internalID: 704630346637378619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_95
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 3.5999985
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 929c638acb07f6ef0800000000000000
+      internalID: -112747510082647767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_96
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 3.5999985
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6deaedcef6d679650800000000000000
+      internalID: 6239576136227925718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_97
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 3.5999985
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5a2bccdbc2feeda0800000000000000
+      internalID: -5913522303294297509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_98
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 3.5999985
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b94dac5b3ca1dcd0800000000000000
+      internalID: -2535055744274970189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkWater_99
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 3.5999985
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed4a1f4921667e6e0800000000000000
+      internalID: -1808364495371655970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: e98a7eeb28936ad4893f0a0ec1bbdf72
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

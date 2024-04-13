@@ -1,0 +1,1102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &441340001
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 441340002}
+  - component: {fileID: 441340004}
+  - component: {fileID: 441340003}
+  m_Layer: 0
+  m_Name: Caustics_Aqua03 (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &441340002
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 441340001}
+  m_LocalRotation: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+  m_LocalPosition: {x: -70.14, y: 70.6, z: -87.11}
+  m_LocalScale: {x: 5.6426, y: 5.6425996, z: 5.6425996}
+  m_Children: []
+  m_Father: {fileID: 3067144851294706640}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 90}
+--- !u!119 &441340004
+Projector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 441340001}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_NearClipPlane: 1
+  m_FarClipPlane: 10
+  m_FieldOfView: 50
+  m_AspectRatio: 1
+  m_Orthographic: 1
+  m_OrthographicSize: 1
+  m_Material: {fileID: 2100000, guid: 235f3e65068b85643b42f8caff84cd8b, type: 2}
+  m_IgnoreLayers:
+    serializedVersion: 2
+    m_Bits: 0
+--- !u!114 &441340003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 441340001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1673316429, guid: 921f0445823004a16a499d629dd566a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  script:
+    keys:
+    - framePerSecond
+    - causticsTex
+    - pr
+    unityValues:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 441340004}
+    values:
+    - '{"type":"System.Int32, mscorlib","value":"20"}'
+    - '{"type":"ZEPETO.Script.ZepetoScriptSerializer+ArrayInfo, ZEPETO.Script","value":"{\"offset\":0,\"length\":25,\"type\":\"UnityEngine.Object,
+      UnityEngine.CoreModule\",\"isUnity\":true}"}'
+    - 
+    unityArrayValues:
+    - {fileID: 2800000, guid: 5876e50e1dfc41b48a16f7e43f24e3ca, type: 3}
+    - {fileID: 2800000, guid: 22ccbccd08f7a0a4693b353f30e7ad0c, type: 3}
+    - {fileID: 2800000, guid: 60e1f27ad250009408291582ef7fc619, type: 3}
+    - {fileID: 2800000, guid: 3565db68c32fe654e9b36655ec9a8255, type: 3}
+    - {fileID: 2800000, guid: a34523885ff584f4a9adbc88fad80ab4, type: 3}
+    - {fileID: 2800000, guid: 9b64c92643ad2504c9678c8201585afa, type: 3}
+    - {fileID: 2800000, guid: dcb7072e96690724dbf53f0290159789, type: 3}
+    - {fileID: 2800000, guid: a3f741b8e345ae641a8a32874cfca642, type: 3}
+    - {fileID: 2800000, guid: 26ee1c5e5585dba4a80a926ca684b2a4, type: 3}
+    - {fileID: 2800000, guid: 299e00fa90e3ad440adf146118dca734, type: 3}
+    - {fileID: 2800000, guid: 8e7a472ec1a6ec44796465268c4cf8d0, type: 3}
+    - {fileID: 2800000, guid: 53b2a9fe9bf0de04cbd201f1dfb54e9b, type: 3}
+    - {fileID: 2800000, guid: 3657606d96a42904eb75db086f5c7476, type: 3}
+    - {fileID: 2800000, guid: ceeaf068bc8ce7e418ebaf5de7895cb2, type: 3}
+    - {fileID: 2800000, guid: 506b90bade784cb4c8fe72c80d170ecb, type: 3}
+    - {fileID: 2800000, guid: 33b8b3c8ddaf2d149b428ddc796a86d9, type: 3}
+    - {fileID: 2800000, guid: 85018396960038a4abf4cb658d8a2775, type: 3}
+    - {fileID: 2800000, guid: 4481420c13042ca4cbba68b2eb73a675, type: 3}
+    - {fileID: 2800000, guid: e852e04793234374891493879cbd1155, type: 3}
+    - {fileID: 2800000, guid: 22fd855a95264f741affb97e34c81d17, type: 3}
+    - {fileID: 2800000, guid: 9146a1f08cd0d36439ee695cd7ea9a69, type: 3}
+    - {fileID: 2800000, guid: 2aafaf54bad81cd47bc5a11e6eaad10d, type: 3}
+    - {fileID: 2800000, guid: ecc625df180360e4ba4a4fecb3fd7bd0, type: 3}
+    - {fileID: 2800000, guid: 5794b0a05293caa498961b69040171df, type: 3}
+    - {fileID: 2800000, guid: 3d3dcdf937c1768439dfee421c0b817e, type: 3}
+    arrayValues: []
+    script: {fileID: 4458252877524076426, guid: 7d04a28aa53a93c46b62545841cba457, type: 3}
+    isExpaned: 0
+--- !u!1 &1222422930
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1222422931}
+  - component: {fileID: 1222422933}
+  - component: {fileID: 1222422932}
+  m_Layer: 0
+  m_Name: Caustics_Aqua6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1222422931
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1222422930}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -59.8, y: 70.94, z: -58.6}
+  m_LocalScale: {x: 5.6426, y: 5.6425996, z: 5.6425996}
+  m_Children: []
+  m_Father: {fileID: 3067144851294706640}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!119 &1222422933
+Projector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1222422930}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_NearClipPlane: 0.01
+  m_FarClipPlane: 100.01
+  m_FieldOfView: 20
+  m_AspectRatio: 1
+  m_Orthographic: 0
+  m_OrthographicSize: 0.6
+  m_Material: {fileID: 2100000, guid: 7d800d5380a0ce34fa3cea86e40b9129, type: 2}
+  m_IgnoreLayers:
+    serializedVersion: 2
+    m_Bits: 0
+--- !u!114 &1222422932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1222422930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1673316429, guid: 921f0445823004a16a499d629dd566a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  script:
+    keys:
+    - framePerSecond
+    - causticsTex
+    - pr
+    unityValues:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1222422933}
+    values:
+    - '{"type":"System.Int32, mscorlib","value":"20"}'
+    - '{"type":"ZEPETO.Script.ZepetoScriptSerializer+ArrayInfo, ZEPETO.Script","value":"{\"offset\":0,\"length\":25,\"type\":\"UnityEngine.Object,
+      UnityEngine.CoreModule\",\"isUnity\":true}"}'
+    - 
+    unityArrayValues:
+    - {fileID: 2800000, guid: 5876e50e1dfc41b48a16f7e43f24e3ca, type: 3}
+    - {fileID: 2800000, guid: 22ccbccd08f7a0a4693b353f30e7ad0c, type: 3}
+    - {fileID: 2800000, guid: 60e1f27ad250009408291582ef7fc619, type: 3}
+    - {fileID: 2800000, guid: 3565db68c32fe654e9b36655ec9a8255, type: 3}
+    - {fileID: 2800000, guid: a34523885ff584f4a9adbc88fad80ab4, type: 3}
+    - {fileID: 2800000, guid: 9b64c92643ad2504c9678c8201585afa, type: 3}
+    - {fileID: 2800000, guid: dcb7072e96690724dbf53f0290159789, type: 3}
+    - {fileID: 2800000, guid: a3f741b8e345ae641a8a32874cfca642, type: 3}
+    - {fileID: 2800000, guid: 26ee1c5e5585dba4a80a926ca684b2a4, type: 3}
+    - {fileID: 2800000, guid: 299e00fa90e3ad440adf146118dca734, type: 3}
+    - {fileID: 2800000, guid: 8e7a472ec1a6ec44796465268c4cf8d0, type: 3}
+    - {fileID: 2800000, guid: 53b2a9fe9bf0de04cbd201f1dfb54e9b, type: 3}
+    - {fileID: 2800000, guid: 3657606d96a42904eb75db086f5c7476, type: 3}
+    - {fileID: 2800000, guid: ceeaf068bc8ce7e418ebaf5de7895cb2, type: 3}
+    - {fileID: 2800000, guid: 506b90bade784cb4c8fe72c80d170ecb, type: 3}
+    - {fileID: 2800000, guid: 33b8b3c8ddaf2d149b428ddc796a86d9, type: 3}
+    - {fileID: 2800000, guid: 85018396960038a4abf4cb658d8a2775, type: 3}
+    - {fileID: 2800000, guid: 4481420c13042ca4cbba68b2eb73a675, type: 3}
+    - {fileID: 2800000, guid: e852e04793234374891493879cbd1155, type: 3}
+    - {fileID: 2800000, guid: 22fd855a95264f741affb97e34c81d17, type: 3}
+    - {fileID: 2800000, guid: 9146a1f08cd0d36439ee695cd7ea9a69, type: 3}
+    - {fileID: 2800000, guid: 2aafaf54bad81cd47bc5a11e6eaad10d, type: 3}
+    - {fileID: 2800000, guid: ecc625df180360e4ba4a4fecb3fd7bd0, type: 3}
+    - {fileID: 2800000, guid: 5794b0a05293caa498961b69040171df, type: 3}
+    - {fileID: 2800000, guid: 3d3dcdf937c1768439dfee421c0b817e, type: 3}
+    arrayValues: []
+    script: {fileID: 4458252877524076426, guid: 7d04a28aa53a93c46b62545841cba457, type: 3}
+    isExpaned: 0
+--- !u!1 &3067144849693753698
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3067144849693753697}
+  - component: {fileID: 3067144849693753631}
+  - component: {fileID: 3067144849693753696}
+  m_Layer: 0
+  m_Name: Caustics_Aqua02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3067144849693753697
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3067144849693753698}
+  m_LocalRotation: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+  m_LocalPosition: {x: -68.94, y: 72.35, z: -38.48}
+  m_LocalScale: {x: 5.6426, y: 5.6425996, z: 5.6425996}
+  m_Children: []
+  m_Father: {fileID: 3067144851294706640}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 90}
+--- !u!119 &3067144849693753631
+Projector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3067144849693753698}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_NearClipPlane: 0.01
+  m_FarClipPlane: 15
+  m_FieldOfView: 50
+  m_AspectRatio: 1
+  m_Orthographic: 1
+  m_OrthographicSize: 1
+  m_Material: {fileID: 2100000, guid: 235f3e65068b85643b42f8caff84cd8b, type: 2}
+  m_IgnoreLayers:
+    serializedVersion: 2
+    m_Bits: 0
+--- !u!114 &3067144849693753696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3067144849693753698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1673316429, guid: 921f0445823004a16a499d629dd566a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  script:
+    keys:
+    - framePerSecond
+    - causticsTex
+    - pr
+    unityValues:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 3067144849693753631}
+    values:
+    - '{"type":"System.Int32, mscorlib","value":"20"}'
+    - '{"type":"ZEPETO.Script.ZepetoScriptSerializer+ArrayInfo, ZEPETO.Script","value":"{\"offset\":0,\"length\":25,\"type\":\"UnityEngine.Object,
+      UnityEngine.CoreModule\",\"isUnity\":true}"}'
+    - 
+    unityArrayValues:
+    - {fileID: 2800000, guid: 5876e50e1dfc41b48a16f7e43f24e3ca, type: 3}
+    - {fileID: 2800000, guid: 22ccbccd08f7a0a4693b353f30e7ad0c, type: 3}
+    - {fileID: 2800000, guid: 60e1f27ad250009408291582ef7fc619, type: 3}
+    - {fileID: 2800000, guid: 3565db68c32fe654e9b36655ec9a8255, type: 3}
+    - {fileID: 2800000, guid: a34523885ff584f4a9adbc88fad80ab4, type: 3}
+    - {fileID: 2800000, guid: 9b64c92643ad2504c9678c8201585afa, type: 3}
+    - {fileID: 2800000, guid: dcb7072e96690724dbf53f0290159789, type: 3}
+    - {fileID: 2800000, guid: a3f741b8e345ae641a8a32874cfca642, type: 3}
+    - {fileID: 2800000, guid: 26ee1c5e5585dba4a80a926ca684b2a4, type: 3}
+    - {fileID: 2800000, guid: 299e00fa90e3ad440adf146118dca734, type: 3}
+    - {fileID: 2800000, guid: 8e7a472ec1a6ec44796465268c4cf8d0, type: 3}
+    - {fileID: 2800000, guid: 53b2a9fe9bf0de04cbd201f1dfb54e9b, type: 3}
+    - {fileID: 2800000, guid: 3657606d96a42904eb75db086f5c7476, type: 3}
+    - {fileID: 2800000, guid: ceeaf068bc8ce7e418ebaf5de7895cb2, type: 3}
+    - {fileID: 2800000, guid: 506b90bade784cb4c8fe72c80d170ecb, type: 3}
+    - {fileID: 2800000, guid: 33b8b3c8ddaf2d149b428ddc796a86d9, type: 3}
+    - {fileID: 2800000, guid: 85018396960038a4abf4cb658d8a2775, type: 3}
+    - {fileID: 2800000, guid: 4481420c13042ca4cbba68b2eb73a675, type: 3}
+    - {fileID: 2800000, guid: e852e04793234374891493879cbd1155, type: 3}
+    - {fileID: 2800000, guid: 22fd855a95264f741affb97e34c81d17, type: 3}
+    - {fileID: 2800000, guid: 9146a1f08cd0d36439ee695cd7ea9a69, type: 3}
+    - {fileID: 2800000, guid: 2aafaf54bad81cd47bc5a11e6eaad10d, type: 3}
+    - {fileID: 2800000, guid: ecc625df180360e4ba4a4fecb3fd7bd0, type: 3}
+    - {fileID: 2800000, guid: 5794b0a05293caa498961b69040171df, type: 3}
+    - {fileID: 2800000, guid: 3d3dcdf937c1768439dfee421c0b817e, type: 3}
+    arrayValues: []
+    script: {fileID: 4458252877524076426, guid: 7d04a28aa53a93c46b62545841cba457, type: 3}
+    isExpaned: 0
+--- !u!1 &3067144849810153049
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3067144849810153048}
+  - component: {fileID: 3067144849810153045}
+  - component: {fileID: 3067144849810153046}
+  m_Layer: 0
+  m_Name: Caustics_Aqua2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3067144849810153048
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3067144849810153049}
+  m_LocalRotation: {x: 0.3420201, y: 0, z: 0, w: 0.9396927}
+  m_LocalPosition: {x: -41.2, y: 68.3, z: -37.6}
+  m_LocalScale: {x: 5.6426, y: 5.6425996, z: 5.6425996}
+  m_Children: []
+  m_Father: {fileID: 3067144851294706640}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 40, y: 0, z: 0}
+--- !u!119 &3067144849810153045
+Projector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3067144849810153049}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_NearClipPlane: 0.01
+  m_FarClipPlane: 10
+  m_FieldOfView: 50
+  m_AspectRatio: 1
+  m_Orthographic: 1
+  m_OrthographicSize: 0.4
+  m_Material: {fileID: 2100000, guid: 7d800d5380a0ce34fa3cea86e40b9129, type: 2}
+  m_IgnoreLayers:
+    serializedVersion: 2
+    m_Bits: 0
+--- !u!114 &3067144849810153046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3067144849810153049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1673316429, guid: 921f0445823004a16a499d629dd566a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  script:
+    keys:
+    - framePerSecond
+    - causticsTex
+    - pr
+    unityValues:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 3067144849810153045}
+    values:
+    - '{"type":"System.Int32, mscorlib","value":"20"}'
+    - '{"type":"ZEPETO.Script.ZepetoScriptSerializer+ArrayInfo, ZEPETO.Script","value":"{\"offset\":0,\"length\":25,\"type\":\"UnityEngine.Object,
+      UnityEngine.CoreModule\",\"isUnity\":true}"}'
+    - 
+    unityArrayValues:
+    - {fileID: 2800000, guid: 5876e50e1dfc41b48a16f7e43f24e3ca, type: 3}
+    - {fileID: 2800000, guid: 22ccbccd08f7a0a4693b353f30e7ad0c, type: 3}
+    - {fileID: 2800000, guid: 60e1f27ad250009408291582ef7fc619, type: 3}
+    - {fileID: 2800000, guid: 3565db68c32fe654e9b36655ec9a8255, type: 3}
+    - {fileID: 2800000, guid: a34523885ff584f4a9adbc88fad80ab4, type: 3}
+    - {fileID: 2800000, guid: 9b64c92643ad2504c9678c8201585afa, type: 3}
+    - {fileID: 2800000, guid: dcb7072e96690724dbf53f0290159789, type: 3}
+    - {fileID: 2800000, guid: a3f741b8e345ae641a8a32874cfca642, type: 3}
+    - {fileID: 2800000, guid: 26ee1c5e5585dba4a80a926ca684b2a4, type: 3}
+    - {fileID: 2800000, guid: 299e00fa90e3ad440adf146118dca734, type: 3}
+    - {fileID: 2800000, guid: 8e7a472ec1a6ec44796465268c4cf8d0, type: 3}
+    - {fileID: 2800000, guid: 53b2a9fe9bf0de04cbd201f1dfb54e9b, type: 3}
+    - {fileID: 2800000, guid: 3657606d96a42904eb75db086f5c7476, type: 3}
+    - {fileID: 2800000, guid: ceeaf068bc8ce7e418ebaf5de7895cb2, type: 3}
+    - {fileID: 2800000, guid: 506b90bade784cb4c8fe72c80d170ecb, type: 3}
+    - {fileID: 2800000, guid: 33b8b3c8ddaf2d149b428ddc796a86d9, type: 3}
+    - {fileID: 2800000, guid: 85018396960038a4abf4cb658d8a2775, type: 3}
+    - {fileID: 2800000, guid: 4481420c13042ca4cbba68b2eb73a675, type: 3}
+    - {fileID: 2800000, guid: e852e04793234374891493879cbd1155, type: 3}
+    - {fileID: 2800000, guid: 22fd855a95264f741affb97e34c81d17, type: 3}
+    - {fileID: 2800000, guid: 9146a1f08cd0d36439ee695cd7ea9a69, type: 3}
+    - {fileID: 2800000, guid: 2aafaf54bad81cd47bc5a11e6eaad10d, type: 3}
+    - {fileID: 2800000, guid: ecc625df180360e4ba4a4fecb3fd7bd0, type: 3}
+    - {fileID: 2800000, guid: 5794b0a05293caa498961b69040171df, type: 3}
+    - {fileID: 2800000, guid: 3d3dcdf937c1768439dfee421c0b817e, type: 3}
+    arrayValues: []
+    script: {fileID: 4458252877524076426, guid: 7d04a28aa53a93c46b62545841cba457, type: 3}
+    isExpaned: 0
+--- !u!1 &3067144849924870492
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3067144849924870491}
+  - component: {fileID: 3067144849924870489}
+  - component: {fileID: 3067144849924870490}
+  m_Layer: 0
+  m_Name: Caustics_Aqua01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3067144849924870491
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3067144849924870492}
+  m_LocalRotation: {x: 0.5, y: 0.5, z: -0.5, w: -0.5}
+  m_LocalPosition: {x: 36.5, y: 70.6, z: -62.08334}
+  m_LocalScale: {x: 5.6426, y: 5.6425996, z: 5.6425996}
+  m_Children: []
+  m_Father: {fileID: 3067144851294706640}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 270, z: 90}
+--- !u!119 &3067144849924870489
+Projector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3067144849924870492}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_NearClipPlane: 0.01
+  m_FarClipPlane: 10
+  m_FieldOfView: 50
+  m_AspectRatio: 1
+  m_Orthographic: 1
+  m_OrthographicSize: 1
+  m_Material: {fileID: 2100000, guid: 235f3e65068b85643b42f8caff84cd8b, type: 2}
+  m_IgnoreLayers:
+    serializedVersion: 2
+    m_Bits: 0
+--- !u!114 &3067144849924870490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3067144849924870492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1673316429, guid: 921f0445823004a16a499d629dd566a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  script:
+    keys:
+    - framePerSecond
+    - causticsTex
+    - pr
+    unityValues:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 3067144849924870489}
+    values:
+    - '{"type":"System.Int32, mscorlib","value":"20"}'
+    - '{"type":"ZEPETO.Script.ZepetoScriptSerializer+ArrayInfo, ZEPETO.Script","value":"{\"offset\":0,\"length\":25,\"type\":\"UnityEngine.Object,
+      UnityEngine.CoreModule\",\"isUnity\":true}"}'
+    - 
+    unityArrayValues:
+    - {fileID: 2800000, guid: 5876e50e1dfc41b48a16f7e43f24e3ca, type: 3}
+    - {fileID: 2800000, guid: 22ccbccd08f7a0a4693b353f30e7ad0c, type: 3}
+    - {fileID: 2800000, guid: 60e1f27ad250009408291582ef7fc619, type: 3}
+    - {fileID: 2800000, guid: 3565db68c32fe654e9b36655ec9a8255, type: 3}
+    - {fileID: 2800000, guid: a34523885ff584f4a9adbc88fad80ab4, type: 3}
+    - {fileID: 2800000, guid: 9b64c92643ad2504c9678c8201585afa, type: 3}
+    - {fileID: 2800000, guid: dcb7072e96690724dbf53f0290159789, type: 3}
+    - {fileID: 2800000, guid: a3f741b8e345ae641a8a32874cfca642, type: 3}
+    - {fileID: 2800000, guid: 26ee1c5e5585dba4a80a926ca684b2a4, type: 3}
+    - {fileID: 2800000, guid: 299e00fa90e3ad440adf146118dca734, type: 3}
+    - {fileID: 2800000, guid: 8e7a472ec1a6ec44796465268c4cf8d0, type: 3}
+    - {fileID: 2800000, guid: 53b2a9fe9bf0de04cbd201f1dfb54e9b, type: 3}
+    - {fileID: 2800000, guid: 3657606d96a42904eb75db086f5c7476, type: 3}
+    - {fileID: 2800000, guid: ceeaf068bc8ce7e418ebaf5de7895cb2, type: 3}
+    - {fileID: 2800000, guid: 506b90bade784cb4c8fe72c80d170ecb, type: 3}
+    - {fileID: 2800000, guid: 33b8b3c8ddaf2d149b428ddc796a86d9, type: 3}
+    - {fileID: 2800000, guid: 85018396960038a4abf4cb658d8a2775, type: 3}
+    - {fileID: 2800000, guid: 4481420c13042ca4cbba68b2eb73a675, type: 3}
+    - {fileID: 2800000, guid: e852e04793234374891493879cbd1155, type: 3}
+    - {fileID: 2800000, guid: 22fd855a95264f741affb97e34c81d17, type: 3}
+    - {fileID: 2800000, guid: 9146a1f08cd0d36439ee695cd7ea9a69, type: 3}
+    - {fileID: 2800000, guid: 2aafaf54bad81cd47bc5a11e6eaad10d, type: 3}
+    - {fileID: 2800000, guid: ecc625df180360e4ba4a4fecb3fd7bd0, type: 3}
+    - {fileID: 2800000, guid: 5794b0a05293caa498961b69040171df, type: 3}
+    - {fileID: 2800000, guid: 3d3dcdf937c1768439dfee421c0b817e, type: 3}
+    arrayValues: []
+    script: {fileID: 4458252877524076426, guid: 7d04a28aa53a93c46b62545841cba457, type: 3}
+    isExpaned: 0
+--- !u!1 &3067144850152825801
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3067144850152825800}
+  - component: {fileID: 3067144850152825798}
+  - component: {fileID: 3067144850152825799}
+  m_Layer: 0
+  m_Name: Caustics_Aqua4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3067144850152825800
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3067144850152825801}
+  m_LocalRotation: {x: 0.02980906, y: 0.9361168, z: -0.3407186, w: 0.08189973}
+  m_LocalPosition: {x: -25.8, y: 73, z: -73}
+  m_LocalScale: {x: 5.6426, y: 5.6425996, z: 5.6425996}
+  m_Children: []
+  m_Father: {fileID: 3067144851294706640}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 40, y: 170, z: 0}
+--- !u!119 &3067144850152825798
+Projector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3067144850152825801}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_NearClipPlane: 0.01
+  m_FarClipPlane: 10
+  m_FieldOfView: 50
+  m_AspectRatio: 1
+  m_Orthographic: 1
+  m_OrthographicSize: 0.4
+  m_Material: {fileID: 2100000, guid: 7d800d5380a0ce34fa3cea86e40b9129, type: 2}
+  m_IgnoreLayers:
+    serializedVersion: 2
+    m_Bits: 0
+--- !u!114 &3067144850152825799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3067144850152825801}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1673316429, guid: 921f0445823004a16a499d629dd566a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  script:
+    keys:
+    - framePerSecond
+    - causticsTex
+    - pr
+    unityValues:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 3067144850152825798}
+    values:
+    - '{"type":"System.Int32, mscorlib","value":"20"}'
+    - '{"type":"ZEPETO.Script.ZepetoScriptSerializer+ArrayInfo, ZEPETO.Script","value":"{\"offset\":0,\"length\":25,\"type\":\"UnityEngine.Object,
+      UnityEngine.CoreModule\",\"isUnity\":true}"}'
+    - 
+    unityArrayValues:
+    - {fileID: 2800000, guid: 5876e50e1dfc41b48a16f7e43f24e3ca, type: 3}
+    - {fileID: 2800000, guid: 22ccbccd08f7a0a4693b353f30e7ad0c, type: 3}
+    - {fileID: 2800000, guid: 60e1f27ad250009408291582ef7fc619, type: 3}
+    - {fileID: 2800000, guid: 3565db68c32fe654e9b36655ec9a8255, type: 3}
+    - {fileID: 2800000, guid: a34523885ff584f4a9adbc88fad80ab4, type: 3}
+    - {fileID: 2800000, guid: 9b64c92643ad2504c9678c8201585afa, type: 3}
+    - {fileID: 2800000, guid: dcb7072e96690724dbf53f0290159789, type: 3}
+    - {fileID: 2800000, guid: a3f741b8e345ae641a8a32874cfca642, type: 3}
+    - {fileID: 2800000, guid: 26ee1c5e5585dba4a80a926ca684b2a4, type: 3}
+    - {fileID: 2800000, guid: 299e00fa90e3ad440adf146118dca734, type: 3}
+    - {fileID: 2800000, guid: 8e7a472ec1a6ec44796465268c4cf8d0, type: 3}
+    - {fileID: 2800000, guid: 53b2a9fe9bf0de04cbd201f1dfb54e9b, type: 3}
+    - {fileID: 2800000, guid: 3657606d96a42904eb75db086f5c7476, type: 3}
+    - {fileID: 2800000, guid: ceeaf068bc8ce7e418ebaf5de7895cb2, type: 3}
+    - {fileID: 2800000, guid: 506b90bade784cb4c8fe72c80d170ecb, type: 3}
+    - {fileID: 2800000, guid: 33b8b3c8ddaf2d149b428ddc796a86d9, type: 3}
+    - {fileID: 2800000, guid: 85018396960038a4abf4cb658d8a2775, type: 3}
+    - {fileID: 2800000, guid: 4481420c13042ca4cbba68b2eb73a675, type: 3}
+    - {fileID: 2800000, guid: e852e04793234374891493879cbd1155, type: 3}
+    - {fileID: 2800000, guid: 22fd855a95264f741affb97e34c81d17, type: 3}
+    - {fileID: 2800000, guid: 9146a1f08cd0d36439ee695cd7ea9a69, type: 3}
+    - {fileID: 2800000, guid: 2aafaf54bad81cd47bc5a11e6eaad10d, type: 3}
+    - {fileID: 2800000, guid: ecc625df180360e4ba4a4fecb3fd7bd0, type: 3}
+    - {fileID: 2800000, guid: 5794b0a05293caa498961b69040171df, type: 3}
+    - {fileID: 2800000, guid: 3d3dcdf937c1768439dfee421c0b817e, type: 3}
+    arrayValues: []
+    script: {fileID: 4458252877524076426, guid: 7d04a28aa53a93c46b62545841cba457, type: 3}
+    isExpaned: 0
+--- !u!1 &3067144850982500542
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3067144850982500541}
+  - component: {fileID: 3067144850982500538}
+  - component: {fileID: 3067144850982500539}
+  m_Layer: 0
+  m_Name: Caustics_Aqua3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3067144850982500541
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3067144850982500542}
+  m_LocalRotation: {x: 0.6408564, y: 0.29883626, z: 0.29883626, w: 0.6408564}
+  m_LocalPosition: {x: -5.5, y: 67.1, z: -62.08334}
+  m_LocalScale: {x: 5.6426, y: 5.6425996, z: 5.6425996}
+  m_Children: []
+  m_Father: {fileID: 3067144851294706640}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 40, y: 90, z: 90}
+--- !u!119 &3067144850982500538
+Projector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3067144850982500542}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_NearClipPlane: 0.01
+  m_FarClipPlane: 3
+  m_FieldOfView: 50
+  m_AspectRatio: 1
+  m_Orthographic: 1
+  m_OrthographicSize: 0.4
+  m_Material: {fileID: 2100000, guid: 7d800d5380a0ce34fa3cea86e40b9129, type: 2}
+  m_IgnoreLayers:
+    serializedVersion: 2
+    m_Bits: 0
+--- !u!114 &3067144850982500539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3067144850982500542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1673316429, guid: 921f0445823004a16a499d629dd566a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  script:
+    keys:
+    - framePerSecond
+    - causticsTex
+    - pr
+    unityValues:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 3067144850982500538}
+    values:
+    - '{"type":"System.Int32, mscorlib","value":"20"}'
+    - '{"type":"ZEPETO.Script.ZepetoScriptSerializer+ArrayInfo, ZEPETO.Script","value":"{\"offset\":0,\"length\":25,\"type\":\"UnityEngine.Object,
+      UnityEngine.CoreModule\",\"isUnity\":true}"}'
+    - 
+    unityArrayValues:
+    - {fileID: 2800000, guid: 5876e50e1dfc41b48a16f7e43f24e3ca, type: 3}
+    - {fileID: 2800000, guid: 22ccbccd08f7a0a4693b353f30e7ad0c, type: 3}
+    - {fileID: 2800000, guid: 60e1f27ad250009408291582ef7fc619, type: 3}
+    - {fileID: 2800000, guid: 3565db68c32fe654e9b36655ec9a8255, type: 3}
+    - {fileID: 2800000, guid: a34523885ff584f4a9adbc88fad80ab4, type: 3}
+    - {fileID: 2800000, guid: 9b64c92643ad2504c9678c8201585afa, type: 3}
+    - {fileID: 2800000, guid: dcb7072e96690724dbf53f0290159789, type: 3}
+    - {fileID: 2800000, guid: a3f741b8e345ae641a8a32874cfca642, type: 3}
+    - {fileID: 2800000, guid: 26ee1c5e5585dba4a80a926ca684b2a4, type: 3}
+    - {fileID: 2800000, guid: 299e00fa90e3ad440adf146118dca734, type: 3}
+    - {fileID: 2800000, guid: 8e7a472ec1a6ec44796465268c4cf8d0, type: 3}
+    - {fileID: 2800000, guid: 53b2a9fe9bf0de04cbd201f1dfb54e9b, type: 3}
+    - {fileID: 2800000, guid: 3657606d96a42904eb75db086f5c7476, type: 3}
+    - {fileID: 2800000, guid: ceeaf068bc8ce7e418ebaf5de7895cb2, type: 3}
+    - {fileID: 2800000, guid: 506b90bade784cb4c8fe72c80d170ecb, type: 3}
+    - {fileID: 2800000, guid: 33b8b3c8ddaf2d149b428ddc796a86d9, type: 3}
+    - {fileID: 2800000, guid: 85018396960038a4abf4cb658d8a2775, type: 3}
+    - {fileID: 2800000, guid: 4481420c13042ca4cbba68b2eb73a675, type: 3}
+    - {fileID: 2800000, guid: e852e04793234374891493879cbd1155, type: 3}
+    - {fileID: 2800000, guid: 22fd855a95264f741affb97e34c81d17, type: 3}
+    - {fileID: 2800000, guid: 9146a1f08cd0d36439ee695cd7ea9a69, type: 3}
+    - {fileID: 2800000, guid: 2aafaf54bad81cd47bc5a11e6eaad10d, type: 3}
+    - {fileID: 2800000, guid: ecc625df180360e4ba4a4fecb3fd7bd0, type: 3}
+    - {fileID: 2800000, guid: 5794b0a05293caa498961b69040171df, type: 3}
+    - {fileID: 2800000, guid: 3d3dcdf937c1768439dfee421c0b817e, type: 3}
+    arrayValues: []
+    script: {fileID: 4458252877524076426, guid: 7d04a28aa53a93c46b62545841cba457, type: 3}
+    isExpaned: 0
+--- !u!1 &3067144850998419606
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3067144850998419605}
+  - component: {fileID: 3067144850998419603}
+  - component: {fileID: 3067144850998419604}
+  m_Layer: 0
+  m_Name: Caustics_Aqua5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3067144850998419605
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3067144850998419606}
+  m_LocalRotation: {x: 0.29883626, y: 0.6408564, z: -0.6408564, w: -0.29883626}
+  m_LocalPosition: {x: -39.6, y: 70.7, z: -62.08334}
+  m_LocalScale: {x: 5.6426, y: 5.6425996, z: 5.6425996}
+  m_Children: []
+  m_Father: {fileID: 3067144851294706640}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 40, y: 270, z: 90}
+--- !u!119 &3067144850998419603
+Projector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3067144850998419606}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_NearClipPlane: 0.01
+  m_FarClipPlane: 10
+  m_FieldOfView: 50
+  m_AspectRatio: 1
+  m_Orthographic: 1
+  m_OrthographicSize: 0.4
+  m_Material: {fileID: 2100000, guid: 7d800d5380a0ce34fa3cea86e40b9129, type: 2}
+  m_IgnoreLayers:
+    serializedVersion: 2
+    m_Bits: 0
+--- !u!114 &3067144850998419604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3067144850998419606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1673316429, guid: 921f0445823004a16a499d629dd566a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  script:
+    keys:
+    - framePerSecond
+    - causticsTex
+    - pr
+    unityValues:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 3067144850998419603}
+    values:
+    - '{"type":"System.Int32, mscorlib","value":"20"}'
+    - '{"type":"ZEPETO.Script.ZepetoScriptSerializer+ArrayInfo, ZEPETO.Script","value":"{\"offset\":0,\"length\":25,\"type\":\"UnityEngine.Object,
+      UnityEngine.CoreModule\",\"isUnity\":true}"}'
+    - 
+    unityArrayValues:
+    - {fileID: 2800000, guid: 5876e50e1dfc41b48a16f7e43f24e3ca, type: 3}
+    - {fileID: 2800000, guid: 22ccbccd08f7a0a4693b353f30e7ad0c, type: 3}
+    - {fileID: 2800000, guid: 60e1f27ad250009408291582ef7fc619, type: 3}
+    - {fileID: 2800000, guid: 3565db68c32fe654e9b36655ec9a8255, type: 3}
+    - {fileID: 2800000, guid: a34523885ff584f4a9adbc88fad80ab4, type: 3}
+    - {fileID: 2800000, guid: 9b64c92643ad2504c9678c8201585afa, type: 3}
+    - {fileID: 2800000, guid: dcb7072e96690724dbf53f0290159789, type: 3}
+    - {fileID: 2800000, guid: a3f741b8e345ae641a8a32874cfca642, type: 3}
+    - {fileID: 2800000, guid: 26ee1c5e5585dba4a80a926ca684b2a4, type: 3}
+    - {fileID: 2800000, guid: 299e00fa90e3ad440adf146118dca734, type: 3}
+    - {fileID: 2800000, guid: 8e7a472ec1a6ec44796465268c4cf8d0, type: 3}
+    - {fileID: 2800000, guid: 53b2a9fe9bf0de04cbd201f1dfb54e9b, type: 3}
+    - {fileID: 2800000, guid: 3657606d96a42904eb75db086f5c7476, type: 3}
+    - {fileID: 2800000, guid: ceeaf068bc8ce7e418ebaf5de7895cb2, type: 3}
+    - {fileID: 2800000, guid: 506b90bade784cb4c8fe72c80d170ecb, type: 3}
+    - {fileID: 2800000, guid: 33b8b3c8ddaf2d149b428ddc796a86d9, type: 3}
+    - {fileID: 2800000, guid: 85018396960038a4abf4cb658d8a2775, type: 3}
+    - {fileID: 2800000, guid: 4481420c13042ca4cbba68b2eb73a675, type: 3}
+    - {fileID: 2800000, guid: e852e04793234374891493879cbd1155, type: 3}
+    - {fileID: 2800000, guid: 22fd855a95264f741affb97e34c81d17, type: 3}
+    - {fileID: 2800000, guid: 9146a1f08cd0d36439ee695cd7ea9a69, type: 3}
+    - {fileID: 2800000, guid: 2aafaf54bad81cd47bc5a11e6eaad10d, type: 3}
+    - {fileID: 2800000, guid: ecc625df180360e4ba4a4fecb3fd7bd0, type: 3}
+    - {fileID: 2800000, guid: 5794b0a05293caa498961b69040171df, type: 3}
+    - {fileID: 2800000, guid: 3d3dcdf937c1768439dfee421c0b817e, type: 3}
+    arrayValues: []
+    script: {fileID: 4458252877524076426, guid: 7d04a28aa53a93c46b62545841cba457, type: 3}
+    isExpaned: 0
+--- !u!1 &3067144851149651256
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3067144851149651255}
+  - component: {fileID: 3067144851149651253}
+  - component: {fileID: 3067144851149651254}
+  m_Layer: 0
+  m_Name: Caustics_Aqua03
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3067144851149651255
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3067144851149651256}
+  m_LocalRotation: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+  m_LocalPosition: {x: -70.14, y: 70.6, z: -79.25}
+  m_LocalScale: {x: 5.6426, y: 5.6425996, z: 5.6425996}
+  m_Children: []
+  m_Father: {fileID: 3067144851294706640}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 90}
+--- !u!119 &3067144851149651253
+Projector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3067144851149651256}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_NearClipPlane: 1
+  m_FarClipPlane: 15
+  m_FieldOfView: 50
+  m_AspectRatio: 1
+  m_Orthographic: 1
+  m_OrthographicSize: 1
+  m_Material: {fileID: 2100000, guid: 235f3e65068b85643b42f8caff84cd8b, type: 2}
+  m_IgnoreLayers:
+    serializedVersion: 2
+    m_Bits: 0
+--- !u!114 &3067144851149651254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3067144851149651256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1673316429, guid: 921f0445823004a16a499d629dd566a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  script:
+    keys:
+    - framePerSecond
+    - causticsTex
+    - pr
+    unityValues:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 3067144851149651253}
+    values:
+    - '{"type":"System.Int32, mscorlib","value":"20"}'
+    - '{"type":"ZEPETO.Script.ZepetoScriptSerializer+ArrayInfo, ZEPETO.Script","value":"{\"offset\":0,\"length\":25,\"type\":\"UnityEngine.Object,
+      UnityEngine.CoreModule\",\"isUnity\":true}"}'
+    - 
+    unityArrayValues:
+    - {fileID: 2800000, guid: 5876e50e1dfc41b48a16f7e43f24e3ca, type: 3}
+    - {fileID: 2800000, guid: 22ccbccd08f7a0a4693b353f30e7ad0c, type: 3}
+    - {fileID: 2800000, guid: 60e1f27ad250009408291582ef7fc619, type: 3}
+    - {fileID: 2800000, guid: 3565db68c32fe654e9b36655ec9a8255, type: 3}
+    - {fileID: 2800000, guid: a34523885ff584f4a9adbc88fad80ab4, type: 3}
+    - {fileID: 2800000, guid: 9b64c92643ad2504c9678c8201585afa, type: 3}
+    - {fileID: 2800000, guid: dcb7072e96690724dbf53f0290159789, type: 3}
+    - {fileID: 2800000, guid: a3f741b8e345ae641a8a32874cfca642, type: 3}
+    - {fileID: 2800000, guid: 26ee1c5e5585dba4a80a926ca684b2a4, type: 3}
+    - {fileID: 2800000, guid: 299e00fa90e3ad440adf146118dca734, type: 3}
+    - {fileID: 2800000, guid: 8e7a472ec1a6ec44796465268c4cf8d0, type: 3}
+    - {fileID: 2800000, guid: 53b2a9fe9bf0de04cbd201f1dfb54e9b, type: 3}
+    - {fileID: 2800000, guid: 3657606d96a42904eb75db086f5c7476, type: 3}
+    - {fileID: 2800000, guid: ceeaf068bc8ce7e418ebaf5de7895cb2, type: 3}
+    - {fileID: 2800000, guid: 506b90bade784cb4c8fe72c80d170ecb, type: 3}
+    - {fileID: 2800000, guid: 33b8b3c8ddaf2d149b428ddc796a86d9, type: 3}
+    - {fileID: 2800000, guid: 85018396960038a4abf4cb658d8a2775, type: 3}
+    - {fileID: 2800000, guid: 4481420c13042ca4cbba68b2eb73a675, type: 3}
+    - {fileID: 2800000, guid: e852e04793234374891493879cbd1155, type: 3}
+    - {fileID: 2800000, guid: 22fd855a95264f741affb97e34c81d17, type: 3}
+    - {fileID: 2800000, guid: 9146a1f08cd0d36439ee695cd7ea9a69, type: 3}
+    - {fileID: 2800000, guid: 2aafaf54bad81cd47bc5a11e6eaad10d, type: 3}
+    - {fileID: 2800000, guid: ecc625df180360e4ba4a4fecb3fd7bd0, type: 3}
+    - {fileID: 2800000, guid: 5794b0a05293caa498961b69040171df, type: 3}
+    - {fileID: 2800000, guid: 3d3dcdf937c1768439dfee421c0b817e, type: 3}
+    arrayValues: []
+    script: {fileID: 4458252877524076426, guid: 7d04a28aa53a93c46b62545841cba457, type: 3}
+    isExpaned: 0
+--- !u!1 &3067144851294706641
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3067144851294706640}
+  m_Layer: 0
+  m_Name: Caustics
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3067144851294706640
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3067144851294706641}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 31.916542, y: -73.027824, z: 45.08334}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3067144851337610297}
+  - {fileID: 3067144849810153048}
+  - {fileID: 3067144850982500541}
+  - {fileID: 3067144849924870491}
+  - {fileID: 3067144849693753697}
+  - {fileID: 3067144851149651255}
+  - {fileID: 3067144850152825800}
+  - {fileID: 3067144850998419605}
+  - {fileID: 1222422931}
+  - {fileID: 441340002}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3067144851337610300
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3067144851337610297}
+  - component: {fileID: 3067144851337610299}
+  - component: {fileID: 3067144851337610296}
+  m_Layer: 0
+  m_Name: Caustics_Aqua1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3067144851337610297
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3067144851337610300}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -22.516542, y: 66.67, z: -62.08334}
+  m_LocalScale: {x: 5.6426, y: 5.6425996, z: 5.6425996}
+  m_Children: []
+  m_Father: {fileID: 3067144851294706640}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!119 &3067144851337610299
+Projector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3067144851337610300}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_NearClipPlane: 0
+  m_FarClipPlane: 50
+  m_FieldOfView: 1
+  m_AspectRatio: 1
+  m_Orthographic: 1
+  m_OrthographicSize: 0.8
+  m_Material: {fileID: 2100000, guid: f203952523ecaa7499c038405358aac7, type: 2}
+  m_IgnoreLayers:
+    serializedVersion: 2
+    m_Bits: 0
+--- !u!114 &3067144851337610296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3067144851337610300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1673316429, guid: 921f0445823004a16a499d629dd566a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  script:
+    keys:
+    - framePerSecond
+    - causticsTex
+    - pr
+    unityValues:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 3067144851337610299}
+    values:
+    - '{"type":"System.Int32, mscorlib","value":"20"}'
+    - '{"type":"ZEPETO.Script.ZepetoScriptSerializer+ArrayInfo, ZEPETO.Script","value":"{\"offset\":0,\"length\":25,\"type\":\"UnityEngine.Object,
+      UnityEngine.CoreModule\",\"isUnity\":true}"}'
+    - 
+    unityArrayValues:
+    - {fileID: 2800000, guid: 5876e50e1dfc41b48a16f7e43f24e3ca, type: 3}
+    - {fileID: 2800000, guid: 22ccbccd08f7a0a4693b353f30e7ad0c, type: 3}
+    - {fileID: 2800000, guid: 60e1f27ad250009408291582ef7fc619, type: 3}
+    - {fileID: 2800000, guid: 3565db68c32fe654e9b36655ec9a8255, type: 3}
+    - {fileID: 2800000, guid: a34523885ff584f4a9adbc88fad80ab4, type: 3}
+    - {fileID: 2800000, guid: 9b64c92643ad2504c9678c8201585afa, type: 3}
+    - {fileID: 2800000, guid: dcb7072e96690724dbf53f0290159789, type: 3}
+    - {fileID: 2800000, guid: a3f741b8e345ae641a8a32874cfca642, type: 3}
+    - {fileID: 2800000, guid: 26ee1c5e5585dba4a80a926ca684b2a4, type: 3}
+    - {fileID: 2800000, guid: 299e00fa90e3ad440adf146118dca734, type: 3}
+    - {fileID: 2800000, guid: 8e7a472ec1a6ec44796465268c4cf8d0, type: 3}
+    - {fileID: 2800000, guid: 53b2a9fe9bf0de04cbd201f1dfb54e9b, type: 3}
+    - {fileID: 2800000, guid: 3657606d96a42904eb75db086f5c7476, type: 3}
+    - {fileID: 2800000, guid: ceeaf068bc8ce7e418ebaf5de7895cb2, type: 3}
+    - {fileID: 2800000, guid: 506b90bade784cb4c8fe72c80d170ecb, type: 3}
+    - {fileID: 2800000, guid: 33b8b3c8ddaf2d149b428ddc796a86d9, type: 3}
+    - {fileID: 2800000, guid: 85018396960038a4abf4cb658d8a2775, type: 3}
+    - {fileID: 2800000, guid: 4481420c13042ca4cbba68b2eb73a675, type: 3}
+    - {fileID: 2800000, guid: e852e04793234374891493879cbd1155, type: 3}
+    - {fileID: 2800000, guid: 22fd855a95264f741affb97e34c81d17, type: 3}
+    - {fileID: 2800000, guid: 9146a1f08cd0d36439ee695cd7ea9a69, type: 3}
+    - {fileID: 2800000, guid: 2aafaf54bad81cd47bc5a11e6eaad10d, type: 3}
+    - {fileID: 2800000, guid: ecc625df180360e4ba4a4fecb3fd7bd0, type: 3}
+    - {fileID: 2800000, guid: 5794b0a05293caa498961b69040171df, type: 3}
+    - {fileID: 2800000, guid: 3d3dcdf937c1768439dfee421c0b817e, type: 3}
+    arrayValues: []
+    script: {fileID: 4458252877524076426, guid: 7d04a28aa53a93c46b62545841cba457, type: 3}
+    isExpaned: 0

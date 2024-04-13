@@ -1,0 +1,35 @@
+fileFormatVersion: 2
+guid: a14040616de5c2146ac2624c7b75fe60
+importerOverride: ZEPETO.Script.Compiler:ZEPETO.Script:TypescriptAssetImporter
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: -1123457745, guid: 54cf806323ffe4418a4ce4cc63fe6b9d, type: 3}
+  isAssemblyDeclarations: 0
+  assembly: 
+  generateAllTypes: 1
+  types: []
+  generateWrapper: 0
+  overrideWrapperTypes: 0
+  wrapperTypes: []
+  WrapperFilters: []
+  wrapperOutputDirectory: Generated
+  compiledResult: '{"source":"\"use strict\";\r\nObject.defineProperty(exports, \"__esModule\",
+    { value: true });\r\nconst ZEPETO_Script_1 = require(\"ZEPETO.Script\");\r\nconst
+    ZEPETO_Character_Controller_1 = require(\"ZEPETO.Character.Controller\");\r\nconst
+    UnityEngine_1 = require(\"UnityEngine\");\r\nclass GenerateModel extends ZEPETO_Script_1.ZepetoScriptBehaviour
+    {\r\n    constructor() {\r\n        super(...arguments);\r\n        this.scale
+    = 2.5;\r\n        this.spawnInfo = new ZEPETO_Character_Controller_1.SpawnInfo();\r\n   
+    }\r\n    Start() {\r\n        this.spawnInfo.position = this.transform.position;\r\n       
+    this.spawnInfo.rotation = this.transform.rotation;\r\n        ZEPETO_Character_Controller_1.ZepetoCharacterCreator.CreateByZepetoId(this.id,
+    this.spawnInfo, (character) => {\r\n            character.transform.SetParent(this.transform);\r\n           
+    character.transform.localScale = new UnityEngine_1.Vector3(this.scale, this.scale,
+    this.scale);\r\n            this.StartCoroutine(this.SetPose(character));\r\n       
+    });\r\n    }\r\n    *SetPose(model) {\r\n        yield new UnityEngine_1.WaitForSeconds(0.1);\r\n       
+    model.SetGesture(this.animClip);\r\n    }\r\n}\r\nexports.default = GenerateModel;\r\n//#
+    sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiR2VuZXJhdGVNb2RlbC5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIkdlbmVyYXRlTW9kZWwudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7QUFBQSxpREFBcUQ7QUFDckQsNkVBQWlHO0FBQ2pHLDZDQUFxRTtBQUVyRSxNQUFxQixhQUFjLFNBQVEscUNBQXFCO0lBQWhFOztRQUVXLFVBQUssR0FBVSxHQUFHLENBQUM7UUFFbEIsY0FBUyxHQUFjLElBQUksdUNBQVMsRUFBRSxDQUFDO0lBZ0JuRCxDQUFDO0lBZFcsS0FBSztRQUNULElBQUksQ0FBQyxTQUFTLENBQUMsUUFBUSxHQUFHLElBQUksQ0FBQyxTQUFTLENBQUMsUUFBUSxDQUFDO1FBQ2xELElBQUksQ0FBQyxTQUFTLENBQUMsUUFBUSxHQUFHLElBQUksQ0FBQyxTQUFTLENBQUMsUUFBUSxDQUFDO1FBQ2xELG9EQUFzQixDQUFDLGdCQUFnQixDQUFDLElBQUksQ0FBQyxFQUFFLEVBQUUsSUFBSSxDQUFDLFNBQVMsRUFBRSxDQUFDLFNBQTBCLEVBQUUsRUFBRTtZQUM1RixTQUFTLENBQUMsU0FBUyxDQUFDLFNBQVMsQ0FBQyxJQUFJLENBQUMsU0FBUyxDQUFDLENBQUM7WUFDOUMsU0FBUyxDQUFDLFNBQVMsQ0FBQyxVQUFVLEdBQUcsSUFBSSxxQkFBTyxDQUFDLElBQUksQ0FBQyxLQUFLLEVBQUUsSUFBSSxDQUFDLEtBQUssRUFBRSxJQUFJLENBQUMsS0FBSyxDQUFDLENBQUM7WUFDakYsSUFBSSxDQUFDLGNBQWMsQ0FBQyxJQUFJLENBQUMsT0FBTyxDQUFDLFNBQVMsQ0FBQyxDQUFDLENBQUM7UUFDakQsQ0FBQyxDQUFDLENBQUE7SUFDTixDQUFDO0lBRUQsQ0FBQyxPQUFPLENBQUMsS0FBc0I7UUFDM0IsTUFBTSxJQUFJLDRCQUFjLENBQUMsR0FBRyxDQUFDLENBQUM7UUFDOUIsS0FBSyxDQUFDLFVBQVUsQ0FBQyxJQUFJLENBQUMsUUFBUSxDQUFDLENBQUM7SUFDcEMsQ0FBQztDQUNKO0FBcEJELGdDQW9CQyJ9","assetPath":"Assets/03.Scripts/GenerateModel.ts","manifest":{"properties":[{"assembly":"mscorlib","name":"id","type":"System.String","isArray":false,"initValue":[],"enumKeys":[],"enumValues":[],"attributes":[]},{"assembly":"mscorlib","name":"scale","type":"System.Single","isArray":false,"initValue":["2.5"],"enumKeys":[],"enumValues":[],"attributes":[]},{"assembly":"UnityEngine.AnimationModule","name":"animClip","type":"UnityEngine.AnimationClip","isArray":false,"initValue":[],"enumKeys":[],"enumValues":[],"attributes":[]}],"name":"GenerateModel","description":""},"isCompiled":true}'
+  typescriptHash: e3df4dcee5d4e995381966df796158cd

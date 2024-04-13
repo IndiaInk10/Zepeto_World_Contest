@@ -1,0 +1,35 @@
+fileFormatVersion: 2
+guid: edd6cfdf53bec9244a233b244d94d80e
+importerOverride: ZEPETO.Script.Compiler:ZEPETO.Script:TypescriptAssetImporter
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: -1123457745, guid: 54cf806323ffe4418a4ce4cc63fe6b9d, type: 3}
+  isAssemblyDeclarations: 0
+  assembly: 
+  generateAllTypes: 1
+  types: []
+  generateWrapper: 0
+  overrideWrapperTypes: 0
+  wrapperTypes: []
+  WrapperFilters: []
+  wrapperOutputDirectory: Generated
+  compiledResult: '{"source":"\"use strict\";\r\nObject.defineProperty(exports, \"__esModule\",
+    { value: true });\r\nconst ZEPETO_Script_1 = require(\"ZEPETO.Script\");\r\nconst
+    ZEPETO_Character_Controller_1 = require(\"ZEPETO.Character.Controller\");\r\nclass
+    Riding extends ZEPETO_Script_1.ZepetoScriptBehaviour {\r\n    OnTriggerEnter(other)
+    {\r\n        const player = ZEPETO_Character_Controller_1.ZepetoPlayers.instance.GetPlayer(other.gameObject.name);\r\n       
+    if (player != null) {\r\n            other.transform.SetParent(this.transform);\r\n           
+    // if (player.id == ZepetoPlayers.instance.LocalPlayer.zepetoPlayer.id)\r\n           
+    // {\r\n            //     ClientStarter.Instance.IsRiding = true;\r\n           
+    // }\r\n        }\r\n    }\r\n    OnTriggerExit(other) {\r\n        const player
+    = ZEPETO_Character_Controller_1.ZepetoPlayers.instance.GetPlayer(other.gameObject.name);\r\n       
+    if (player != null) {\r\n            other.transform.SetParent(null);\r\n           
+    // if (player.id == ZepetoPlayers.instance.LocalPlayer.zepetoPlayer.id)\r\n           
+    // {\r\n            //     ClientStarter.Instance.IsRiding = false;\r\n           
+    // }\r\n        }\r\n    }\r\n}\r\nexports.default = Riding;\r\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiUmlkaW5nLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiUmlkaW5nLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7O0FBQUEsaURBQXFEO0FBRXJELDZFQUEwRTtBQUkxRSxNQUFxQixNQUFPLFNBQVEscUNBQXFCO0lBRTdDLGNBQWMsQ0FBQyxLQUFjO1FBQ2pDLE1BQU0sTUFBTSxHQUFpQiwyQ0FBYSxDQUFDLFFBQVEsQ0FBQyxTQUFTLENBQUMsS0FBSyxDQUFDLFVBQVUsQ0FBQyxJQUFJLENBQUMsQ0FBQztRQUVyRixJQUFJLE1BQU0sSUFBSSxJQUFJLEVBQUU7WUFDaEIsS0FBSyxDQUFDLFNBQVMsQ0FBQyxTQUFTLENBQUMsSUFBSSxDQUFDLFNBQVMsQ0FBQyxDQUFDO1lBRTFDLHVFQUF1RTtZQUN2RSxJQUFJO1lBQ0osOENBQThDO1lBQzlDLElBQUk7U0FDUDtJQUNMLENBQUM7SUFFTyxhQUFhLENBQUMsS0FBZTtRQUNqQyxNQUFNLE1BQU0sR0FBaUIsMkNBQWEsQ0FBQyxRQUFRLENBQUMsU0FBUyxDQUFDLEtBQUssQ0FBQyxVQUFVLENBQUMsSUFBSSxDQUFDLENBQUM7UUFFckYsSUFBSSxNQUFNLElBQUksSUFBSSxFQUNsQjtZQUNJLEtBQUssQ0FBQyxTQUFTLENBQUMsU0FBUyxDQUFDLElBQUksQ0FBQyxDQUFDO1lBRWhDLHVFQUF1RTtZQUN2RSxJQUFJO1lBQ0osK0NBQStDO1lBQy9DLElBQUk7U0FDUDtJQUNMLENBQUM7Q0FDSjtBQTVCRCx5QkE0QkMifQ==","assetPath":"Assets/03.Scripts/Riding.ts","manifest":{"properties":[],"name":"Riding","description":""},"isCompiled":true}'
+  typescriptHash: 62826df35ff633fbf52aa4fbbe0b06bd

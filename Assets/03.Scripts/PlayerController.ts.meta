@@ -1,0 +1,104 @@
+fileFormatVersion: 2
+guid: 2f625aeddbd81aa48aa7f43ae729c91b
+importerOverride: ZEPETO.Script.Compiler:ZEPETO.Script:TypescriptAssetImporter
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: -1123457745, guid: 54cf806323ffe4418a4ce4cc63fe6b9d, type: 3}
+  isAssemblyDeclarations: 0
+  assembly: 
+  generateAllTypes: 1
+  types: []
+  generateWrapper: 0
+  overrideWrapperTypes: 0
+  wrapperTypes: []
+  WrapperFilters: []
+  wrapperOutputDirectory: Generated
+  compiledResult: '{"source":"\"use strict\";\r\nObject.defineProperty(exports, \"__esModule\",
+    { value: true });\r\nconst ZEPETO_Script_1 = require(\"ZEPETO.Script\");\r\nconst
+    ZEPETO_Character_Controller_1 = require(\"ZEPETO.Character.Controller\");\r\nconst
+    UnityEngine_1 = require(\"UnityEngine\");\r\nconst PlatePool_1 = require(\"./PlatePool\");\r\nvar
+    PLAYERSTATE;\r\n(function (PLAYERSTATE) {\r\n    PLAYERSTATE[PLAYERSTATE[\"WALK\"]
+    = 0] = \"WALK\";\r\n    PLAYERSTATE[PLAYERSTATE[\"SWIM\"] = 3] = \"SWIM\";\r\n   
+    PLAYERSTATE[PLAYERSTATE[\"TELEPORT\"] = 4] = \"TELEPORT\";\r\n    PLAYERSTATE[PLAYERSTATE[\"SIT\"]
+    = 5] = \"SIT\";\r\n})(PLAYERSTATE || (PLAYERSTATE = {}));\r\nclass PlayerController
+    extends ZEPETO_Script_1.ZepetoScriptBehaviour {\r\n    constructor() {\r\n       
+    super(...arguments);\r\n        this.playerState = PLAYERSTATE.WALK;\r\n       
+    this.player = null;\r\n        // Variables for SWIM STATE\r\n        // Swimming
+    Animation\r\n        this.cc = null;\r\n        this.myAnim = null;\r\n       
+    this.isSwimLayer = false;\r\n        this.swimmingRatio = 0.0;\r\n        this.animRotate
+    = null;\r\n        this.swimUpRotation = UnityEngine_1.Quaternion.Euler(-100,
+    0, 0);\r\n        // Invisible Plate Coroutine\r\n        this.swimCoroutine
+    = null;\r\n        this.recentPlate = null;\r\n        // Swimming Gravity\r\n       
+    this.defaultGravity = 50;\r\n        this.waterGravity = 1.5;\r\n        this.waterJumpower
+    = -10.25;\r\n        // Variable for TELEPORT STATE\r\n        this.teleportingTime
+    = 0.1;\r\n        this.timeCount = 0.0;\r\n        this.wasNotTeleport = false;\r\n       
+    this.dest = null;\r\n        this.isSeated = false;\r\n    }\r\n    get PlayerState()
+    {\r\n        return this.playerState;\r\n    }\r\n    set PlayerState(value)
+    {\r\n        this.playerState = value;\r\n    }\r\n    get SwimmingRatio() {\r\n       
+    return this.swimmingRatio;\r\n    }\r\n    set SwimmingRatio(value) {\r\n       
+    this.swimmingRatio = value;\r\n    }\r\n    get IsSeated() {\r\n        return
+    this.isSeated;\r\n    }\r\n    set IsSeated(value) {\r\n        this.isSeated
+    = value;\r\n    }\r\n    Awake() {\r\n        PlayerController.InstanceMap.set(this.gameObject,
+    this);\r\n    }\r\n    Start() {\r\n        this.player = ZEPETO_Character_Controller_1.ZepetoPlayers.instance.GetPlayer(this.name);\r\n       
+    this.cc = this.gameObject.GetComponent($typeof(UnityEngine_1.CharacterController));\r\n       
+    this.myAnim = ZEPETO_Character_Controller_1.ZepetoPlayers.instance.GetPlayer(this.name).character.ZepetoAnimator;\r\n       
+    this.animRotate = this.gameObject.GetComponentsInChildren($typeof(UnityEngine_1.Transform))[1];\r\n   
+    }\r\n    Update() {\r\n        switch (this.playerState) {\r\n            case
+    PLAYERSTATE.WALK:\r\n                this.UpdateWalk();\r\n                break;\r\n           
+    case PLAYERSTATE.SWIM:\r\n                this.UpdateSwim();\r\n               
+    break;\r\n            case PLAYERSTATE.TELEPORT:\r\n                this.UpdateTeleport();\r\n               
+    break;\r\n            case PLAYERSTATE.SIT:\r\n                this.UpdateSit();\r\n               
+    break;\r\n        }\r\n    }\r\n    UpdateWalk() {\r\n        if (this.isSwimLayer
+    == true) {\r\n            if (this.recentPlate != null) {\r\n               
+    PlatePool_1.default.Instance.ReturnPlate(this.recentPlate);\r\n               
+    this.recentPlate = null;\r\n            }\r\n            this.myAnim.SetLayerWeight(1,
+    0);\r\n            this.animRotate.localRotation = UnityEngine_1.Quaternion.identity;\r\n           
+    this.isSwimLayer = false;\r\n        }\r\n        this.player.character.additionalJumpPower
+    = 0;\r\n        this.player.character.MotionV2.Gravity = this.defaultGravity;\r\n   
+    }\r\n    UpdateSwim() {\r\n        if (this.isSwimLayer == true) {\r\n           
+    if (this.wasNotTeleport == true) {\r\n                this.ResetInvisiblePlate();\r\n               
+    this.wasNotTeleport = false;\r\n            }\r\n        }\r\n        else {\r\n           
+    this.myAnim.SetLayerWeight(1, 1);\r\n            this.ResetInvisiblePlate();\r\n           
+    this.isSwimLayer = true;\r\n        }\r\n        this.player.character.additionalJumpPower
+    = this.waterJumpower;\r\n        this.player.character.MotionV2.Gravity = this.waterGravity;\r\n       
+    this.SwimAnimation();\r\n    }\r\n    ResetInvisiblePlate() {\r\n        if (this.recentPlate
+    != null) {\r\n            PlatePool_1.default.Instance.ReturnPlate(this.recentPlate);\r\n           
+    this.recentPlate = null;\r\n        }\r\n        if (this.swimCoroutine != null)
+    {\r\n            this.StopCoroutine(this.swimCoroutine);\r\n        }\r\n       
+    this.swimCoroutine = this.StartCoroutine(this.CoInvisiblePlate());\r\n    }\r\n   
+    *CoInvisiblePlate() {\r\n        while (this.playerState == PLAYERSTATE.SWIM)
+    {\r\n            this.recentPlate = PlatePool_1.default.Instance.GetPlate();\r\n           
+    if (this.cc.velocity.y < 0) {\r\n                this.recentPlate.transform.position
+    = this.transform.position;\r\n                yield null;\r\n            }\r\n           
+    PlatePool_1.default.Instance.ReturnPlate(this.recentPlate);\r\n            yield
+    null;\r\n        }\r\n    }\r\n    SwimAnimation() {\r\n        // Set rotation
+    about upward movement\r\n        if (this.cc.velocity.y > 2.5) {\r\n           
+    this.animRotate.localRotation = UnityEngine_1.Quaternion.Lerp(UnityEngine_1.Quaternion.identity,
+    this.swimUpRotation, UnityEngine_1.Time.fixedDeltaTime * 30);\r\n        }\r\n       
+    else {\r\n            this.animRotate.localRotation = UnityEngine_1.Quaternion.Lerp(this.animRotate.localRotation,
+    UnityEngine_1.Quaternion.identity, UnityEngine_1.Time.fixedDeltaTime * 2);\r\n       
+    }\r\n        // Set Animation about movement\r\n        if (this.cc.velocity.magnitude
+    > 2) {\r\n            this.swimmingRatio = UnityEngine_1.Mathf.Lerp(this.swimmingRatio,
+    1, 10 * UnityEngine_1.Time.fixedDeltaTime);\r\n        }\r\n        else {\r\n           
+    this.swimmingRatio = UnityEngine_1.Mathf.Lerp(this.swimmingRatio, 0, 10 * UnityEngine_1.Time.fixedDeltaTime);\r\n       
+    }\r\n        this.myAnim.SetFloat(\"swimmingRatio\", this.swimmingRatio);\r\n   
+    }\r\n    OnTriggerStay(other) {\r\n        if (this.playerState == PLAYERSTATE.TELEPORT
+    || this.playerState == PLAYERSTATE.SWIM || other.tag != \"SwimmingArea\")\r\n           
+    return;\r\n        this.playerState = PLAYERSTATE.SWIM;\r\n    }\r\n    OnTriggerExit(other)
+    {\r\n        if (this.playerState == PLAYERSTATE.TELEPORT || this.playerState
+    == PLAYERSTATE.WALK || other.tag != \"SwimmingArea\")\r\n            return;\r\n       
+    this.playerState = PLAYERSTATE.WALK;\r\n        this.wasNotTeleport = true;\r\n   
+    }\r\n    UpdateTeleport() {\r\n        if (this.dest != null) {\r\n           
+    for (let i = 0; i < 6; i++) {\r\n                this.transform.position = this.dest;\r\n           
+    }\r\n        }\r\n        this.timeCount += UnityEngine_1.Time.fixedDeltaTime;\r\n       
+    if (this.timeCount < this.teleportingTime) {\r\n            return;\r\n       
+    }\r\n        this.timeCount = 0.0;\r\n        this.playerState = PLAYERSTATE.WALK;\r\n   
+    }\r\n    UpdateSit() {\r\n        // Show StandUp UI\r\n    }\r\n}\r\nexports.default
+    = PlayerController;\r\nPlayerController.InstanceMap = new Map();\r\nPlayerController.PLAYERSTATE
+    = PLAYERSTATE;\r\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiUGxheWVyQ29udHJvbGxlci5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIlBsYXllckNvbnRyb2xsZXIudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7QUFBQSxpREFBcUQ7QUFDckQsNkVBQTBFO0FBQzFFLDZDQUEwSTtBQUMxSSwyQ0FBb0M7QUFFcEMsSUFBSyxXQUtKO0FBTEQsV0FBSyxXQUFXO0lBQ1osNkNBQUksQ0FBQTtJQUNKLDZDQUFRLENBQUE7SUFDUixxREFBUSxDQUFBO0lBQ1IsMkNBQUcsQ0FBQTtBQUNQLENBQUMsRUFMSSxXQUFXLEtBQVgsV0FBVyxRQUtmO0FBRUQsTUFBcUIsZ0JBQWlCLFNBQVEscUNBQXFCO0lBQW5FOztRQUlZLGdCQUFXLEdBQWdCLFdBQVcsQ0FBQyxJQUFJLENBQUM7UUFPNUMsV0FBTSxHQUFpQixJQUFJLENBQUM7UUFHcEMsMkJBQTJCO1FBQzNCLHFCQUFxQjtRQUNiLE9BQUUsR0FBd0IsSUFBSSxDQUFDO1FBQy9CLFdBQU0sR0FBYSxJQUFJLENBQUM7UUFDeEIsZ0JBQVcsR0FBUyxLQUFLLENBQUM7UUFDMUIsa0JBQWEsR0FBVSxHQUFHLENBQUM7UUFPM0IsZUFBVSxHQUFjLElBQUksQ0FBQztRQUM3QixtQkFBYyxHQUFlLHdCQUFVLENBQUMsS0FBSyxDQUFDLENBQUMsR0FBRyxFQUFFLENBQUMsRUFBRSxDQUFDLENBQUMsQ0FBQztRQUNsRSw0QkFBNEI7UUFDcEIsa0JBQWEsR0FBYyxJQUFJLENBQUM7UUFDaEMsZ0JBQVcsR0FBZSxJQUFJLENBQUM7UUFDdkMsbUJBQW1CO1FBQ1gsbUJBQWMsR0FBVyxFQUFFLENBQUM7UUFDNUIsaUJBQVksR0FBVyxHQUFHLENBQUM7UUFDM0Isa0JBQWEsR0FBVyxDQUFDLEtBQUssQ0FBQztRQUd2Qyw4QkFBOEI7UUFDdEIsb0JBQWUsR0FBVSxHQUFHLENBQUM7UUFDN0IsY0FBUyxHQUFVLEdBQUcsQ0FBQztRQUN2QixtQkFBYyxHQUFTLEtBQUssQ0FBQztRQUM5QixT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","assetPath":"Assets/03.Scripts/PlayerController.ts","manifest":{"properties":[{"assembly":"UnityEngine.CoreModule","name":"dest","type":"UnityEngine.Vector3","isArray":false,"initValue":[],"enumKeys":[],"enumValues":[],"attributes":[]}],"name":"PlayerController","description":""},"isCompiled":true}'
+  typescriptHash: 2822539ba99df551a90a8c1b2ecbf531

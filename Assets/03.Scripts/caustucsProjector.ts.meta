@@ -1,0 +1,34 @@
+fileFormatVersion: 2
+guid: 7d04a28aa53a93c46b62545841cba457
+importerOverride: ZEPETO.Script.Compiler:ZEPETO.Script:TypescriptAssetImporter
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: -1123457745, guid: 54cf806323ffe4418a4ce4cc63fe6b9d, type: 3}
+  isAssemblyDeclarations: 0
+  assembly: 
+  generateAllTypes: 1
+  types: []
+  generateWrapper: 0
+  overrideWrapperTypes: 0
+  wrapperTypes: []
+  WrapperFilters: []
+  wrapperOutputDirectory: Generated
+  compiledResult: '{"source":"\"use strict\";\r\nObject.defineProperty(exports, \"__esModule\",
+    { value: true });\r\nconst ZEPETO_Script_1 = require(\"ZEPETO.Script\");\r\nconst
+    UnityEngine_1 = require(\"UnityEngine\");\r\nclass caustucsProjector extends
+    ZEPETO_Script_1.ZepetoScriptBehaviour {\r\n    constructor() {\r\n        super(...arguments);\r\n       
+    this.framePerSecond = 30;\r\n        this.causticsTex = [];\r\n        this.index
+    = 0;\r\n        this.cycle = -1;\r\n        this.timeCount = 0.05;\r\n    }\r\n   
+    Start() {\r\n        this.pr = this.GetComponent($typeof(UnityEngine_1.Projector));\r\n   
+    }\r\n    Update() {\r\n        this.timeCount += UnityEngine_1.Time.deltaTime;\r\n       
+    if (this.timeCount < 0.05) {\r\n            return;\r\n        }\r\n        this.timeCount
+    = 0.0;\r\n        if (this.index >= this.causticsTex.length - 1 || this.index
+    <= 0) {\r\n            this.cycle *= -1;\r\n        }\r\n        this.index +=
+    this.cycle * 1;\r\n        this.pr.material.SetTexture(\"_MainTex\", this.causticsTex[this.index]);\r\n   
+    }\r\n}\r\nexports.default = caustucsProjector;\r\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY2F1c3R1Y3NQcm9qZWN0b3IuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJjYXVzdHVjc1Byb2plY3Rvci50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOztBQUFBLGlEQUFxRDtBQUNyRCw2Q0FBdUQ7QUFFdkQsTUFBcUIsaUJBQWtCLFNBQVEscUNBQXFCO0lBQXBFOztRQUVXLG1CQUFjLEdBQVMsRUFBRSxDQUFDO1FBQzFCLGdCQUFXLEdBQWUsRUFBRSxDQUFDO1FBRTVCLFVBQUssR0FBUSxDQUFDLENBQUM7UUFDZixVQUFLLEdBQVEsQ0FBQyxDQUFDLENBQUM7UUFDaEIsY0FBUyxHQUFVLElBQUksQ0FBQztJQW1CcEMsQ0FBQztJQWxCVyxLQUFLO1FBQ1QsSUFBSSxDQUFDLEVBQUUsR0FBRyxJQUFJLENBQUMsWUFBWSxTQUFDLHVCQUFTLEVBQUcsQ0FBQztJQUM3QyxDQUFDO0lBRU8sTUFBTTtRQUNWLElBQUksQ0FBQyxTQUFTLElBQUksa0JBQUksQ0FBQyxTQUFTLENBQUM7UUFFakMsSUFBSSxJQUFJLENBQUMsU0FBUyxHQUFHLElBQUksRUFBRTtZQUN2QixPQUFPO1NBQ1Y7UUFDRCxJQUFJLENBQUMsU0FBUyxHQUFHLEdBQUcsQ0FBQztRQUVyQixJQUFJLElBQUksQ0FBQyxLQUFLLElBQUksSUFBSSxDQUFDLFdBQVcsQ0FBQyxNQUFNLEdBQUcsQ0FBQyxJQUFJLElBQUksQ0FBQyxLQUFLLElBQUksQ0FBQyxFQUFFO1lBQzlELElBQUksQ0FBQyxLQUFLLElBQUksQ0FBQyxDQUFDLENBQUM7U0FDcEI7UUFDRCxJQUFJLENBQUMsS0FBSyxJQUFJLElBQUksQ0FBQyxLQUFLLEdBQUcsQ0FBQyxDQUFDO1FBQzdCLElBQUksQ0FBQyxFQUFFLENBQUMsUUFBUSxDQUFDLFVBQVUsQ0FBQyxVQUFVLEVBQUUsSUFBSSxDQUFDLFdBQVcsQ0FBQyxJQUFJLENBQUMsS0FBSyxDQUFDLENBQUMsQ0FBQztJQUMxRSxDQUFDO0NBQ0o7QUExQkQsb0NBMEJDIn0=","assetPath":"Assets/03.Scripts/caustucsProjector.ts","manifest":{"properties":[{"assembly":"UnityEngine.CoreModule","name":"pr","type":"UnityEngine.Projector","isArray":false,"initValue":[],"enumKeys":[],"enumValues":[],"attributes":[]},{"assembly":"mscorlib","name":"framePerSecond","type":"System.Int32","isArray":false,"initValue":["30"],"enumKeys":[],"enumValues":[],"attributes":[]},{"assembly":"UnityEngine.CoreModule","name":"causticsTex","type":"UnityEngine.Texture[]","isArray":true,"initValue":[],"enumKeys":[],"enumValues":[],"attributes":[]}],"name":"caustucsProjector","description":""},"isCompiled":true}'
+  typescriptHash: 8878fa5ea59dffc717da4a5deb918ff4

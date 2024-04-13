@@ -1,0 +1,51 @@
+fileFormatVersion: 2
+guid: 6927490647317094ab001ae676a5aea4
+importerOverride: ZEPETO.Script.Compiler:ZEPETO.Script:TypescriptAssetImporter
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: -1123457745, guid: 54cf806323ffe4418a4ce4cc63fe6b9d, type: 3}
+  isAssemblyDeclarations: 0
+  assembly: 
+  generateAllTypes: 1
+  types: []
+  generateWrapper: 0
+  overrideWrapperTypes: 0
+  wrapperTypes: []
+  WrapperFilters: []
+  wrapperOutputDirectory: Generated
+  compiledResult: "{\"source\":\"\\\"use strict\\\";\\r\\nObject.defineProperty(exports,
+    \\\"__esModule\\\", { value: true });\\r\\nconst ZEPETO_Script_1 = require(\\\"ZEPETO.Script\\\");\\r\\nconst
+    ZEPETO_Character_Controller_1 = require(\\\"ZEPETO.Character.Controller\\\");\\r\\nconst
+    UnityEngine_1 = require(\\\"UnityEngine\\\");\\r\\nclass NoticeBoard extends
+    ZEPETO_Script_1.ZepetoScriptBehaviour {\\r\\n    constructor() {\\r\\n       
+    super(...arguments);\\r\\n        this.pamphlet = null;\\r\\n        this.detailCanvas
+    = null;\\r\\n        this.button = null;\\r\\n        this.camera = null;\\r\\n       
+    this.isDetail = false;\\r\\n        this.go = null;\\r\\n        //(\uCD9C\uCC98:
+    https://github.com/naverz/zepeto-studio-kor/discussions/814#discussioncomment-2832580)\\r\\n   
+    }\\r\\n    Start() {\\r\\n        this.camera = UnityEngine_1.GameObject.FindObjectOfType($typeof(UnityEngine_1.Camera));\\r\\n       
+    this.detailCanvas.worldCamera = this.camera;\\r\\n        this.button.onClick.AddListener(()
+    => { this.OnClickDetail(); });\\r\\n        this.button.gameObject.SetActive(false);\\r\\n   
+    }\\r\\n    Update() {\\r\\n        if (this.IsRealNull(this.go) == false)\\r\\n           
+    return;\\r\\n        this.button.transform.rotation = this.camera.transform.rotation;\\r\\n       
+    this.isDetail = false;\\r\\n    }\\r\\n    OnClickDetail() {\\r\\n        this.isDetail
+    = true;\\r\\n        this.button.gameObject.SetActive(false);\\r\\n        if
+    (this.IsRealNull(this.go) == false) {\\r\\n            return;\\r\\n        }\\r\\n       
+    this.go = UnityEngine_1.Object.Instantiate(this.pamphlet);\\r\\n    }\\r\\n   
+    OnTriggerStay(other) {\\r\\n        if (this.isDetail || ZEPETO_Character_Controller_1.ZepetoPlayers.instance.LocalPlayer
+    == null || other.name != ZEPETO_Character_Controller_1.ZepetoPlayers.instance.LocalPlayer.zepetoPlayer.character.name
+    || this.button.gameObject.activeSelf)\\r\\n            return;\\r\\n        this.button.gameObject.SetActive(true);\\r\\n   
+    }\\r\\n    OnTriggerExit(other) {\\r\\n        if (ZEPETO_Character_Controller_1.ZepetoPlayers.instance.LocalPlayer
+    == null || other.name != ZEPETO_Character_Controller_1.ZepetoPlayers.instance.LocalPlayer.zepetoPlayer.character.name
+    || !this.button.gameObject.activeSelf)\\r\\n            return;\\r\\n       
+    this.button.gameObject.SetActive(false);\\r\\n    }\\r\\n    // GameObject\uAC00
+    \uC9C4\uC9DC null\uC778\uC9C0\uB97C \uAC80\uC0AC\uD55C\uB2E4...\\r\\n    IsRealNull(value)
+    {\\r\\n        if (!value)\\r\\n            return true;\\r\\n        const valueString
+    = value.ToString();\\r\\n        return valueString === \\\"null\\\" || valueString
+    === \\\"undefined\\\";\\r\\n    }\\r\\n}\\r\\nexports.default = NoticeBoard;\\r\\n//#
+    sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiTm90aWNlQm9hcmQuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJOb3RpY2VCb2FyZC50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOztBQUFBLGlEQUFxRDtBQUNyRCw2RUFBNEQ7QUFDNUQsNkNBQTBFO0FBRzFFLE1BQXFCLFdBQVksU0FBUSxxQ0FBcUI7SUFBOUQ7O1FBQ1csYUFBUSxHQUFlLElBQUksQ0FBQztRQUczQixpQkFBWSxHQUFXLElBQUksQ0FBQztRQUc1QixXQUFNLEdBQVcsSUFBSSxDQUFDO1FBQ3RCLFdBQU0sR0FBVyxJQUFJLENBQUM7UUFDdEIsYUFBUSxHQUFTLEtBQUssQ0FBQztRQUV2QixPQUFFLEdBQWUsSUFBSSxDQUFDO1FBaUQ5Qiw2RkFBNkY7SUFDakcsQ0FBQztJQWhEVyxLQUFLO1FBQ1QsSUFBSSxDQUFDLE1BQU0sR0FBRyx3QkFBVSxDQUFDLGdCQUFnQixTQUFDLG9CQUFNLEVBQUcsQ0FBQztRQUNwRCxJQUFJLENBQUMsWUFBWSxDQUFDLFdBQVcsR0FBRyxJQUFJLENBQUMsTUFBTSxDQUFDO1FBQzVDLElBQUksQ0FBQyxNQUFNLENBQUMsT0FBTyxDQUFDLFdBQVcsQ0FBQyxHQUFHLEVBQUUsR0FBRyxJQUFJLENBQUMsYUFBYSxFQUFFLENBQUMsQ0FBQyxDQUFDLENBQUMsQ0FBQztRQUNqRSxJQUFJLENBQUMsTUFBTSxDQUFDLFVBQVUsQ0FBQyxTQUFTLENBQUMsS0FBSyxDQUFDLENBQUM7SUFDNUMsQ0FBQztJQUVPLE1BQU07UUFDVixJQUFJLElBQUksQ0FBQyxVQUFVLENBQUMsSUFBSSxDQUFDLEVBQUUsQ0FBQyxJQUFJLEtBQUs7WUFDakMsT0FBTztRQUVYLElBQUksQ0FBQyxNQUFNLENBQUMsU0FBUyxDQUFDLFFBQVEsR0FBRyxJQUFJLENBQUMsTUFBTSxDQUFDLFNBQVMsQ0FBQyxRQUFRLENBQUM7UUFDaEUsSUFBSSxDQUFDLFFBQVEsR0FBRyxLQUFLLENBQUM7SUFDMUIsQ0FBQztJQUVPLGFBQWE7UUFDakIsSUFBSSxDQUFDLFFBQVEsR0FBRyxJQUFJLENBQUM7UUFDckIsSUFBSSxDQUFDLE1BQU0sQ0FBQyxVQUFVLENBQUMsU0FBUyxDQUFDLEtBQUssQ0FBQyxDQUFDO1FBRXhDLElBQUksSUFBSSxDQUFDLFVBQVUsQ0FBQyxJQUFJLENBQUMsRUFBRSxDQUFDLElBQUksS0FBSyxFQUFFO1lBQ25DLE9BQU87U0FDVjtRQUVELElBQUksQ0FBQyxFQUFFLEdBQUcsb0JBQU0sQ0FBQyxXQUFXLENBQUMsSUFBSSxDQUFDLFFBQVEsQ0FBZSxDQUFDO0lBQzlELENBQUM7SUFFTyxhQUFhLENBQUMsS0FBZTtRQUNqQyxJQUFJLElBQUksQ0FBQyxRQUFRLElBQUksMkNBQWEsQ0FBQyxRQUFRLENBQUMsV0FBVyxJQUFJLElBQUksSUFBSSxLQUFLLENBQUMsSUFBSSxJQUFJLDJDQUFhLENBQUMsUUFBUSxDQUFDLFdBQVcsQ0FBQyxZQUFZLENBQUMsU0FBUyxDQUFDLElBQUksSUFBSSxJQUFJLENBQUMsTUFBTSxDQUFDLFVBQVUsQ0FBQyxVQUFVO1lBQ2hMLE9BQU87UUFFWCxJQUFJLENBQUMsTUFBTSxDQUFDLFVBQVUsQ0FBQyxTQUFTLENBQUMsSUFBSSxDQUFDLENBQUM7SUFDM0MsQ0FBQztJQUVPLGFBQWEsQ0FBQyxLQUFlO1FBQ2pDLElBQUksMkNBQWEsQ0FBQyxRQUFRLENBQUMsV0FBVyxJQUFJLElBQUksSUFBSSxLQUFLLENBQUMsSUFBSSxJQUFJLDJDQUFhLENBQUMsUUFBUSxDQUFDLFdBQVcsQ0FBQyxZQUFZLENBQUMsU0FBUyxDQUFDLElBQUksSUFBSSxDQUFDLElBQUksQ0FBQyxNQUFNLENBQUMsVUFBVSxDQUFDLFVBQVU7WUFDaEssT0FBTztRQUVYLElBQUksQ0FBQyxNQUFNLENBQUMsVUFBVSxDQUFDLFNBQVMsQ0FBQyxLQUFLLENBQUMsQ0FBQztJQUM1QyxDQUFDO0lBRUQsaUNBQWlDO0lBQ3pCLFVBQVUsQ0FBQyxLQUFpQjtRQUNoQyxJQUFHLENBQUMsS0FBSztZQUFFLE9BQU8sSUFBSSxDQUFDO1FBRXZCLE1BQU0sV0FBVyxHQUFHLEtBQUssQ0FBQyxRQUFRLEVBQUUsQ0FBQztRQUNyQyxPQUFPLFdBQVcsS0FBSyxNQUFNLElBQUksV0FBVyxLQUFLLFdBQVcsQ0FBQztJQUNqRSxDQUFDO0NBRUo7QUE3REQsOEJBNkRDIn0=\",\"assetPath\":\"Assets/03.Scripts/NoticeBoard.ts\",\"manifest\":{\"properties\":[{\"assembly\":\"UnityEngine.CoreModule\",\"name\":\"pamphlet\",\"type\":\"UnityEngine.GameObject\",\"isArray\":false,\"initValue\":[],\"enumKeys\":[],\"enumValues\":[],\"attributes\":[]},{\"assembly\":\"UnityEngine.UIModule\",\"name\":\"detailCanvas\",\"type\":\"UnityEngine.Canvas\",\"isArray\":false,\"initValue\":[],\"enumKeys\":[],\"enumValues\":[],\"attributes\":[{\"name\":\"SerializeField\",\"args\":[]}]},{\"assembly\":\"UnityEngine.UI\",\"name\":\"button\",\"type\":\"UnityEngine.UI.Button\",\"isArray\":false,\"initValue\":[],\"enumKeys\":[],\"enumValues\":[],\"attributes\":[{\"name\":\"SerializeField\",\"args\":[]}]}],\"name\":\"NoticeBoard\",\"description\":\"\"},\"isCompiled\":true}"
+  typescriptHash: 76570c9cdbf43eb05699f2057c15be5f

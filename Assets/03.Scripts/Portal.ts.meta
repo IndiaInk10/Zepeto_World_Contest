@@ -1,0 +1,35 @@
+fileFormatVersion: 2
+guid: 246e09760ebdc7044866bde80b0a74c7
+importerOverride: ZEPETO.Script.Compiler:ZEPETO.Script:TypescriptAssetImporter
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: -1123457745, guid: 54cf806323ffe4418a4ce4cc63fe6b9d, type: 3}
+  isAssemblyDeclarations: 0
+  assembly: 
+  generateAllTypes: 1
+  types: []
+  generateWrapper: 0
+  overrideWrapperTypes: 0
+  wrapperTypes: []
+  WrapperFilters: []
+  wrapperOutputDirectory: Generated
+  compiledResult: '{"source":"\"use strict\";\r\nObject.defineProperty(exports, \"__esModule\",
+    { value: true });\r\nconst ZEPETO_Script_1 = require(\"ZEPETO.Script\");\r\nconst
+    UnityEngine_1 = require(\"UnityEngine\");\r\nconst vop = require(\"./Vector3Operators\");\r\nconst
+    PlayerController_1 = require(\"./PlayerController\");\r\nclass Portal extends
+    ZEPETO_Script_1.ZepetoScriptBehaviour {\r\n    Start() {\r\n        this.teleportEffect
+    = UnityEngine_1.Resources.Load(\"PortalEffect\");\r\n    }\r\n    OnTriggerStay(other)
+    {\r\n        if (other.tag != \"Player\")\r\n            return;\r\n        let
+    playerController = PlayerController_1.default.InstanceMap.get(other.gameObject);\r\n       
+    if (playerController.PlayerState == PlayerController_1.default.PLAYERSTATE.TELEPORT)\r\n           
+    return;\r\n        playerController.PlayerState = PlayerController_1.default.PLAYERSTATE.TELEPORT;\r\n       
+    playerController.dest = this.destination.position;\r\n        let go = UnityEngine_1.Object.Instantiate(this.teleportEffect);\r\n       
+    go.transform.position = vop.Add(this.destination.position, go.transform.position);\r\n       
+    UnityEngine_1.Object.Destroy(go, 2);\r\n    }\r\n}\r\nexports.default = Portal;\r\n//#
+    sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiUG9ydGFsLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiUG9ydGFsLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7O0FBQUEsaURBQXFEO0FBQ3JELDZDQUFnRjtBQUNoRiwwQ0FBMEM7QUFDMUMseURBQWtEO0FBRWxELE1BQXFCLE1BQU8sU0FBUSxxQ0FBcUI7SUFJN0MsS0FBSztRQUNULElBQUksQ0FBQyxjQUFjLEdBQUcsdUJBQVMsQ0FBQyxJQUFJLENBQWEsY0FBYyxDQUFDLENBQUM7SUFDckUsQ0FBQztJQUVPLGFBQWEsQ0FBQyxLQUFlO1FBQ2pDLElBQUksS0FBSyxDQUFDLEdBQUcsSUFBSSxRQUFRO1lBQ3JCLE9BQU87UUFFWCxJQUFJLGdCQUFnQixHQUFHLDBCQUFnQixDQUFDLFdBQVcsQ0FBQyxHQUFHLENBQUMsS0FBSyxDQUFDLFVBQVUsQ0FBQyxDQUFDO1FBQzFFLElBQUksZ0JBQWdCLENBQUMsV0FBVyxJQUFJLDBCQUFnQixDQUFDLFdBQVcsQ0FBQyxRQUFRO1lBQ3JFLE9BQU87UUFFWCxnQkFBZ0IsQ0FBQyxXQUFXLEdBQUcsMEJBQWdCLENBQUMsV0FBVyxDQUFDLFFBQVEsQ0FBQztRQUNyRSxnQkFBZ0IsQ0FBQyxJQUFJLEdBQUcsSUFBSSxDQUFDLFdBQVcsQ0FBQyxRQUFRLENBQUM7UUFFbEQsSUFBSSxFQUFFLEdBQUcsb0JBQU0sQ0FBQyxXQUFXLENBQUMsSUFBSSxDQUFDLGNBQWMsQ0FBZSxDQUFDO1FBRS9ELEVBQUUsQ0FBQyxTQUFTLENBQUMsUUFBUSxHQUFHLEdBQUcsQ0FBQyxHQUFHLENBQUMsSUFBSSxDQUFDLFdBQVcsQ0FBQyxRQUFRLEVBQUUsRUFBRSxDQUFDLFNBQVMsQ0FBQyxRQUFRLENBQUMsQ0FBQztRQUNsRixvQkFBTSxDQUFDLE9BQU8sQ0FBQyxFQUFFLEVBQUUsQ0FBQyxDQUFDLENBQUM7SUFDMUIsQ0FBQztDQUNKO0FBeEJELHlCQXdCQyJ9","assetPath":"Assets/03.Scripts/Portal.ts","manifest":{"properties":[{"assembly":"UnityEngine.CoreModule","name":"destination","type":"UnityEngine.Transform","isArray":false,"initValue":[],"enumKeys":[],"enumValues":[],"attributes":[]}],"name":"Portal","description":""},"isCompiled":true}'
+  typescriptHash: a0e13f4b38c4c6b29e98e30c5423e995

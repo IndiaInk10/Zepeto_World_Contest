@@ -1,0 +1,30 @@
+fileFormatVersion: 2
+guid: 8cdd7ea57f4e3d34d94e4257fb1d8d5b
+importerOverride: ZEPETO.Script.Compiler:ZEPETO.Script:TypescriptAssetImporter
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: -1123457745, guid: 54cf806323ffe4418a4ce4cc63fe6b9d, type: 3}
+  isAssemblyDeclarations: 0
+  assembly: 
+  generateAllTypes: 1
+  types: []
+  generateWrapper: 0
+  overrideWrapperTypes: 0
+  wrapperTypes: []
+  WrapperFilters: []
+  wrapperOutputDirectory: Generated
+  compiledResult: '{"source":"\"use strict\";\r\nObject.defineProperty(exports, \"__esModule\",
+    { value: true });\r\nexports.Multi = exports.Sub = exports.Add = void 0;\r\nconst
+    UnityEngine_1 = require(\"UnityEngine\");\r\nfunction Add(vector1, vector2) {\r\n   
+    return new UnityEngine_1.Vector3(vector1.x + vector2.x, vector1.y + vector2.y,
+    vector1.z + vector2.z);\r\n}\r\nexports.Add = Add;\r\nfunction Sub(vector1, vector2)
+    {\r\n    return new UnityEngine_1.Vector3(vector1.x - vector2.x, vector1.y -
+    vector2.y, vector1.z - vector2.z);\r\n}\r\nexports.Sub = Sub;\r\nfunction Multi(vector,
+    multiNum) {\r\n    return new UnityEngine_1.Vector3(vector.x * multiNum, vector.y
+    * multiNum, vector.z * multiNum);\r\n}\r\nexports.Multi = Multi;\r\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiVmVjdG9yM09wZXJhdG9ycy5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIlZlY3RvcjNPcGVyYXRvcnMudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7O0FBQUEsNkNBQW1DO0FBRW5DLFNBQWdCLEdBQUcsQ0FBQyxPQUFnQixFQUFFLE9BQWdCO0lBQ2xELE9BQU8sSUFBSSxxQkFBTyxDQUFDLE9BQU8sQ0FBQyxDQUFDLEdBQUcsT0FBTyxDQUFDLENBQUMsRUFBRSxPQUFPLENBQUMsQ0FBQyxHQUFHLE9BQU8sQ0FBQyxDQUFDLEVBQUUsT0FBTyxDQUFDLENBQUMsR0FBRyxPQUFPLENBQUMsQ0FBQyxDQUFDLENBQUM7QUFDNUYsQ0FBQztBQUZELGtCQUVDO0FBRUQsU0FBZ0IsR0FBRyxDQUFDLE9BQWdCLEVBQUUsT0FBZ0I7SUFDbEQsT0FBTyxJQUFJLHFCQUFPLENBQUMsT0FBTyxDQUFDLENBQUMsR0FBRyxPQUFPLENBQUMsQ0FBQyxFQUFFLE9BQU8sQ0FBQyxDQUFDLEdBQUcsT0FBTyxDQUFDLENBQUMsRUFBRSxPQUFPLENBQUMsQ0FBQyxHQUFHLE9BQU8sQ0FBQyxDQUFDLENBQUMsQ0FBQztBQUM1RixDQUFDO0FBRkQsa0JBRUM7QUFFRCxTQUFnQixLQUFLLENBQUMsTUFBZSxFQUFFLFFBQWU7SUFDbEQsT0FBTyxJQUFJLHFCQUFPLENBQUMsTUFBTSxDQUFDLENBQUMsR0FBRyxRQUFRLEVBQUUsTUFBTSxDQUFDLENBQUMsR0FBRyxRQUFRLEVBQUUsTUFBTSxDQUFDLENBQUMsR0FBRyxRQUFRLENBQUMsQ0FBQztBQUN0RixDQUFDO0FBRkQsc0JBRUMifQ==","assetPath":"Assets/03.Scripts/Vector3Operators.ts","manifest":{"properties":[],"name":"Vector3Operators","description":""},"isCompiled":true}'
+  typescriptHash: 83e97de48deeaf58ac704de81b75668b

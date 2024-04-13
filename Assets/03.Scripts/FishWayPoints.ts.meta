@@ -1,0 +1,53 @@
+fileFormatVersion: 2
+guid: e8aaed63febaf534290eddd760a5cf21
+importerOverride: ZEPETO.Script.Compiler:ZEPETO.Script:TypescriptAssetImporter
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: -1123457745, guid: 54cf806323ffe4418a4ce4cc63fe6b9d, type: 3}
+  isAssemblyDeclarations: 0
+  assembly: 
+  generateAllTypes: 1
+  types: []
+  generateWrapper: 0
+  overrideWrapperTypes: 0
+  wrapperTypes: []
+  WrapperFilters: []
+  wrapperOutputDirectory: Generated
+  compiledResult: '{"source":"\"use strict\";\r\nObject.defineProperty(exports, \"__esModule\",
+    { value: true });\r\nconst ZEPETO_Script_1 = require(\"ZEPETO.Script\");\r\nconst
+    UnityEngine_1 = require(\"UnityEngine\");\r\nconst vop = require(\"./Vector3Operators\");\r\nclass
+    FishWayPoints extends ZEPETO_Script_1.ZepetoScriptBehaviour {\r\n    constructor()
+    {\r\n        super(...arguments);\r\n        this.wayPointsGroup = null;\r\n       
+    this.wayPoints = [];\r\n        this.speed = 2.0;\r\n        this.isEnd = false;\r\n       
+    this.index = 0;\r\n        this.speedPerTime = 0.0;\r\n        this.relativePos
+    = UnityEngine_1.Vector3.zero;\r\n        this.targetRot = UnityEngine_1.Quaternion.identity;\r\n       
+    this.rotateWeight = 2;\r\n    }\r\n    Start() {\r\n        if (this.wayPointsGroup
+    != null) {\r\n            this.wayPoints = this.wayPointsGroup.GetComponentsInChildren($typeof(UnityEngine_1.Transform));\r\n           
+    // Parent''s Transform\r\n            this.wayPoints.splice(0, 1);\r\n       
+    }\r\n        if (UnityEngine_1.Mathf.RoundToInt(UnityEngine_1.Random.Range(0,
+    1)) == 1) {\r\n            this.isEnd = true;\r\n        }\r\n        else {\r\n           
+    this.isEnd = false;\r\n        }\r\n        this.index = UnityEngine_1.Mathf.RoundToInt(UnityEngine_1.Random.Range(0,
+    15));\r\n    }\r\n    Update() {\r\n        if (this.wayPointsGroup != null)
+    {\r\n            if (vop.Sub(this.transform.position, this.wayPoints[this.index].position).sqrMagnitude
+    < 0.25) {\r\n                if (this.index <= 5 || this.index >= 9) {\r\n                   
+    if (this.index <= 5) {\r\n                        this.isEnd = false;\r\n                   
+    }\r\n                    else {\r\n                        this.isEnd = true;\r\n                   
+    }\r\n                    this.index = UnityEngine_1.Mathf.RoundToInt(UnityEngine_1.Random.Range(6,
+    8));\r\n                }\r\n                else if (6 <= this.index && this.index
+    <= 8) {\r\n                    if (this.isEnd) {\r\n                        this.index
+    = UnityEngine_1.Mathf.RoundToInt(UnityEngine_1.Random.Range(0, 5));\r\n                   
+    }\r\n                    else {\r\n                        this.index = UnityEngine_1.Mathf.RoundToInt(UnityEngine_1.Random.Range(9,
+    15));\r\n                    }\r\n                }\r\n            }\r\n           
+    this.relativePos = vop.Sub(this.wayPoints[this.index].position, this.transform.position);\r\n           
+    this.targetRot = UnityEngine_1.Quaternion.LookRotation(this.relativePos);\r\n           
+    this.transform.rotation = UnityEngine_1.Quaternion.Lerp(this.transform.rotation,
+    this.targetRot, this.rotateWeight * UnityEngine_1.Time.fixedDeltaTime);\r\n           
+    this.speedPerTime = UnityEngine_1.Time.fixedDeltaTime * this.speed;\r\n           
+    this.transform.Translate(vop.Multi(UnityEngine_1.Vector3.forward, this.speedPerTime));\r\n       
+    }\r\n    }\r\n}\r\nexports.default = FishWayPoints;\r\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiRmlzaFdheVBvaW50cy5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIkZpc2hXYXlQb2ludHMudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7QUFBQSxpREFBcUQ7QUFDckQsNkNBQTZGO0FBQzdGLDBDQUF5QztBQUV6QyxNQUFxQixhQUFjLFNBQVEscUNBQXFCO0lBQWhFOztRQUNXLG1CQUFjLEdBQWUsSUFBSSxDQUFDO1FBQ2pDLGNBQVMsR0FBZ0IsRUFBRSxDQUFDO1FBRTVCLFVBQUssR0FBVSxHQUFHLENBQUM7UUFDbkIsVUFBSyxHQUFTLEtBQUssQ0FBQztRQUNwQixVQUFLLEdBQVEsQ0FBQyxDQUFDO1FBQ2YsaUJBQVksR0FBVSxHQUFHLENBQUM7UUFFMUIsZ0JBQVcsR0FBWSxxQkFBTyxDQUFDLElBQUksQ0FBQztRQUNwQyxjQUFTLEdBQWUsd0JBQVUsQ0FBQyxRQUFRLENBQUM7UUFDNUMsaUJBQVksR0FBVSxDQUFDLENBQUM7SUErQ3BDLENBQUM7SUE3Q1csS0FBSztRQUNULElBQUksSUFBSSxDQUFDLGNBQWMsSUFBSSxJQUFJLEVBQUU7WUFDN0IsSUFBSSxDQUFDLFNBQVMsR0FBRyxJQUFJLENBQUMsY0FBYyxDQUFDLHVCQUF1QixTQUFDLHVCQUFTLEVBQUcsQ0FBQztZQUMxRSxxQkFBcUI7WUFDckIsSUFBSSxDQUFDLFNBQVMsQ0FBQyxNQUFNLENBQUMsQ0FBQyxFQUFFLENBQUMsQ0FBQyxDQUFDO1NBQy9CO1FBRUQsSUFBSSxtQkFBSyxDQUFDLFVBQVUsQ0FBQyxvQkFBTSxDQUFDLEtBQUssQ0FBQyxDQUFDLEVBQUUsQ0FBQyxDQUFDLENBQUMsSUFBSSxDQUFDLEVBQUU7WUFDM0MsSUFBSSxDQUFDLEtBQUssR0FBRyxJQUFJLENBQUM7U0FDckI7YUFDSTtZQUNELElBQUksQ0FBQyxLQUFLLEdBQUcsS0FBSyxDQUFDO1NBQ3RCO1FBQ0QsSUFBSSxDQUFDLEtBQUssR0FBRyxtQkFBSyxDQUFDLFVBQVUsQ0FBQyxvQkFBTSxDQUFDLEtBQUssQ0FBQyxDQUFDLEVBQUUsRUFBRSxDQUFDLENBQUMsQ0FBQztJQUN2RCxDQUFDO0lBRU8sTUFBTTtRQUNWLElBQUksSUFBSSxDQUFDLGNBQWMsSUFBSSxJQUFJLEVBQUU7WUFDN0IsSUFBSSxHQUFHLENBQUMsR0FBRyxDQUFDLElBQUksQ0FBQyxTQUFTLENBQUMsUUFBUSxFQUFFLElBQUksQ0FBQyxTQUFTLENBQUMsSUFBSSxDQUFDLEtBQUssQ0FBQyxDQUFDLFFBQVEsQ0FBQyxDQUFDLFlBQVksR0FBRyxJQUFJLEVBQUU7Z0JBQzNGLElBQUksSUFBSSxDQUFDLEtBQUssSUFBSSxDQUFDLElBQUksSUFBSSxDQUFDLEtBQUssSUFBSSxDQUFDLEVBQUU7b0JBQ3BDLElBQUksSUFBSSxDQUFDLEtBQUssSUFBSSxDQUFDLEVBQUU7d0JBQ2pCLElBQUksQ0FBQyxLQUFLLEdBQUcsS0FBSyxDQUFDO3FCQUN0Qjt5QkFDSTt3QkFDRCxJQUFJLENBQUMsS0FBSyxHQUFHLElBQUksQ0FBQztxQkFDckI7b0JBQ0QsSUFBSSxDQUFDLEtBQUssR0FBRyxtQkFBSyxDQUFDLFVBQVUsQ0FBQyxvQkFBTSxDQUFDLEtBQUssQ0FBQyxDQUFDLEVBQUUsQ0FBQyxDQUFDLENBQUMsQ0FBQztpQkFDckQ7cUJBQ0ksSUFBSSxDQUFDLElBQUksSUFBSSxDQUFDLEtBQUssSUFBSSxJQUFJLENBQUMsS0FBSyxJQUFJLENBQUMsRUFBRTtvQkFDekMsSUFBSSxJQUFJLENBQUMsS0FBSyxFQUFFO3dCQUNaLElBQUksQ0FBQyxLQUFLLEdBQUcsbUJBQUssQ0FBQyxVQUFVLENBQUMsb0JBQU0sQ0FBQyxLQUFLLENBQUMsQ0FBQyxFQUFFLENBQUMsQ0FBQyxDQUFDLENBQUM7cUJBQ3JEO3lCQUNJO3dCQUNELElBQUksQ0FBQyxLQUFLLEdBQUcsbUJBQUssQ0FBQyxVQUFVLENBQUMsb0JBQU0sQ0FBQyxLQUFLLENBQUMsQ0FBQyxFQUFFLEVBQUUsQ0FBQyxDQUFDLENBQUM7cUJBQ3REO2lCQUNKO2FBQ0o7WUFDRCxJQUFJLENBQUMsV0FBVyxHQUFHLEdBQUcsQ0FBQyxHQUFHLENBQUMsSUFBSSxDQUFDLFNBQVMsQ0FBQyxJQUFJLENBQUMsS0FBSyxDQUFDLENBQUMsUUFBUSxFQUFFLElBQUksQ0FBQyxTQUFTLENBQUMsUUFBUSxDQUFDLENBQUM7WUFDekYsSUFBSSxDQUFDLFNBQVMsR0FBRyx3QkFBVSxDQUFDLFlBQVksQ0FBQyxJQUFJLENBQUMsV0FBVyxDQUFDLENBQUM7WUFDM0QsSUFBSSxDQUFDLFNBQVMsQ0FBQyxRQUFRLEdBQUcsd0JBQVUsQ0FBQyxJQUFJLENBQUMsSUFBSSxDQUFDLFNBQVMsQ0FBQyxRQUFRLEVBQUUsSUFBSSxDQUFDLFNBQVMsRUFBRSxJQUFJLENBQUMsWUFBWSxHQUFHLGtCQUFJLENBQUMsY0FBYyxDQUFDLENBQUM7WUFFNUgsSUFBSSxDQUFDLFlBQVksR0FBRyxrQkFBSSxDQUFDLGNBQWMsR0FBRyxJQUFJLENBQUMsS0FBSyxDQUFDO1lBQ3JELElBQUksQ0FBQyxTQUFTLENBQUMsU0FBUyxDQUFDLEdBQUcsQ0FBQyxLQUFLLENBQUMscUJBQU8sQ0FBQyxPQUFPLEVBQUUsSUFBSSxDQUFDLFlBQVksQ0FBQyxDQUFDLENBQUM7U0FDM0U7SUFDTCxDQUFDO0NBQ0o7QUExREQsZ0NBMERDIn0=","assetPath":"Assets/03.Scripts/FishWayPoints.ts","manifest":{"properties":[{"assembly":"UnityEngine.CoreModule","name":"wayPointsGroup","type":"UnityEngine.GameObject","isArray":false,"initValue":[],"enumKeys":[],"enumValues":[],"attributes":[]}],"name":"FishWayPoints","description":""},"isCompiled":true}'
+  typescriptHash: 03a51f1f46ebe8187ed4f1de445443f9

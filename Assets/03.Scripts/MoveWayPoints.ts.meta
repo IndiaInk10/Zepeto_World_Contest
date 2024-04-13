@@ -1,0 +1,43 @@
+fileFormatVersion: 2
+guid: c3d3b511fb3a4fe41b1c6c518d2e9e8b
+importerOverride: ZEPETO.Script.Compiler:ZEPETO.Script:TypescriptAssetImporter
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: -1123457745, guid: 54cf806323ffe4418a4ce4cc63fe6b9d, type: 3}
+  isAssemblyDeclarations: 0
+  assembly: 
+  generateAllTypes: 1
+  types: []
+  generateWrapper: 0
+  overrideWrapperTypes: 0
+  wrapperTypes: []
+  WrapperFilters: []
+  wrapperOutputDirectory: Generated
+  compiledResult: '{"source":"\"use strict\";\r\nObject.defineProperty(exports, \"__esModule\",
+    { value: true });\r\nconst ZEPETO_Script_1 = require(\"ZEPETO.Script\");\r\nconst
+    UnityEngine_1 = require(\"UnityEngine\");\r\nconst vop = require(\"./Vector3Operators\");\r\nclass
+    MoveWayPoints extends ZEPETO_Script_1.ZepetoScriptBehaviour {\r\n    constructor()
+    {\r\n        super(...arguments);\r\n        this.wayPointsGroup = null;\r\n       
+    this.wayPoints = [];\r\n        this.speed = 2.0;\r\n        this.index = 0;\r\n       
+    this.speedPerTime = 0.0;\r\n        this.relativePos = UnityEngine_1.Vector3.zero;\r\n       
+    this.targetRot = UnityEngine_1.Quaternion.identity;\r\n        this.rotateWeight
+    = 2;\r\n    }\r\n    Start() {\r\n        if (this.wayPointsGroup != null) {\r\n           
+    this.wayPoints = this.wayPointsGroup.GetComponentsInChildren($typeof(UnityEngine_1.Transform));\r\n           
+    // Parent''s Transform\r\n            this.wayPoints.splice(0, 1);\r\n       
+    }\r\n    }\r\n    FixedUpdate() {\r\n        if (this.wayPointsGroup != null)
+    {\r\n            if (vop.Sub(this.transform.position, this.wayPoints[this.index].position).sqrMagnitude
+    < 0.25) {\r\n                this.index++;\r\n                if (this.index
+    >= this.wayPoints.length) {\r\n                    this.index = 0;\r\n               
+    }\r\n            }\r\n            this.relativePos = vop.Sub(this.wayPoints[this.index].position,
+    this.transform.position);\r\n            this.targetRot = UnityEngine_1.Quaternion.LookRotation(this.relativePos);\r\n           
+    this.transform.rotation = UnityEngine_1.Quaternion.Lerp(this.transform.rotation,
+    this.targetRot, this.rotateWeight * UnityEngine_1.Time.fixedDeltaTime);\r\n           
+    this.speedPerTime = UnityEngine_1.Time.fixedDeltaTime * this.speed;\r\n           
+    this.transform.Translate(vop.Multi(UnityEngine_1.Vector3.forward, this.speedPerTime));\r\n       
+    }\r\n    }\r\n}\r\nexports.default = MoveWayPoints;\r\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiTW92ZVdheVBvaW50cy5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIk1vdmVXYXlQb2ludHMudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7QUFBQSxpREFBcUQ7QUFDckQsNkNBQThFO0FBQzlFLDBDQUF5QztBQUV6QyxNQUFxQixhQUFjLFNBQVEscUNBQXFCO0lBQWhFOztRQUNXLG1CQUFjLEdBQWUsSUFBSSxDQUFDO1FBQ2pDLGNBQVMsR0FBZ0IsRUFBRSxDQUFDO1FBRTVCLFVBQUssR0FBVSxHQUFHLENBQUM7UUFDbkIsVUFBSyxHQUFRLENBQUMsQ0FBQztRQUNmLGlCQUFZLEdBQVUsR0FBRyxDQUFDO1FBRTFCLGdCQUFXLEdBQVkscUJBQU8sQ0FBQyxJQUFJLENBQUM7UUFDcEMsY0FBUyxHQUFlLHdCQUFVLENBQUMsUUFBUSxDQUFDO1FBQzVDLGlCQUFZLEdBQVUsQ0FBQyxDQUFDO0lBMEJwQyxDQUFDO0lBeEJXLEtBQUs7UUFDVCxJQUFJLElBQUksQ0FBQyxjQUFjLElBQUksSUFBSSxFQUFFO1lBQzdCLElBQUksQ0FBQyxTQUFTLEdBQUcsSUFBSSxDQUFDLGNBQWMsQ0FBQyx1QkFBdUIsU0FBQyx1QkFBUyxFQUFHLENBQUM7WUFDMUUscUJBQXFCO1lBQ3JCLElBQUksQ0FBQyxTQUFTLENBQUMsTUFBTSxDQUFDLENBQUMsRUFBRSxDQUFDLENBQUMsQ0FBQztTQUMvQjtJQUNMLENBQUM7SUFFTyxXQUFXO1FBQ2YsSUFBSSxJQUFJLENBQUMsY0FBYyxJQUFJLElBQUksRUFBRTtZQUM3QixJQUFJLEdBQUcsQ0FBQyxHQUFHLENBQUMsSUFBSSxDQUFDLFNBQVMsQ0FBQyxRQUFRLEVBQUUsSUFBSSxDQUFDLFNBQVMsQ0FBQyxJQUFJLENBQUMsS0FBSyxDQUFDLENBQUMsUUFBUSxDQUFDLENBQUMsWUFBWSxHQUFHLElBQUksRUFBRTtnQkFDM0YsSUFBSSxDQUFDLEtBQUssRUFBRSxDQUFDO2dCQUNiLElBQUksSUFBSSxDQUFDLEtBQUssSUFBSSxJQUFJLENBQUMsU0FBUyxDQUFDLE1BQU0sRUFBRTtvQkFDckMsSUFBSSxDQUFDLEtBQUssR0FBRyxDQUFDLENBQUM7aUJBQ2xCO2FBQ0o7WUFDRCxJQUFJLENBQUMsV0FBVyxHQUFHLEdBQUcsQ0FBQyxHQUFHLENBQUMsSUFBSSxDQUFDLFNBQVMsQ0FBQyxJQUFJLENBQUMsS0FBSyxDQUFDLENBQUMsUUFBUSxFQUFFLElBQUksQ0FBQyxTQUFTLENBQUMsUUFBUSxDQUFDLENBQUM7WUFDekYsSUFBSSxDQUFDLFNBQVMsR0FBRyx3QkFBVSxDQUFDLFlBQVksQ0FBQyxJQUFJLENBQUMsV0FBVyxDQUFDLENBQUM7WUFDM0QsSUFBSSxDQUFDLFNBQVMsQ0FBQyxRQUFRLEdBQUcsd0JBQVUsQ0FBQyxJQUFJLENBQUMsSUFBSSxDQUFDLFNBQVMsQ0FBQyxRQUFRLEVBQUUsSUFBSSxDQUFDLFNBQVMsRUFBRSxJQUFJLENBQUMsWUFBWSxHQUFHLGtCQUFJLENBQUMsY0FBYyxDQUFDLENBQUM7WUFFNUgsSUFBSSxDQUFDLFlBQVksR0FBRyxrQkFBSSxDQUFDLGNBQWMsR0FBRyxJQUFJLENBQUMsS0FBSyxDQUFDO1lBQ3JELElBQUksQ0FBQyxTQUFTLENBQUMsU0FBUyxDQUFDLEdBQUcsQ0FBQyxLQUFLLENBQUMscUJBQU8sQ0FBQyxPQUFPLEVBQUUsSUFBSSxDQUFDLFlBQVksQ0FBQyxDQUFDLENBQUM7U0FDM0U7SUFDTCxDQUFDO0NBQ0o7QUFwQ0QsZ0NBb0NDIn0=","assetPath":"Assets/03.Scripts/MoveWayPoints.ts","manifest":{"properties":[{"assembly":"UnityEngine.CoreModule","name":"wayPointsGroup","type":"UnityEngine.GameObject","isArray":false,"initValue":[],"enumKeys":[],"enumValues":[],"attributes":[]}],"name":"MoveWayPoints","description":""},"isCompiled":true}'
+  typescriptHash: 17aea70bddbe9f72a2b3b72d921651ea

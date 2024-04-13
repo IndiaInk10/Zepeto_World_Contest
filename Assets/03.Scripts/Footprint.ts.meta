@@ -1,0 +1,41 @@
+fileFormatVersion: 2
+guid: 979a137b0e3088c4484c3a5409d7eb93
+importerOverride: ZEPETO.Script.Compiler:ZEPETO.Script:TypescriptAssetImporter
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: -1123457745, guid: 54cf806323ffe4418a4ce4cc63fe6b9d, type: 3}
+  isAssemblyDeclarations: 0
+  assembly: 
+  generateAllTypes: 1
+  types: []
+  generateWrapper: 0
+  overrideWrapperTypes: 0
+  wrapperTypes: []
+  WrapperFilters: []
+  wrapperOutputDirectory: Generated
+  compiledResult: '{"source":"\"use strict\";\r\nObject.defineProperty(exports, \"__esModule\",
+    { value: true });\r\nconst ZEPETO_Script_1 = require(\"ZEPETO.Script\");\r\nconst
+    UnityEngine_1 = require(\"UnityEngine\");\r\nconst vop = require(\"./Vector3Operators\");\r\nclass
+    Footprint extends ZEPETO_Script_1.ZepetoScriptBehaviour {\r\n    constructor()
+    {\r\n        super(...arguments);\r\n        this.isFootprint = false;\r\n       
+    this.timeCount = 0.1;\r\n    }\r\n    Awake() {\r\n        Footprint.InstanceMap.set(this.gameObject,
+    this);\r\n    }\r\n    Start() {\r\n        this.footprint = UnityEngine_1.Resources.Load(\"Footprint\");\r\n       
+    this.cc = this.transform.GetComponent($typeof(UnityEngine_1.CharacterController));\r\n   
+    }\r\n    SetFootprint(isFootprint) {\r\n        this.isFootprint = isFootprint;\r\n   
+    }\r\n    GetFootprint() {\r\n        return this.isFootprint;\r\n    }\r\n   
+    Update() {\r\n        if (this.isFootprint == false) {\r\n            return;\r\n       
+    }\r\n        this.timeCount += UnityEngine_1.Time.deltaTime;\r\n        if (this.timeCount
+    < 0.1) {\r\n            return;\r\n        }\r\n        this.timeCount = 0.0;\r\n       
+    if (this.cc.velocity.magnitude > 2) {\r\n            let go = UnityEngine_1.Object.Instantiate(this.footprint);\r\n           
+    go.transform.position = vop.Add(go.transform.position, this.SetFootprintPos());\r\n           
+    UnityEngine_1.Object.Destroy(go, 2);\r\n        }\r\n    }\r\n    SetFootprintPos()
+    {\r\n        let pos = new UnityEngine_1.Vector3(0, 0, 0);\r\n        pos.x =
+    this.transform.position.x;\r\n        pos.z = this.transform.position.z;\r\n       
+    return pos;\r\n    }\r\n}\r\nexports.default = Footprint;\r\nFootprint.InstanceMap
+    = new Map();\r\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiRm9vdHByaW50LmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiRm9vdHByaW50LnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7O0FBQUEsaURBQXFEO0FBQ3JELDZDQUErRjtBQUMvRiwwQ0FBeUM7QUFFekMsTUFBcUIsU0FBVSxTQUFRLHFDQUFxQjtJQUE1RDs7UUFLWSxnQkFBVyxHQUFTLEtBQUssQ0FBQztRQUMxQixjQUFTLEdBQVUsR0FBRyxDQUFDO0lBNENuQyxDQUFDO0lBMUNXLEtBQUs7UUFDVCxTQUFTLENBQUMsV0FBVyxDQUFDLEdBQUcsQ0FBQyxJQUFJLENBQUMsVUFBVSxFQUFFLElBQUksQ0FBQyxDQUFDO0lBQ3JELENBQUM7SUFFTyxLQUFLO1FBQ1QsSUFBSSxDQUFDLFNBQVMsR0FBRyx1QkFBUyxDQUFDLElBQUksQ0FBYSxXQUFXLENBQUMsQ0FBQztRQUN6RCxJQUFJLENBQUMsRUFBRSxHQUFHLElBQUksQ0FBQyxTQUFTLENBQUMsWUFBWSxTQUFDLGlDQUFtQixFQUFHLENBQUM7SUFDakUsQ0FBQztJQUVNLFlBQVksQ0FBQyxXQUFpQjtRQUNqQyxJQUFJLENBQUMsV0FBVyxHQUFHLFdBQVcsQ0FBQztJQUNuQyxDQUFDO0lBQ00sWUFBWTtRQUNmLE9BQU8sSUFBSSxDQUFDLFdBQVcsQ0FBQztJQUM1QixDQUFDO0lBRU8sTUFBTTtRQUNWLElBQUksSUFBSSxDQUFDLFdBQVcsSUFBSSxLQUFLLEVBQUU7WUFDM0IsT0FBTztTQUNWO1FBRUQsSUFBSSxDQUFDLFNBQVMsSUFBSSxrQkFBSSxDQUFDLFNBQVMsQ0FBQztRQUNqQyxJQUFJLElBQUksQ0FBQyxTQUFTLEdBQUcsR0FBRyxFQUFFO1lBQ3RCLE9BQU87U0FDVjtRQUVELElBQUksQ0FBQyxTQUFTLEdBQUcsR0FBRyxDQUFDO1FBQ3JCLElBQUksSUFBSSxDQUFDLEVBQUUsQ0FBQyxRQUFRLENBQUMsU0FBUyxHQUFHLENBQUMsRUFBRTtZQUNoQyxJQUFJLEVBQUUsR0FBRyxvQkFBTSxDQUFDLFdBQVcsQ0FBQyxJQUFJLENBQUMsU0FBUyxDQUFlLENBQUM7WUFDMUQsRUFBRSxDQUFDLFNBQVMsQ0FBQyxRQUFRLEdBQUcsR0FBRyxDQUFDLEdBQUcsQ0FBQyxFQUFFLENBQUMsU0FBUyxDQUFDLFFBQVEsRUFBRSxJQUFJLENBQUMsZUFBZSxFQUFFLENBQUMsQ0FBQztZQUMvRSxvQkFBTSxDQUFDLE9BQU8sQ0FBQyxFQUFFLEVBQUUsQ0FBQyxDQUFDLENBQUM7U0FDekI7SUFDTCxDQUFDO0lBRU8sZUFBZTtRQUNuQixJQUFJLEdBQUcsR0FBRyxJQUFJLHFCQUFPLENBQUMsQ0FBQyxFQUFFLENBQUMsRUFBRSxDQUFDLENBQUMsQ0FBQztRQUUvQixHQUFHLENBQUMsQ0FBQyxHQUFHLElBQUksQ0FBQyxTQUFTLENBQUMsUUFBUSxDQUFDLENBQUMsQ0FBQztRQUNsQyxHQUFHLENBQUMsQ0FBQyxHQUFHLElBQUksQ0FBQyxTQUFTLENBQUMsUUFBUSxDQUFDLENBQUMsQ0FBQztRQUVsQyxPQUFPLEdBQUcsQ0FBQztJQUNmLENBQUM7O0FBakRMLDRCQWtEQztBQWpEaUIscUJBQVcsR0FBK0IsSUFBSSxHQUFHLEVBQUUsQ0FBQyJ9","assetPath":"Assets/03.Scripts/Footprint.ts","manifest":{"properties":[],"name":"Footprint","description":""},"isCompiled":true}'
+  typescriptHash: c29f96b4c809f525bde343d496b9e03d

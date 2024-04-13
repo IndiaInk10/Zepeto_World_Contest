@@ -1,0 +1,164 @@
+[
+  {
+    "name": "@",
+    "scaleX": 0.9999502301216126,
+    "scaleY": 0.9999502301216126,
+    "scaleZ": 0.9999502301216126
+  },
+  {
+    "name": "hips_scale",
+    "positionZ": 0.017324892804026605,
+    "scaleY": 1.4021130800247193,
+    "scaleZ": 1.5774964094161988
+  },
+  {
+    "name": "pelvis_scale",
+    "positionZ": -0.01928367279469967,
+    "scaleX": 1.289255142211914,
+    "scaleY": 1.2010565996170045,
+    "scaleZ": 1.2412679195404053
+  },
+  {
+    "name": "upperLeg_L_scale",
+    "scaleY": 1.6433809995651246,
+    "scaleZ": 1.6433809995651246
+  },
+  {
+    "name": "lowerLeg_L_scale",
+    "scaleY": 1.5629583597183228,
+    "scaleZ": 1.5629583597183228
+  },
+  {
+    "name": "foot_L",
+    "scaleX": 0.9192262887954712,
+    "scaleY": 0.9192262887954712,
+    "scaleZ": 0.9192262887954712
+  },
+  {
+    "name": "lowerLegTwist_L_scale",
+    "scaleY": 1.4021130800247193,
+    "scaleZ": 1.4021130800247193
+  },
+  {
+    "name": "upperLegTwist_L_scale",
+    "scaleY": 1.5629583597183228,
+    "scaleZ": 1.5629583597183228
+  },
+  {
+    "name": "upperReg_R_scale",
+    "scaleY": 1.6433809995651246,
+    "scaleZ": 1.6433809995651246
+  },
+  {
+    "name": "lowerReg_R_scale",
+    "scaleY": 1.5629583597183228,
+    "scaleZ": 1.5629583597183228
+  },
+  {
+    "name": "foot_R",
+    "scaleX": 0.9192262887954712,
+    "scaleY": 0.9192262887954712,
+    "scaleZ": 0.9192262887954712
+  },
+  {
+    "name": "lowerRegTwist_R_scale",
+    "scaleY": 1.4021130800247193,
+    "scaleZ": 1.4021130800247193
+  },
+  {
+    "name": "upperRegTwist_R_scale",
+    "scaleY": 1.5629583597183228,
+    "scaleZ": 1.5629583597183228
+  },
+  {
+    "name": "chest_scale",
+    "positionZ": 0.011549928225576878,
+    "scaleY": 1.4021130800247193,
+    "scaleZ": 1.346497893333435
+  },
+  {
+    "name": "chestUpper_scale",
+    "positionZ": 0.016084523871541024,
+    "scaleY": 1.482535719871521,
+    "scaleZ": 1.482535719871521
+  },
+  {
+    "name": "head",
+    "scaleX": 0.8807344436645508,
+    "scaleY": 0.8807344436645508,
+    "scaleZ": 0.8807344436645508
+  },
+  {
+    "name": "neck_scale",
+    "scaleY": 1.2412679195404053,
+    "scaleZ": 1.2412679195404053
+  },
+  {
+    "name": "shoulder_L_scale",
+    "positionX": -0.004029788542538881,
+    "positionY": 0.008982080034911633
+  },
+  {
+    "name": "upperArm_L_scale",
+    "scaleY": 1.6982136964797974,
+    "scaleZ": 1.6982136964797974
+  },
+  {
+    "name": "lowerArm_L_scale",
+    "scaleY": 1.5585709810256959,
+    "scaleZ": 1.5585709810256959
+  },
+  {
+    "name": "hand_L",
+    "scaleX": 0.8799682855606079,
+    "scaleY": 0.8799682855606079,
+    "scaleZ": 0.8799682855606079
+  },
+  {
+    "name": "lowerArmTwist_L_scale",
+    "scaleY": 1.488749623298645,
+    "scaleZ": 1.488749623298645
+  },
+  {
+    "name": "upperArmTwist_L_scale",
+    "scaleY": 1.5585709810256959,
+    "scaleZ": 1.5585709810256959
+  },
+  {
+    "name": "shoulder_R_scale",
+    "positionX": 0.004029788542538881,
+    "positionY": -0.008982080034911633
+  },
+  {
+    "name": "upperArm_R_scale",
+    "scaleY": 1.6982136964797974,
+    "scaleZ": 1.6982136964797974
+  },
+  {
+    "name": "lowerArm_R_scale",
+    "scaleY": 1.6283923387527466,
+    "scaleZ": 1.6283923387527466
+  },
+  {
+    "name": "hand_R",
+    "scaleX": 0.8799682855606079,
+    "scaleY": 0.8799682855606079,
+    "scaleZ": 0.8799682855606079
+  },
+  {
+    "name": "lowerArmTwist_R_scale",
+    "scaleY": 1.488749623298645,
+    "scaleZ": 1.488749623298645
+  },
+  {
+    "name": "upperArmTwist_R_scale",
+    "scaleY": 1.6283923387527466,
+    "scaleZ": 1.6283923387527466
+  },
+  {
+    "name": "spine_scale",
+    "positionZ": 0.028874821960926057,
+    "scaleY": 1.8042261600494385,
+    "scaleZ": 1.461997151374817
+  }
+]

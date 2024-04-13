@@ -1,0 +1,57 @@
+fileFormatVersion: 2
+guid: aca54b80b4a3d064ca54ffb7f361236a
+importerOverride: ZEPETO.Script.Compiler:ZEPETO.Script:TypescriptAssetImporter
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: -1123457745, guid: 54cf806323ffe4418a4ce4cc63fe6b9d, type: 3}
+  isAssemblyDeclarations: 0
+  assembly: 
+  generateAllTypes: 1
+  types: []
+  generateWrapper: 0
+  overrideWrapperTypes: 0
+  wrapperTypes: []
+  WrapperFilters: []
+  wrapperOutputDirectory: Generated
+  compiledResult: '{"source":"\"use strict\";\r\nObject.defineProperty(exports, \"__esModule\",
+    { value: true });\r\nconst ZEPETO_Script_1 = require(\"ZEPETO.Script\");\r\nconst
+    ZEPETO_Character_Controller_1 = require(\"ZEPETO.Character.Controller\");\r\nconst
+    UnityEngine_1 = require(\"UnityEngine\");\r\nconst PlayerController_1 = require(\"./PlayerController\");\r\nclass
+    SitPlace extends ZEPETO_Script_1.ZepetoScriptBehaviour {\r\n    constructor()
+    {\r\n        super(...arguments);\r\n        this.sitPos = null;\r\n        this.sitAnim
+    = null;\r\n        this.sitCanvas = null;\r\n        this.buttons = null;\r\n       
+    this.camera = null;\r\n        this.isSit = false;\r\n        this.standPos =
+    null;\r\n    }\r\n    Start() {\r\n        this.camera = UnityEngine_1.GameObject.FindObjectOfType($typeof(UnityEngine_1.Camera));\r\n       
+    this.sitCanvas.worldCamera = this.camera;\r\n        this.buttons[0].onClick.AddListener(()
+    => { this.OnClickSit(); });\r\n        this.buttons[1].onClick.AddListener(()
+    => { this.OnClickStand(); });\r\n        this.buttons[0].gameObject.SetActive(false);\r\n       
+    this.buttons[1].gameObject.SetActive(false);\r\n        this.standPos = this.sitPos.TransformPoint(UnityEngine_1.Vector3.forward);\r\n   
+    }\r\n    Update() {\r\n        if (!this.buttons[0].gameObject.activeSelf)\r\n           
+    return;\r\n        if (PlayerController_1.default.InstanceMap.get(ZEPETO_Character_Controller_1.ZepetoPlayers.instance.LocalPlayer.zepetoPlayer.character.gameObject).PlayerState
+    == PlayerController_1.default.PLAYERSTATE.SIT) {\r\n            this.buttons[0].gameObject.SetActive(false);\r\n           
+    return;\r\n        }\r\n        this.buttons[0].transform.rotation = this.camera.transform.rotation;\r\n   
+    }\r\n    OnClickSit() {\r\n        this.buttons[0].gameObject.SetActive(false);\r\n       
+    this.buttons[1].gameObject.SetActive(true);\r\n        let localPlayer = ZEPETO_Character_Controller_1.ZepetoPlayers.instance.LocalPlayer.zepetoPlayer.character;\r\n       
+    PlayerController_1.default.InstanceMap.get(localPlayer.gameObject).PlayerState
+    = PlayerController_1.default.PLAYERSTATE.SIT;\r\n        for (let i = 0; i <
+    6; i++) {\r\n            localPlayer.transform.position = this.sitPos.position;\r\n           
+    localPlayer.transform.rotation = this.sitPos.rotation;\r\n        }\r\n       
+    localPlayer.SetGesture(this.sitAnim);\r\n    }\r\n    OnClickStand() {\r\n       
+    this.buttons[1].gameObject.SetActive(false);\r\n        this.buttons[0].gameObject.SetActive(true);\r\n       
+    let localPlayer = ZEPETO_Character_Controller_1.ZepetoPlayers.instance.LocalPlayer.zepetoPlayer.character;\r\n       
+    localPlayer.CancelGesture();\r\n        for (let i = 0; i < 6; i++) {\r\n           
+    localPlayer.transform.position = this.standPos;\r\n        }\r\n        PlayerController_1.default.InstanceMap.get(localPlayer.gameObject).PlayerState
+    = PlayerController_1.default.PLAYERSTATE.WALK;\r\n    }\r\n    OnTriggerStay(other)
+    {\r\n        if (PlayerController_1.default.InstanceMap.get(ZEPETO_Character_Controller_1.ZepetoPlayers.instance.LocalPlayer.zepetoPlayer.character.gameObject).PlayerState
+    == PlayerController_1.default.PLAYERSTATE.SIT || other.name != ZEPETO_Character_Controller_1.ZepetoPlayers.instance.LocalPlayer.zepetoPlayer.character.name
+    || this.buttons[0].gameObject.activeSelf)\r\n            return;\r\n        this.buttons[0].gameObject.SetActive(true);\r\n   
+    }\r\n    OnTriggerExit(other) {\r\n        if (other.name != ZEPETO_Character_Controller_1.ZepetoPlayers.instance.LocalPlayer.zepetoPlayer.character.name
+    || !this.buttons[0].gameObject.activeSelf)\r\n            return;\r\n       
+    this.buttons[0].gameObject.SetActive(false);\r\n    }\r\n}\r\nexports.default
+    = SitPlace;\r\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiU2l0UGxhY2UuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJTaXRQbGFjZS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOztBQUFBLGlEQUFxRDtBQUNyRCw2RUFBNEQ7QUFDNUQsNkNBQXNHO0FBRXRHLHlEQUFrRDtBQUVsRCxNQUFxQixRQUFTLFNBQVEscUNBQXFCO0lBQTNEOztRQUVZLFdBQU0sR0FBYyxJQUFJLENBQUM7UUFFekIsWUFBTyxHQUFrQixJQUFJLENBQUM7UUFFOUIsY0FBUyxHQUFXLElBQUksQ0FBQztRQUV6QixZQUFPLEdBQWEsSUFBSSxDQUFDO1FBQ3pCLFdBQU0sR0FBVyxJQUFJLENBQUM7UUFDdEIsVUFBSyxHQUFTLEtBQUssQ0FBQztRQUNwQixhQUFRLEdBQVksSUFBSSxDQUFDO0lBNkRyQyxDQUFDO0lBMURXLEtBQUs7UUFDVCxJQUFJLENBQUMsTUFBTSxHQUFHLHdCQUFVLENBQUMsZ0JBQWdCLFNBQUMsb0JBQU0sRUFBRyxDQUFDO1FBQ3BELElBQUksQ0FBQyxTQUFTLENBQUMsV0FBVyxHQUFHLElBQUksQ0FBQyxNQUFNLENBQUM7UUFDekMsSUFBSSxDQUFDLE9BQU8sQ0FBQyxDQUFDLENBQUMsQ0FBQyxPQUFPLENBQUMsV0FBVyxDQUFDLEdBQUcsRUFBRSxHQUFHLElBQUksQ0FBQyxVQUFVLEVBQUUsQ0FBQyxDQUFDLENBQUMsQ0FBQyxDQUFDO1FBQ2xFLElBQUksQ0FBQyxPQUFPLENBQUMsQ0FBQyxDQUFDLENBQUMsT0FBTyxDQUFDLFdBQVcsQ0FBQyxHQUFHLEVBQUUsR0FBRyxJQUFJLENBQUMsWUFBWSxFQUFFLENBQUMsQ0FBQyxDQUFDLENBQUMsQ0FBQztRQUNwRSxJQUFJLENBQUMsT0FBTyxDQUFDLENBQUMsQ0FBQyxDQUFDLFVBQVUsQ0FBQyxTQUFTLENBQUMsS0FBSyxDQUFDLENBQUM7UUFDNUMsSUFBSSxDQUFDLE9BQU8sQ0FBQyxDQUFDLENBQUMsQ0FBQyxVQUFVLENBQUMsU0FBUyxDQUFDLEtBQUssQ0FBQyxDQUFDO1FBQzVDLElBQUksQ0FBQyxRQUFRLEdBQUcsSUFBSSxDQUFDLE1BQU0sQ0FBQyxjQUFjLENBQUMscUJBQU8sQ0FBQyxPQUFPLENBQUMsQ0FBQztJQUNoRSxDQUFDO0lBR08sTUFBTTtRQUNWLElBQUksQ0FBQyxJQUFJLENBQUMsT0FBTyxDQUFDLENBQUMsQ0FBQyxDQUFDLFVBQVUsQ0FBQyxVQUFVO1lBQ3RDLE9BQU87UUFDWCxJQUFJLDBCQUFnQixDQUFDLFdBQVcsQ0FBQyxHQUFHLENBQUMsMkNBQWEsQ0FBQyxRQUFRLENBQUMsV0FBVyxDQUFDLFlBQVksQ0FBQyxTQUFTLENBQUMsVUFBVSxDQUFDLENBQUMsV0FBVyxJQUFJLDBCQUFnQixDQUFDLFdBQVcsQ0FBQyxHQUFHLEVBQUU7WUFDeEosSUFBSSxDQUFDLE9BQU8sQ0FBQyxDQUFDLENBQUMsQ0FBQyxVQUFVLENBQUMsU0FBUyxDQUFDLEtBQUssQ0FBQyxDQUFDO1lBQzVDLE9BQU87U0FDVjtRQUVELElBQUksQ0FBQyxPQUFPLENBQUMsQ0FBQyxDQUFDLENBQUMsU0FBUyxDQUFDLFFBQVEsR0FBRyxJQUFJLENBQUMsTUFBTSxDQUFDLFNBQVMsQ0FBQyxRQUFRLENBQUM7SUFDeEUsQ0FBQztJQUdPLFVBQVU7UUFDZCxJQUFJLENBQUMsT0FBTyxDQUFDLENBQUMsQ0FBQyxDQUFDLFVBQVUsQ0FBQyxTQUFTLENBQUMsS0FBSyxDQUFDLENBQUM7UUFDNUMsSUFBSSxDQUFDLE9BQU8sQ0FBQyxDQUFDLENBQUMsQ0FBQyxVQUFVLENBQUMsU0FBUyxDQUFDLElBQUksQ0FBQyxDQUFDO1FBQzNDLElBQUksV0FBVyxHQUFHLDJDQUFhLENBQUMsUUFBUSxDQUFDLFdBQVcsQ0FBQyxZQUFZLENBQUMsU0FBUyxDQUFDO1FBQzVFLDBCQUFnQixDQUFDLFdBQVcsQ0FBQyxHQUFHLENBQUMsV0FBVyxDQUFDLFVBQVUsQ0FBQyxDQUFDLFdBQVcsR0FBRywwQkFBZ0IsQ0FBQyxXQUFXLENBQUMsR0FBRyxDQUFDO1FBQ3hHLEtBQUssSUFBSSxDQUFDLEdBQUcsQ0FBQyxFQUFFLENBQUMsR0FBRyxDQUFDLEVBQUUsQ0FBQyxFQUFFLEVBQUU7WUFDeEIsV0FBVyxDQUFDLFNBQVMsQ0FBQyxRQUFRLEdBQUcsSUFBSSxDQUFDLE1BQU0sQ0FBQyxRQUFRLENBQUM7WUFDdEQsV0FBVyxDQUFDLFNBQVMsQ0FBQyxRQUFRLEdBQUcsSUFBSSxDQUFDLE1BQU0sQ0FBQyxRQUFRLENBQUM7U0FDekQ7UUFDRCxXQUFXLENBQUMsVUFBVSxDQUFDLElBQUksQ0FBQyxPQUFPLENBQUMsQ0FBQztJQUN6QyxDQUFDO0lBQ08sWUFBWTtRQUNoQixJQUFJLENBQUMsT0FBTyxDQUFDLENBQUMsQ0FBQyxDQUFDLFVBQVUsQ0FBQyxTQUFTLENBQUMsS0FBSyxDQUFDLENBQUM7UUFDNUMsSUFBSSxDQUFDLE9BQU8sQ0FBQyxDQUFDLENBQUMsQ0FBQyxVQUFVLENBQUMsU0FBUyxDQUFDLElBQUksQ0FBQyxDQUFDO1FBQzNDLElBQUksV0FBVyxHQUFHLDJDQUFhLENBQUMsUUFBUSxDQUFDLFdBQVcsQ0FBQyxZQUFZLENBQUMsU0FBUyxDQUFDO1FBQzVFLFdBQVcsQ0FBQyxhQUFhLEVBQUUsQ0FBQztRQUM1QixLQUFLLElBQUksQ0FBQyxHQUFHLENBQUMsRUFBRSxDQUFDLEdBQUcsQ0FBQyxFQUFFLENBQUMsRUFBRSxFQUFFO1lBQ3hCLFdBQVcsQ0FBQyxTQUFTLENBQUMsUUFBUSxHQUFHLElBQUksQ0FBQyxRQUFRLENBQUM7U0FDbEQ7UUFDRCwwQkFBZ0IsQ0FBQyxXQUFXLENBQUMsR0FBRyxDQUFDLFdBQVcsQ0FBQyxVQUFVLENBQUMsQ0FBQyxXQUFXLEdBQUcsMEJBQWdCLENBQUMsV0FBVyxDQUFDLElBQUksQ0FBQztJQUM3RyxDQUFDO0lBR08sYUFBYSxDQUFDLEtBQWU7UUFDakMsSUFBSSwwQkFBZ0IsQ0FBQyxXQUFXLENBQUMsR0FBRyxDQUFDLDJDQUFhLENBQUMsUUFBUSxDQUFDLFdBQVcsQ0FBQyxZQUFZLENBQUMsU0FBUyxDQUFDLFVBQVUsQ0FBQyxDQUFDLFdBQVcsSUFBSSwwQkFBZ0IsQ0FBQyxXQUFXLENBQUMsR0FBRyxJQUFJLEtBQUssQ0FBQyxJQUFJLElBQUksMkNBQWEsQ0FBQyxRQUFRLENBQUMsV0FBVyxDQUFDLFlBQVksQ0FBQyxTQUFTLENBQUMsSUFBSSxJQUFJLElBQUksQ0FBQyxPQUFPLENBQUMsQ0FBQyxDQUFDLENBQUMsVUFBVSxDQUFDLFVBQVU7WUFDL1EsT0FBTztRQUVYLElBQUksQ0FBQyxPQUFPLENBQUMsQ0FBQyxDQUFDLENBQUMsVUFBVSxDQUFDLFNBQVMsQ0FBQyxJQUFJLENBQUMsQ0FBQztJQUMvQyxDQUFDO0lBQ08sYUFBYSxDQUFDLEtBQWU7UUFDakMsSUFBSSxLQUFLLENBQUMsSUFBSSxJQUFJLDJDQUFhLENBQUMsUUFBUSxDQUFDLFdBQVcsQ0FBQyxZQUFZLENBQUMsU0FBUyxDQUFDLElBQUksSUFBSSxDQUFDLElBQUksQ0FBQyxPQUFPLENBQUMsQ0FBQyxDQUFDLENBQUMsVUFBVSxDQUFDLFVBQVU7WUFDdEgsT0FBTztRQUVYLElBQUksQ0FBQyxPQUFPLENBQUMsQ0FBQyxDQUFDLENBQUMsVUFBVSxDQUFDLFNBQVMsQ0FBQyxLQUFLLENBQUMsQ0FBQztJQUNoRCxDQUFDO0NBQ0o7QUF4RUQsMkJBd0VDIn0=","assetPath":"Assets/03.Scripts/SitPlace.ts","manifest":{"properties":[{"assembly":"UnityEngine.CoreModule","name":"sitPos","type":"UnityEngine.Transform","isArray":false,"initValue":[],"enumKeys":[],"enumValues":[],"attributes":[{"name":"SerializeField","args":[]}]},{"assembly":"UnityEngine.AnimationModule","name":"sitAnim","type":"UnityEngine.AnimationClip","isArray":false,"initValue":[],"enumKeys":[],"enumValues":[],"attributes":[{"name":"SerializeField","args":[]}]},{"assembly":"UnityEngine.UIModule","name":"sitCanvas","type":"UnityEngine.Canvas","isArray":false,"initValue":[],"enumKeys":[],"enumValues":[],"attributes":[{"name":"SerializeField","args":[]}]},{"assembly":"UnityEngine.UI","name":"buttons","type":"UnityEngine.UI.Button[]","isArray":true,"initValue":[],"enumKeys":[],"enumValues":[],"attributes":[{"name":"SerializeField","args":[]}]}],"name":"SitPlace","description":""},"isCompiled":true}'
+  typescriptHash: a2ae5c9faff439e010958bb57139ca4e

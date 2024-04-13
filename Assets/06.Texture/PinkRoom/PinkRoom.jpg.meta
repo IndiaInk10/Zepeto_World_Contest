@@ -1,0 +1,2532 @@
+fileFormatVersion: 2
+guid: de10b07ce34188340883be93495d39ac
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4469369521356924199
+    second: PinkRoom_0
+  - first:
+      213: 2835236287539142941
+    second: PinkRoom_1
+  - first:
+      213: -2891358076331208641
+    second: PinkRoom_2
+  - first:
+      213: -5846527933293736994
+    second: PinkRoom_3
+  - first:
+      213: -4750416385724239318
+    second: PinkRoom_4
+  - first:
+      213: -2926483552525388735
+    second: PinkRoom_5
+  - first:
+      213: -6139782490732337229
+    second: PinkRoom_6
+  - first:
+      213: 252434353654664630
+    second: PinkRoom_7
+  - first:
+      213: 268241703920181458
+    second: PinkRoom_8
+  - first:
+      213: -4576055356834103621
+    second: PinkRoom_9
+  - first:
+      213: 606964273620057123
+    second: PinkRoom_10
+  - first:
+      213: -7168144134472934956
+    second: PinkRoom_11
+  - first:
+      213: -7875589479656158633
+    second: PinkRoom_12
+  - first:
+      213: 6115066290601825425
+    second: PinkRoom_13
+  - first:
+      213: -2615849790061499215
+    second: PinkRoom_14
+  - first:
+      213: -8719099072767222934
+    second: PinkRoom_15
+  - first:
+      213: 1092034065740089822
+    second: PinkRoom_16
+  - first:
+      213: -7628955706971105390
+    second: PinkRoom_17
+  - first:
+      213: -9078574484124769712
+    second: PinkRoom_18
+  - first:
+      213: 6341122790958813283
+    second: PinkRoom_19
+  - first:
+      213: -4483521070443339701
+    second: PinkRoom_20
+  - first:
+      213: 5187027848816620128
+    second: PinkRoom_21
+  - first:
+      213: 5931931841099038740
+    second: PinkRoom_22
+  - first:
+      213: 742546386182404952
+    second: PinkRoom_23
+  - first:
+      213: -8631488306646925147
+    second: PinkRoom_24
+  - first:
+      213: -2331138449500227557
+    second: PinkRoom_25
+  - first:
+      213: -5095604142998421173
+    second: PinkRoom_26
+  - first:
+      213: 3711606705149010535
+    second: PinkRoom_27
+  - first:
+      213: -8496680298978880828
+    second: PinkRoom_28
+  - first:
+      213: 8998280819722570002
+    second: PinkRoom_29
+  - first:
+      213: 6812664926622868732
+    second: PinkRoom_30
+  - first:
+      213: 578359103421291519
+    second: PinkRoom_31
+  - first:
+      213: -5364915323580776281
+    second: PinkRoom_32
+  - first:
+      213: 4858910251222536405
+    second: PinkRoom_33
+  - first:
+      213: 4190733487477311271
+    second: PinkRoom_34
+  - first:
+      213: -7292466140128957194
+    second: PinkRoom_35
+  - first:
+      213: 2451300025302701100
+    second: PinkRoom_36
+  - first:
+      213: -933564368854151268
+    second: PinkRoom_37
+  - first:
+      213: 6506314422570085784
+    second: PinkRoom_38
+  - first:
+      213: -3194969319483139832
+    second: PinkRoom_39
+  - first:
+      213: 6191259858100084934
+    second: PinkRoom_40
+  - first:
+      213: -146305064762296016
+    second: PinkRoom_41
+  - first:
+      213: 1051831686422500980
+    second: PinkRoom_42
+  - first:
+      213: -9028015767992490385
+    second: PinkRoom_43
+  - first:
+      213: 2199285977956186759
+    second: PinkRoom_44
+  - first:
+      213: -833389020047490369
+    second: PinkRoom_45
+  - first:
+      213: 6559696888358476863
+    second: PinkRoom_46
+  - first:
+      213: 85060591455573768
+    second: PinkRoom_47
+  - first:
+      213: -2574678307970733310
+    second: PinkRoom_48
+  - first:
+      213: 418049894812939004
+    second: PinkRoom_49
+  - first:
+      213: 2536612376333439351
+    second: PinkRoom_50
+  - first:
+      213: -1217735494962787369
+    second: PinkRoom_51
+  - first:
+      213: 5228339474878115729
+    second: PinkRoom_52
+  - first:
+      213: 2065040710903054504
+    second: PinkRoom_53
+  - first:
+      213: 5993167912726125984
+    second: PinkRoom_54
+  - first:
+      213: 6482840256520992872
+    second: PinkRoom_55
+  - first:
+      213: -7035249603292575732
+    second: PinkRoom_56
+  - first:
+      213: -4127368838267557846
+    second: PinkRoom_57
+  - first:
+      213: -6240456421224494790
+    second: PinkRoom_58
+  - first:
+      213: 1915590969529860485
+    second: PinkRoom_59
+  - first:
+      213: 8627395579854150393
+    second: PinkRoom_60
+  - first:
+      213: -6923083163502936092
+    second: PinkRoom_61
+  - first:
+      213: 3423650387958041366
+    second: PinkRoom_62
+  - first:
+      213: -112993226938393951
+    second: PinkRoom_63
+  - first:
+      213: 3074647596651242053
+    second: PinkRoom_64
+  - first:
+      213: 2028060385711277214
+    second: PinkRoom_65
+  - first:
+      213: 5763483286431784653
+    second: PinkRoom_66
+  - first:
+      213: -4105365335404977941
+    second: PinkRoom_67
+  - first:
+      213: 4805500995469828389
+    second: PinkRoom_68
+  - first:
+      213: 6536602056276816182
+    second: PinkRoom_69
+  - first:
+      213: -5673933027047099745
+    second: PinkRoom_70
+  - first:
+      213: -4970197355581477923
+    second: PinkRoom_71
+  - first:
+      213: 4006164019451714107
+    second: PinkRoom_72
+  - first:
+      213: -7027427546564995706
+    second: PinkRoom_73
+  - first:
+      213: 7735701173538816447
+    second: PinkRoom_74
+  - first:
+      213: -9063997024411943110
+    second: PinkRoom_75
+  - first:
+      213: 661569781154597961
+    second: PinkRoom_76
+  - first:
+      213: -2021619687057741283
+    second: PinkRoom_77
+  - first:
+      213: 8177002273605150757
+    second: PinkRoom_78
+  - first:
+      213: -8064681828353868436
+    second: PinkRoom_79
+  - first:
+      213: -4681460237089572890
+    second: PinkRoom_80
+  - first:
+      213: 1080713892218819390
+    second: PinkRoom_81
+  - first:
+      213: 5709832595679278636
+    second: PinkRoom_82
+  - first:
+      213: -8369712267536711587
+    second: PinkRoom_83
+  - first:
+      213: -3156878873736173938
+    second: PinkRoom_84
+  - first:
+      213: 964568802631619746
+    second: PinkRoom_85
+  - first:
+      213: -3892271264881943950
+    second: PinkRoom_86
+  - first:
+      213: 2377210345736813930
+    second: PinkRoom_87
+  - first:
+      213: -2847260843025882109
+    second: PinkRoom_88
+  - first:
+      213: 1290421263467826969
+    second: PinkRoom_89
+  - first:
+      213: 4884494903887936367
+    second: PinkRoom_90
+  - first:
+      213: -1647926242055660735
+    second: PinkRoom_91
+  - first:
+      213: 3427591442002479189
+    second: PinkRoom_92
+  - first:
+      213: -556089754279402944
+    second: PinkRoom_93
+  - first:
+      213: 2066515711862933029
+    second: PinkRoom_94
+  - first:
+      213: 700219323952726382
+    second: PinkRoom_95
+  - first:
+      213: 5842320920797887108
+    second: PinkRoom_96
+  - first:
+      213: -3925975544540418288
+    second: PinkRoom_97
+  - first:
+      213: -6992957851621933451
+    second: PinkRoom_98
+  - first:
+      213: -3395780379608910748
+    second: PinkRoom_99
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 10
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 32
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 34
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PinkRoom_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 921.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9da109d991c99f1c0800000000000000
+      internalID: -4469369521356924199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_1
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 921.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d11611db168c85720800000000000000
+      internalID: 2835236287539142941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_2
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 921.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3052dd0625dfd7d0800000000000000
+      internalID: -2891358076331208641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_3
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 921.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edbc0a622d5fcdea0800000000000000
+      internalID: -5846527933293736994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_4
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 921.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2236b94771231eb0800000000000000
+      internalID: -4750416385724239318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_5
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 921.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14473b2d6ba0367d0800000000000000
+      internalID: -2926483552525388735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_6
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 921.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b76cb9ca5c1bcaa0800000000000000
+      internalID: -6139782490732337229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_7
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 921.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bd01ba05b3d08300800000000000000
+      internalID: 252434353654664630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_8
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 921.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d0ab14986cf8b300800000000000000
+      internalID: 268241703920181458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_9
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 921.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbe316fd5e59e70c0800000000000000
+      internalID: -4576055356834103621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 819.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32cf9708ace5c6800800000000000000
+      internalID: 606964273620057123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_11
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 819.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d9d0fd53e2a58c90800000000000000
+      internalID: -7168144134472934956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_12
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 819.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75a8a4c481944b290800000000000000
+      internalID: -7875589479656158633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_13
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 819.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 194994d64641dd450800000000000000
+      internalID: 6115066290601825425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_14
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 819.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bcaa9da972a2bbd0800000000000000
+      internalID: -2615849790061499215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_15
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 819.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6b954ec6998ff680800000000000000
+      internalID: -8719099072767222934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_16
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 819.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed9401b623fa72f00800000000000000
+      internalID: 1092034065740089822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_17
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 819.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2975cc65431802690800000000000000
+      internalID: -7628955706971105390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_18
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 819.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05261d66b9c620280800000000000000
+      internalID: -9078574484124769712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_19
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 819.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 360db38e491300850800000000000000
+      internalID: 6341122790958813283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 717.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b40ee35575557c1c0800000000000000
+      internalID: -4483521070443339701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_21
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 717.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 062f5c0b8560cf740800000000000000
+      internalID: 5187027848816620128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_22
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 717.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 410898ca494725250800000000000000
+      internalID: 5931931841099038740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_23
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 717.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85bf6a9010e0e4a00800000000000000
+      internalID: 742546386182404952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_24
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 717.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a04f5fdd1bc63880800000000000000
+      internalID: -8631488306646925147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_25
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 717.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b18b84b5ee126afd0800000000000000
+      internalID: -2331138449500227557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_26
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 717.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4102949707c849b0800000000000000
+      internalID: -5095604142998421173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_27
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 717.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7626d5622a6428330800000000000000
+      internalID: 3711606705149010535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_28
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 717.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c2dd41194ab51a80800000000000000
+      internalID: -8496680298978880828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_29
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 717.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21946c80bb050ec70800000000000000
+      internalID: 8998280819722570002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 615.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf46e1dd7a27b8e50800000000000000
+      internalID: 6812664926622868732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_31
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 615.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffb1a005a8eb60800800000000000000
+      internalID: 578359103421291519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_32
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 615.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a00bef00fdfb85b0800000000000000
+      internalID: -5364915323580776281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_33
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 615.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d09f9f31215e6340800000000000000
+      internalID: 4858910251222536405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_34
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 615.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7274b6547e9782a30800000000000000
+      internalID: 4190733487477311271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_35
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 615.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fcac05cea4fbca90800000000000000
+      internalID: -7292466140128957194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_36
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 615.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c24d21ea264c40220800000000000000
+      internalID: 2451300025302701100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_37
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 615.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9f8c7b17205b03f0800000000000000
+      internalID: -933564368854151268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_38
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 615.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89d6a42de721b4a50800000000000000
+      internalID: 6506314422570085784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_39
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 615.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8099fe3e45039a3d0800000000000000
+      internalID: -3194969319483139832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 513.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c0e03ac906cbe550800000000000000
+      internalID: 6191259858100084934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_41
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 513.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 039b00a915838fdf0800000000000000
+      internalID: -146305064762296016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_42
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 513.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47696b0985bd89e00800000000000000
+      internalID: 1051831686422500980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_43
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 513.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f66ae22dd7b06b280800000000000000
+      internalID: -9028015767992490385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_44
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 513.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78a7393d1fe658e10800000000000000
+      internalID: 2199285977956186759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_45
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 513.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb2cb5c0a153f64f0800000000000000
+      internalID: -833389020047490369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_46
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 513.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3c97d0b099b80b50800000000000000
+      internalID: 6559696888358476863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_47
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 513.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 807181248223e2100800000000000000
+      internalID: 85060591455573768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_48
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 513.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20b208a58b7e44cd0800000000000000
+      internalID: -2574678307970733310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_49
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 513.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf2f6b61a263dc500800000000000000
+      internalID: 418049894812939004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 411.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 771d638448bd33320800000000000000
+      internalID: 2536612376333439351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_51
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 411.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dbcb58e40cb91fe0800000000000000
+      internalID: -1217735494962787369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_52
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 411.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19f234d2d0bce8840800000000000000
+      internalID: 5228339474878115729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_53
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 411.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a0c814e59f78ac10800000000000000
+      internalID: 2065040710903054504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_54
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 411.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ad5f45a6720c2350800000000000000
+      internalID: 5993167912726125984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_55
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 411.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8683981addca7f950800000000000000
+      internalID: 6482840256520992872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_56
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 411.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c08c98992c5cd5e90800000000000000
+      internalID: -7035249603292575732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_57
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 411.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a28ab0ac8e3a8b6c0800000000000000
+      internalID: -4127368838267557846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_58
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 411.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a39cb90c2f17569a0800000000000000
+      internalID: -6240456421224494790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_59
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 411.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58106c966db859a10800000000000000
+      internalID: 1915590969529860485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 309.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fa5bf9e19aaab770800000000000000
+      internalID: 8627395579854150393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_61
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 309.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ef7be8fa844cef90800000000000000
+      internalID: -6923083163502936092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_62
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 309.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61b0e5973ef338f20800000000000000
+      internalID: 3423650387958041366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_63
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 309.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aadf4e32419e6ef0800000000000000
+      internalID: -112993226938393951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_64
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 309.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 542e7efe2b75baa20800000000000000
+      internalID: 3074647596651242053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_65
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 309.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e94cc59fc2e152c10800000000000000
+      internalID: 2028060385711277214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_66
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 309.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcedaa443810cff40800000000000000
+      internalID: 5763483286431784653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_67
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 309.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be0ebf58affc607c0800000000000000
+      internalID: -4105365335404977941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_68
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 309.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 521e3cad1b190b240800000000000000
+      internalID: 4805500995469828389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_69
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 309.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 631b77210fca6ba50800000000000000
+      internalID: 6536602056276816182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 207.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f92308349f32241b0800000000000000
+      internalID: -5673933027047099745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_71
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 207.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddbeafc96df460bb0800000000000000
+      internalID: -4970197355581477923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_72
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 207.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3ade5b33f0c89730800000000000000
+      internalID: 4006164019451714107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_73
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 207.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 685d23a11ef897e90800000000000000
+      internalID: -7027427546564995706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_74
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 207.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb18a595b3bba5b60800000000000000
+      internalID: 7735701173538816447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_75
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 207.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3f7ababab6363280800000000000000
+      internalID: -9063997024411943110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_76
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 207.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94c4ad7f53e5e2900800000000000000
+      internalID: 661569781154597961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_77
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 207.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1aacf90b93c1f3e0800000000000000
+      internalID: -2021619687057741283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_78
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 207.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 528ebc58e3c8a7170800000000000000
+      internalID: 8177002273605150757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_79
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 207.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6d7b6a0b9e741090800000000000000
+      internalID: -8064681828353868436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 105.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e7f822c7bc180fb0800000000000000
+      internalID: -4681460237089572890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_81
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 105.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3358812f877ffe00800000000000000
+      internalID: 1080713892218819390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_82
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 105.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c26f8686e766d3f40800000000000000
+      internalID: 5709832595679278636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_83
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 105.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d50ce3d890fc8db80800000000000000
+      internalID: -8369712267536711587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_84
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 105.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e862504e3638034d0800000000000000
+      internalID: -3156878873736173938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_85
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 105.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a4184a2736d26d00800000000000000
+      internalID: 964568802631619746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_86
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 105.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27a504f18efdbf9c0800000000000000
+      internalID: -3892271264881943950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_87
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 105.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6db606e63c8df020800000000000000
+      internalID: 2377210345736813930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_88
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 105.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3042094495f7c78d0800000000000000
+      internalID: -2847260843025882109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_89
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 105.6
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91f4c9b5d4f78e110800000000000000
+      internalID: 1290421263467826969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3.5999985
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6b32756c3639c340800000000000000
+      internalID: 4884494903887936367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_91
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 3.5999985
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14b5a3e50d36129e0800000000000000
+      internalID: -1647926242055660735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_92
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 3.5999985
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5580abf9140419f20800000000000000
+      internalID: 3427591442002479189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_93
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 3.5999985
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04221f4905f5848f0800000000000000
+      internalID: -556089754279402944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_94
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 3.5999985
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5268a50571dbdac10800000000000000
+      internalID: 2066515711862933029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_95
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 3.5999985
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e610115e3cda7b900800000000000000
+      internalID: 700219323952726382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_96
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 3.5999985
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48abdfb6ce7141150800000000000000
+      internalID: 5842320920797887108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_97
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 3.5999985
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01f2ccefa022489c0800000000000000
+      internalID: -3925975544540418288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_98
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 3.5999985
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57ebbcc52e504fe90800000000000000
+      internalID: -6992957851621933451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkRoom_99
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 3.5999985
+        width: 102.4
+        height: 102.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4647b228cb3cfd0d0800000000000000
+      internalID: -3395780379608910748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: d94b412813256e34f8645298876a3be5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

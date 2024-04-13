@@ -1,0 +1,45 @@
+fileFormatVersion: 2
+guid: 14eb7ab19354d6144ae78e974f8102c8
+importerOverride: ZEPETO.Script.Compiler:ZEPETO.Script:TypescriptAssetImporter
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: -1123457745, guid: 54cf806323ffe4418a4ce4cc63fe6b9d, type: 3}
+  isAssemblyDeclarations: 0
+  assembly: 
+  generateAllTypes: 1
+  types: []
+  generateWrapper: 0
+  overrideWrapperTypes: 0
+  wrapperTypes: []
+  WrapperFilters: []
+  wrapperOutputDirectory: Generated
+  compiledResult: '{"source":"\"use strict\";\r\nObject.defineProperty(exports, \"__esModule\",
+    { value: true });\r\nconst UnityEngine_1 = require(\"UnityEngine\");\r\nconst
+    ZEPETO_Script_1 = require(\"ZEPETO.Script\");\r\nclass PamphletUI extends ZEPETO_Script_1.ZepetoScriptBehaviour
+    {\r\n    constructor() {\r\n        super(...arguments);\r\n        this.contents
+    = null;\r\n        this.content = null;\r\n        this.buttons = null;\r\n       
+    this.lenText = null;\r\n        this.scaling = UnityEngine_1.Vector3.zero;\r\n       
+    this.contentLen = 0;\r\n        this.index = 0;\r\n    }\r\n    Start() {\r\n       
+    this.contentLen = this.contents.length;\r\n        if (this.contentLen == 1)
+    {\r\n            this.lenText.gameObject.SetActive(false);\r\n            this.buttons[0].gameObject.SetActive(false);\r\n           
+    this.buttons[1].gameObject.SetActive(false);\r\n            this.content.rectTransform.localPosition
+    = UnityEngine_1.Vector3.zero;\r\n            this.content.rectTransform.localScale
+    = this.scaling;\r\n        }\r\n        else {\r\n            this.lenText.text
+    = `1/${this.contentLen}`;\r\n            // Left Button\r\n            this.buttons[0].onClick.AddListener(()
+    => this.ChangeImage(true));\r\n            // Right Button\r\n            this.buttons[1].onClick.AddListener(()
+    => this.ChangeImage(false));\r\n        }\r\n        this.content.texture = this.contents[0];\r\n       
+    // Close Button\r\n        this.buttons[2].onClick.AddListener(() => this.DestoryUI());\r\n   
+    }\r\n    ChangeImage(isLeft) {\r\n        if (isLeft)\r\n            this.index--;\r\n       
+    else\r\n            this.index++;\r\n        this.index %= this.contentLen;\r\n       
+    if (this.index <= -1)\r\n            this.index = this.contentLen - 1;\r\n       
+    this.content.texture = this.contents[this.index];\r\n        this.lenText.text
+    = `${this.index + 1}/${this.contentLen}`;\r\n    }\r\n    DestoryUI() {\r\n       
+    UnityEngine_1.Object.Destroy(this.gameObject);\r\n    }\r\n}\r\nexports.default
+    = PamphletUI;\r\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiUGFtcGhsZXRVSS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIlBhbXBobGV0VUkudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7QUFDQSw2Q0FBeUQ7QUFFekQsaURBQXFEO0FBRXJELE1BQXFCLFVBQVcsU0FBUSxxQ0FBcUI7SUFBN0Q7O1FBQ1csYUFBUSxHQUFnQixJQUFJLENBQUM7UUFDN0IsWUFBTyxHQUFhLElBQUksQ0FBQztRQUV6QixZQUFPLEdBQWEsSUFBSSxDQUFDO1FBQ3pCLFlBQU8sR0FBYSxJQUFJLENBQUM7UUFHeEIsWUFBTyxHQUFZLHFCQUFPLENBQUMsSUFBSSxDQUFDO1FBQ2hDLGVBQVUsR0FBUSxDQUFDLENBQUM7UUFDcEIsVUFBSyxHQUFRLENBQUMsQ0FBQztJQTBDM0IsQ0FBQztJQXhDRyxLQUFLO1FBQ0QsSUFBSSxDQUFDLFVBQVUsR0FBRyxJQUFJLENBQUMsUUFBUSxDQUFDLE1BQU0sQ0FBQztRQUN2QyxJQUFJLElBQUksQ0FBQyxVQUFVLElBQUksQ0FBQyxFQUFFO1lBQ3RCLElBQUksQ0FBQyxPQUFPLENBQUMsVUFBVSxDQUFDLFNBQVMsQ0FBQyxLQUFLLENBQUMsQ0FBQztZQUN6QyxJQUFJLENBQUMsT0FBTyxDQUFDLENBQUMsQ0FBQyxDQUFDLFVBQVUsQ0FBQyxTQUFTLENBQUMsS0FBSyxDQUFDLENBQUM7WUFDNUMsSUFBSSxDQUFDLE9BQU8sQ0FBQyxDQUFDLENBQUMsQ0FBQyxVQUFVLENBQUMsU0FBUyxDQUFDLEtBQUssQ0FBQyxDQUFDO1lBRTVDLElBQUksQ0FBQyxPQUFPLENBQUMsYUFBYSxDQUFDLGFBQWEsR0FBRyxxQkFBTyxDQUFDLElBQUksQ0FBQztZQUN4RCxJQUFJLENBQUMsT0FBTyxDQUFDLGFBQWEsQ0FBQyxVQUFVLEdBQUcsSUFBSSxDQUFDLE9BQU8sQ0FBQztTQUN4RDthQUNHO1lBQ0EsSUFBSSxDQUFDLE9BQU8sQ0FBQyxJQUFJLEdBQUcsS0FBSyxJQUFJLENBQUMsVUFBVSxFQUFFLENBQUM7WUFDM0MsY0FBYztZQUNkLElBQUksQ0FBQyxPQUFPLENBQUMsQ0FBQyxDQUFDLENBQUMsT0FBTyxDQUFDLFdBQVcsQ0FBQyxHQUFHLEVBQUUsQ0FBQyxJQUFJLENBQUMsV0FBVyxDQUFDLElBQUksQ0FBQyxDQUFDLENBQUM7WUFDbEUsZUFBZTtZQUNmLElBQUksQ0FBQyxPQUFPLENBQUMsQ0FBQyxDQUFDLENBQUMsT0FBTyxDQUFDLFdBQVcsQ0FBQyxHQUFHLEVBQUUsQ0FBQyxJQUFJLENBQUMsV0FBVyxDQUFDLEtBQUssQ0FBQyxDQUFDLENBQUM7U0FDdEU7UUFFRCxJQUFJLENBQUMsT0FBTyxDQUFDLE9BQU8sR0FBRyxJQUFJLENBQUMsUUFBUSxDQUFDLENBQUMsQ0FBQyxDQUFDO1FBQ3hDLGVBQWU7UUFDZixJQUFJLENBQUMsT0FBTyxDQUFDLENBQUMsQ0FBQyxDQUFDLE9BQU8sQ0FBQyxXQUFXLENBQUMsR0FBRyxFQUFFLENBQUMsSUFBSSxDQUFDLFNBQVMsRUFBRSxDQUFDLENBQUM7SUFDaEUsQ0FBQztJQUVPLFdBQVcsQ0FBQyxNQUFlO1FBQy9CLElBQUksTUFBTTtZQUNOLElBQUksQ0FBQyxLQUFLLEVBQUUsQ0FBQzs7WUFFYixJQUFJLENBQUMsS0FBSyxFQUFFLENBQUM7UUFFakIsSUFBSSxDQUFDLEtBQUssSUFBSSxJQUFJLENBQUMsVUFBVSxDQUFDO1FBQzlCLElBQUksSUFBSSxDQUFDLEtBQUssSUFBSSxDQUFDLENBQUM7WUFDaEIsSUFBSSxDQUFDLEtBQUssR0FBRyxJQUFJLENBQUMsVUFBVSxHQUFHLENBQUMsQ0FBQztRQUVyQyxJQUFJLENBQUMsT0FBTyxDQUFDLE9BQU8sR0FBRyxJQUFJLENBQUMsUUFBUSxDQUFDLElBQUksQ0FBQyxLQUFLLENBQUMsQ0FBQztRQUNqRCxJQUFJLENBQUMsT0FBTyxDQUFDLElBQUksR0FBRyxHQUFHLElBQUksQ0FBQyxLQUFLLEdBQUcsQ0FBQyxJQUFJLElBQUksQ0FBQyxVQUFVLEVBQUUsQ0FBQztJQUMvRCxDQUFDO0lBRU8sU0FBUztRQUNiLG9CQUFNLENBQUMsT0FBTyxDQUFDLElBQUksQ0FBQyxVQUFVLENBQUMsQ0FBQztJQUNwQyxDQUFDO0NBQ0o7QUFwREQsNkJBb0RDIn0=","assetPath":"Assets/03.Scripts/PamphletUI.ts","manifest":{"properties":[{"assembly":"UnityEngine.CoreModule","name":"contents","type":"UnityEngine.Texture2D[]","isArray":true,"initValue":[],"enumKeys":[],"enumValues":[],"attributes":[]},{"assembly":"UnityEngine.UI","name":"content","type":"UnityEngine.UI.RawImage","isArray":false,"initValue":[],"enumKeys":[],"enumValues":[],"attributes":[]},{"assembly":"UnityEngine.UI","name":"buttons","type":"UnityEngine.UI.Button[]","isArray":true,"initValue":[],"enumKeys":[],"enumValues":[],"attributes":[{"name":"Tooltip","args":["\"[
+    Index ] Left: 0 / Right: 1 / Close: 2\""]}]},{"assembly":"Unity.TextMeshPro","name":"lenText","type":"TMPro.TMP_Text","isArray":false,"initValue":[],"enumKeys":[],"enumValues":[],"attributes":[]},{"assembly":"UnityEngine.CoreModule","name":"scaling","type":"UnityEngine.Vector3","isArray":false,"initValue":["zero"],"enumKeys":[],"enumValues":[],"attributes":[{"name":"SerializeField","args":[]}]}],"name":"PamphletUI","description":""},"isCompiled":true}'
+  typescriptHash: 125f6243a7c9d786812872c1e2e0998c
